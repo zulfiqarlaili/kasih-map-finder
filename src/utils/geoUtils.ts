@@ -24,18 +24,20 @@ export function calculateDistance(
 }
 
 /**
- * Sort merchants by distance from a given point
+ * Sort merchants by distance from a given point and filter within radius
  */
 export function sortMerchantsByDistance(
   merchants: Merchant[], 
   userLat: number, 
-  userLon: number
+  userLon: number,
+  maxRadius: number = 10 // Default 10km radius
 ): MerchantWithDistance[] {
   return merchants
     .map(merchant => ({
       ...merchant,
       distance: calculateDistance(userLat, userLon, merchant.latitude, merchant.longitude)
     }))
+    .filter(merchant => merchant.distance <= maxRadius)
     .sort((a, b) => a.distance - b.distance);
 }
 

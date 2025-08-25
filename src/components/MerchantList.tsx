@@ -11,7 +11,8 @@ import {
   ExternalLink, 
   MapPin, 
   Navigation,
-  Filter
+  Filter,
+  Zap
 } from 'lucide-react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
@@ -70,14 +71,17 @@ const MerchantList: React.FC<MerchantListProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full bg-card border-r border-border">
+    <div className="flex flex-col h-full bg-gradient-to-b from-card to-card/80 backdrop-blur-xl border-r border-border/30">
       {/* Header */}
-      <div className="p-4 space-y-4 border-b border-border">
+      <div className="p-4 space-y-4 border-b border-border/50 bg-gradient-to-r from-primary/5 to-accent/5">
         <div className="flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-foreground">
-            MyKasih Stores
-          </h2>
-          <Badge variant="secondary" className="text-xs">
+          <div className="flex items-center gap-2">
+            <Zap className="w-5 h-5 text-primary" />
+            <h2 className="text-lg font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              MyKasih Stores
+            </h2>
+          </div>
+          <Badge variant="secondary" className="text-xs bg-accent/20 text-accent-foreground border border-accent/30">
             {filteredMerchants.length} found
           </Badge>
         </div>
@@ -86,18 +90,18 @@ const MerchantList: React.FC<MerchantListProps> = ({
         <Button
           onClick={onFindNearMe}
           disabled={isLoadingLocation}
-          className="w-full bg-accent hover:bg-accent-hover text-accent-foreground font-medium"
+          className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary-hover hover:to-accent text-primary-foreground font-medium rounded-xl shadow-elegant transition-all duration-300 hover:shadow-glow hover:scale-105"
           size="sm"
         >
           {isLoadingLocation ? (
             <>
-              <div className="w-4 h-4 border-2 border-accent-foreground border-t-transparent rounded-full animate-spin mr-2" />
+              <div className="w-4 h-4 border-2 border-primary-foreground border-t-transparent rounded-full animate-spin mr-2" />
               Finding your location...
             </>
           ) : (
             <>
               <Navigation className="w-4 h-4 mr-2" />
-              Find Near Me
+              Find Near Me (10km)
             </>
           )}
         </Button>
@@ -109,23 +113,25 @@ const MerchantList: React.FC<MerchantListProps> = ({
             placeholder="Search stores, addresses..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-10"
+            className="pl-10 rounded-xl border-border/50 bg-background/50 backdrop-blur-sm focus:bg-background transition-all"
           />
         </div>
 
         {/* Filters */}
-        <div className="space-y-2">
+        <div className="space-y-3">
           <div className="flex items-center gap-2 text-sm font-medium text-foreground">
-            <Filter className="w-4 h-4" />
-            Filters
+            <Filter className="w-4 h-4 text-primary" />
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-semibold">
+              Filters
+            </span>
           </div>
           
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-2 gap-3">
             <Select value={stateFilter} onValueChange={setStateFilter}>
-              <SelectTrigger className="text-xs">
+              <SelectTrigger className="text-xs rounded-xl border-border/50 bg-background/50 backdrop-blur-sm">
                 <SelectValue placeholder="All States" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent className="rounded-xl">
                 <SelectItem value="all">All States</SelectItem>
                 {states.map(state => (
                   <SelectItem key={state} value={state}>{state}</SelectItem>
@@ -134,10 +140,10 @@ const MerchantList: React.FC<MerchantListProps> = ({
             </Select>
 
             <Select value={cityFilter} onValueChange={setCityFilter}>
-              <SelectTrigger className="text-xs">
+              <SelectTrigger className="text-xs rounded-xl border-border/50 bg-background/50 backdrop-blur-sm">
                 <SelectValue placeholder="All Cities" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent className="rounded-xl">
                 <SelectItem value="all">All Cities</SelectItem>
                 {cities.map(city => (
                   <SelectItem key={city} value={city}>{city}</SelectItem>
@@ -150,26 +156,29 @@ const MerchantList: React.FC<MerchantListProps> = ({
 
       {/* Merchant List */}
       <ScrollArea className="flex-1">
-        <div className="p-2 space-y-2">
+        <div className="p-3 space-y-3">
           {filteredMerchants.length === 0 ? (
             <div className="p-8 text-center text-muted-foreground">
-              <MapPin className="w-8 h-8 mx-auto mb-2 opacity-50" />
-              <p className="text-sm">No stores found matching your criteria.</p>
+              <div className="bg-muted/30 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <MapPin className="w-8 h-8 opacity-50" />
+              </div>
+              <p className="text-sm font-medium">No stores found</p>
+              <p className="text-xs opacity-70">Try adjusting your search or filters</p>
             </div>
           ) : (
             filteredMerchants.map((merchant) => (
               <Card
                 key={merchant.merchantId}
-                className={`cursor-pointer transition-all duration-200 hover:shadow-medium ${
+                className={`cursor-pointer transition-all duration-300 hover:shadow-elegant rounded-2xl overflow-hidden border-border/30 ${
                   selectedMerchant?.merchantId === merchant.merchantId
-                    ? 'ring-2 ring-primary bg-primary/5'
-                    : 'hover:bg-muted/50'
+                    ? 'ring-2 ring-primary bg-gradient-to-r from-primary/10 to-accent/5 shadow-glow'
+                    : 'hover:bg-gradient-to-r hover:from-muted/30 hover:to-background hover:scale-[1.02]'
                 }`}
                 onClick={() => onMerchantSelect(merchant)}
               >
-                <CardContent className="p-3 space-y-3">
+                <CardContent className="p-4 space-y-3">
                   <div>
-                    <h3 className="font-medium text-sm text-foreground leading-tight mb-1">
+                    <h3 className="font-semibold text-sm text-foreground leading-tight mb-2">
                       {merchant.tradingName}
                     </h3>
                     <p className="text-xs text-muted-foreground leading-relaxed">
@@ -178,12 +187,12 @@ const MerchantList: React.FC<MerchantListProps> = ({
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <Badge variant="outline" className="text-xs px-2 py-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <Badge variant="outline" className="text-xs px-2 py-1 rounded-lg border-border/50 bg-background/50">
                         {merchant.state}
                       </Badge>
                       {hasDistance(merchant) && (
-                        <Badge variant="secondary" className="text-xs px-2 py-0">
+                        <Badge className="text-xs px-2 py-1 bg-gradient-to-r from-success/20 to-success/10 text-success border border-success/30 rounded-lg">
                           {merchant.distance}km away
                         </Badge>
                       )}
@@ -192,7 +201,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
                     <Button
                       size="sm"
                       variant="outline"
-                      className="h-7 px-2 text-xs"
+                      className="h-8 px-3 text-xs border-border/50 bg-background/50 hover:bg-primary hover:text-primary-foreground hover:border-primary rounded-xl transition-all duration-300"
                       onClick={(e) => {
                         e.stopPropagation();
                         window.open(
@@ -203,7 +212,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
                       }}
                     >
                       <ExternalLink className="w-3 h-3 mr-1" />
-                      Directions
+                      Maps
                     </Button>
                   </div>
                 </CardContent>
@@ -215,10 +224,11 @@ const MerchantList: React.FC<MerchantListProps> = ({
 
       {/* Footer */}
       {userLocation && (
-        <div className="p-3 border-t border-border bg-muted/30">
-          <p className="text-xs text-muted-foreground text-center">
-            📍 Showing distances from your location
-          </p>
+        <div className="p-4 border-t border-border/30 bg-gradient-to-r from-success/5 to-primary/5">
+          <div className="flex items-center justify-center gap-2 text-xs text-muted-foreground">
+            <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
+            <span>Showing distances from your location</span>
+          </div>
         </div>
       )}
     </div>

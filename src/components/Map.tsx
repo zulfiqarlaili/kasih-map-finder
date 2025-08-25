@@ -94,26 +94,32 @@ const Map: React.FC<MapProps> = ({
       const el = document.createElement('div');
       el.className = 'merchant-marker';
       el.style.cssText = `
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
         background: hsl(var(--map-marker));
-        border: 2px solid white;
+        border: 3px solid white;
         border-radius: 50%;
         cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        transition: all 0.2s ease;
+        box-shadow: var(--shadow-elegant);
+        transition: var(--transition-smooth);
+        z-index: 1000;
+        position: relative;
       `;
 
       el.addEventListener('mouseenter', () => {
         el.style.background = 'hsl(var(--map-hover))';
-        el.style.transform = 'scale(1.2)';
+        el.style.transform = 'scale(1.3)';
+        el.style.boxShadow = 'var(--shadow-glow)';
+        el.style.zIndex = '2000';
       });
 
       el.addEventListener('mouseleave', () => {
         el.style.background = selectedMerchant?.merchantId === merchant.merchantId 
           ? 'hsl(var(--accent))' 
           : 'hsl(var(--map-marker))';
-        el.style.transform = 'scale(1)';
+        el.style.transform = selectedMerchant?.merchantId === merchant.merchantId ? 'scale(1.2)' : 'scale(1)';
+        el.style.boxShadow = 'var(--shadow-elegant)';
+        el.style.zIndex = selectedMerchant?.merchantId === merchant.merchantId ? '1500' : '1000';
       });
 
       el.addEventListener('click', () => {
@@ -155,16 +161,33 @@ const Map: React.FC<MapProps> = ({
       userMarker.current.remove();
     }
 
-    // Add user location marker
+    // Add user location marker with pulsing animation
     const el = document.createElement('div');
     el.style.cssText = `
-      width: 16px;
-      height: 16px;
+      width: 20px;
+      height: 20px;
       background: hsl(var(--success));
-      border: 3px solid white;
+      border: 4px solid white;
       border-radius: 50%;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      box-shadow: var(--shadow-elegant), 0 0 0 0 hsl(var(--success) / 0.7);
+      animation: pulse 2s infinite;
+      z-index: 2000;
+      position: relative;
     `;
+    
+    // Add pulsing animation style
+    if (!document.getElementById('user-marker-styles')) {
+      const style = document.createElement('style');
+      style.id = 'user-marker-styles';
+      style.textContent = `
+        @keyframes pulse {
+          0% { box-shadow: var(--shadow-elegant), 0 0 0 0 hsl(var(--success) / 0.7); }
+          70% { box-shadow: var(--shadow-elegant), 0 0 0 10px hsl(var(--success) / 0); }
+          100% { box-shadow: var(--shadow-elegant), 0 0 0 0 hsl(var(--success) / 0); }
+        }
+      `;
+      document.head.appendChild(style);
+    }
 
     userMarker.current = new maplibregl.Marker(el)
       .setLngLat([userLocation.lng, userLocation.lat])
@@ -181,12 +204,14 @@ const Map: React.FC<MapProps> = ({
       const el = marker.getElement();
       if (merchantId === selectedMerchant.merchantId) {
         el.style.background = 'hsl(var(--accent))';
-        el.style.transform = 'scale(1.2)';
-        el.style.zIndex = '1000';
+        el.style.transform = 'scale(1.4)';
+        el.style.zIndex = '1500';
+        el.style.boxShadow = 'var(--shadow-glow)';
       } else {
         el.style.background = 'hsl(var(--map-marker))';
         el.style.transform = 'scale(1)';
-        el.style.zIndex = '1';
+        el.style.zIndex = '1000';
+        el.style.boxShadow = 'var(--shadow-elegant)';
       }
     });
 
@@ -254,22 +279,29 @@ const Map: React.FC<MapProps> = ({
 
   return (
     <>
-      <div ref={mapContainer} className="w-full h-full rounded-lg shadow-medium" />
+      <div ref={mapContainer} className="w-full h-full rounded-2xl shadow-elegant overflow-hidden" />
       <style>{`
         .merchant-popup .maplibregl-popup-content {
-          border-radius: 8px;
-          box-shadow: var(--shadow-strong);
-          border: 1px solid hsl(var(--border));
+          border-radius: 16px;
+          box-shadow: var(--shadow-elegant);
+          border: 1px solid hsl(var(--border) / 0.5);
           padding: 0;
+          backdrop-filter: blur(12px);
+          background: hsl(var(--card) / 0.95);
         }
         .merchant-popup .maplibregl-popup-close-button {
           color: hsl(var(--muted-foreground));
           font-size: 18px;
           padding: 8px;
+          border-radius: 8px;
+          transition: var(--transition-smooth);
         }
         .merchant-popup .maplibregl-popup-close-button:hover {
           background: hsl(var(--muted));
           color: hsl(var(--foreground));
+        }
+        .merchant-popup .maplibregl-popup-tip {
+          border-top-color: hsl(var(--card) / 0.95);
         }
       `}</style>
     </>
