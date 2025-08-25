@@ -1,0 +1,67 @@
+[
+  {
+    "merchantId": "021322e0-a1ec-4903-9de9-94e8546b874d",
+    "postalCode": "55100",
+    "longitude": 101.767647,
+    "latitude": 3.1315999,
+    "tradingName": "99 Speedmart Sdn Bhd (Pusat Komersil Pandan Indah) – 3417",
+    "address1": "No: 1 & 3 (Ground Floor),",
+    "address2": "Jalan 6/9,",
+    "address3": "Pandan Indah,",
+    "country": "Malaysia",
+    "state": "W.P Kuala Lumpur",
+    "city": "Kuala Lumpur"
+  },
+  {
+    "merchantId": "02136bac-8752-4c18-b83e-13edb0d7af92",
+    "postalCode": "06400",
+    "longitude": 100.500801,
+    "latitude": 6.16903019,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman Jabi) – 3167",
+    "address1": "No: K-3 & K-4 (Ground Floor),",
+    "address2": "Taman Jabi,",
+    "address3": "Pokok Sena,",
+    "country": "Malaysia",
+    "state": "Kedah",
+    "city": "Pokok Sena"
+  },
+  {
+    "merchantId": "03245bac-9753-5c29-c94f-24edb1e8bg03",
+    "postalCode": "50470",
+    "longitude": 101.693207,
+    "latitude": 3.157347,
+    "tradingName": "99 Speedmart Sdn Bhd (Jalan Segambut) – 2890",
+    "address1": "No: 15-17 (Ground Floor),",
+    "address2": "Jalan Segambut Pusat,",
+    "address3": "Segambut,",
+    "country": "Malaysia",
+    "state": "W.P Kuala Lumpur",
+    "city": "Kuala Lumpur"
+  },
+  {
+    "merchantId": "04356cad-a864-6d3a-da5g-35fdc2f9ch14",
+    "postalCode": "80300",
+    "longitude": 103.424318,
+    "latitude": 1.462083,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman Johor Jaya) – 4521",
+    "address1": "No: 23-25 (Ground Floor),",
+    "address2": "Jalan Ros Merah 2/2,",
+    "address3": "Taman Johor Jaya,",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Johor Bahru"
+  },
+  {
+    "merchantId": "05467dbe-b975-7e4b-eb6h-46ged3g0di25",
+    "postalCode": "10150",
+    "longitude": 100.343654,
+    "latitude": 5.416775,
+    "tradingName": "99 Speedmart Sdn Bhd (Lebuh Pantai) – 1876",
+    "address1": "No: 88-90 (Ground Floor),",
+    "address2": "Lebuh Pantai,",
+    "address3": "George Town,",
+    "country": "Malaysia",
+    "state": "Pulau Pinang",
+    "city": "George Town"
+  }
+]

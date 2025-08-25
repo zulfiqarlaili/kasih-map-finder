@@ -1,0 +1,279 @@
+import React, { useEffect, useRef, useState } from 'react';
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
+import { Merchant } from '@/types/merchant';
+import { formatAddress, getGoogleMapsUrl } from '@/utils/geoUtils';
+import { Button } from '@/components/ui/button';
+import { ExternalLink } from 'lucide-react';
+
+interface MapProps {
+  merchants: Merchant[];
+  selectedMerchant?: Merchant | null;
+  onMerchantSelect: (merchant: Merchant) => void;
+  userLocation?: { lat: number; lng: number } | null;
+}
+
+const Map: React.FC<MapProps> = ({ 
+  merchants, 
+  selectedMerchant, 
+  onMerchantSelect, 
+  userLocation 
+}) => {
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const map = useRef<maplibregl.Map | null>(null);
+  const markers = useRef<{ [key: string]: maplibregl.Marker }>({});
+  const userMarker = useRef<maplibregl.Marker | null>(null);
+  const popup = useRef<maplibregl.Popup | null>(null);
+  const [mapLoaded, setMapLoaded] = useState(false);
+
+  // Initialize map
+  useEffect(() => {
+    if (!mapContainer.current || map.current) return;
+
+    // Initialize MapLibre GL with OpenStreetMap tiles
+    map.current = new maplibregl.Map({
+      container: mapContainer.current,
+      style: {
+        version: 8,
+        sources: {
+          'osm-tiles': {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }
+        },
+        layers: [
+          {
+            id: 'osm-tiles',
+            type: 'raster',
+            source: 'osm-tiles'
+          }
+        ]
+      },
+      center: [101.686855, 3.1390], // Center on Kuala Lumpur, Malaysia
+      zoom: 10,
+      maxZoom: 18,
+      minZoom: 6
+    });
+
+    // Add navigation controls
+    map.current.addControl(
+      new maplibregl.NavigationControl({
+        visualizePitch: true,
+      }),
+      'top-right'
+    );
+
+    // Add scale control
+    map.current.addControl(new maplibregl.ScaleControl());
+
+    map.current.on('load', () => {
+      setMapLoaded(true);
+    });
+
+    // Cleanup
+    return () => {
+      if (map.current) {
+        map.current.remove();
+        map.current = null;
+      }
+    };
+  }, []);
+
+  // Update merchants markers when data changes
+  useEffect(() => {
+    if (!map.current || !mapLoaded) return;
+
+    // Clear existing markers
+    Object.values(markers.current).forEach(marker => marker.remove());
+    markers.current = {};
+
+    // Add merchant markers
+    merchants.forEach(merchant => {
+      const el = document.createElement('div');
+      el.className = 'merchant-marker';
+      el.style.cssText = `
+        width: 24px;
+        height: 24px;
+        background: hsl(var(--map-marker));
+        border: 2px solid white;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+      `;
+
+      el.addEventListener('mouseenter', () => {
+        el.style.background = 'hsl(var(--map-hover))';
+        el.style.transform = 'scale(1.2)';
+      });
+
+      el.addEventListener('mouseleave', () => {
+        el.style.background = selectedMerchant?.merchantId === merchant.merchantId 
+          ? 'hsl(var(--accent))' 
+          : 'hsl(var(--map-marker))';
+        el.style.transform = 'scale(1)';
+      });
+
+      el.addEventListener('click', () => {
+        onMerchantSelect(merchant);
+      });
+
+      const marker = new maplibregl.Marker(el)
+        .setLngLat([merchant.longitude, merchant.latitude])
+        .addTo(map.current!);
+
+      markers.current[merchant.merchantId] = marker;
+    });
+
+    // Fit map to show all merchants
+    if (merchants.length > 0) {
+      const bounds = new maplibregl.LngLatBounds();
+      merchants.forEach(merchant => {
+        bounds.extend([merchant.longitude, merchant.latitude]);
+      });
+      
+      if (userLocation) {
+        bounds.extend([userLocation.lng, userLocation.lat]);
+      }
+
+      map.current.fitBounds(bounds, { 
+        padding: 50,
+        maxZoom: 14
+      });
+    }
+
+  }, [merchants, mapLoaded, onMerchantSelect]);
+
+  // Update user location marker
+  useEffect(() => {
+    if (!map.current || !mapLoaded || !userLocation) return;
+
+    // Remove existing user marker
+    if (userMarker.current) {
+      userMarker.current.remove();
+    }
+
+    // Add user location marker
+    const el = document.createElement('div');
+    el.style.cssText = `
+      width: 16px;
+      height: 16px;
+      background: hsl(var(--success));
+      border: 3px solid white;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    `;
+
+    userMarker.current = new maplibregl.Marker(el)
+      .setLngLat([userLocation.lng, userLocation.lat])
+      .addTo(map.current);
+
+  }, [userLocation, mapLoaded]);
+
+  // Handle selected merchant
+  useEffect(() => {
+    if (!map.current || !selectedMerchant) return;
+
+    // Update marker styles
+    Object.entries(markers.current).forEach(([merchantId, marker]) => {
+      const el = marker.getElement();
+      if (merchantId === selectedMerchant.merchantId) {
+        el.style.background = 'hsl(var(--accent))';
+        el.style.transform = 'scale(1.2)';
+        el.style.zIndex = '1000';
+      } else {
+        el.style.background = 'hsl(var(--map-marker))';
+        el.style.transform = 'scale(1)';
+        el.style.zIndex = '1';
+      }
+    });
+
+    // Remove existing popup
+    if (popup.current) {
+      popup.current.remove();
+    }
+
+    // Create popup content
+    const popupContent = document.createElement('div');
+    popupContent.className = 'p-3 min-w-[280px]';
+    popupContent.innerHTML = `
+      <div class="space-y-3">
+        <h3 class="font-semibold text-primary text-sm leading-tight">
+          ${selectedMerchant.tradingName}
+        </h3>
+        <p class="text-xs text-muted-foreground leading-relaxed">
+          ${formatAddress(selectedMerchant)}
+        </p>
+        <button 
+          id="google-maps-btn" 
+          class="inline-flex items-center gap-2 px-3 py-2 bg-primary text-primary-foreground rounded-md text-xs font-medium hover:bg-primary-hover transition-colors w-full justify-center"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m18 13 6-6-6-6"/>
+            <path d="M3 7v10h14l-4-4"/>
+          </svg>
+          Open in Google Maps
+        </button>
+      </div>
+    `;
+
+    // Add click handler to button
+    const button = popupContent.querySelector('#google-maps-btn');
+    if (button) {
+      button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        window.open(
+          getGoogleMapsUrl(selectedMerchant.latitude, selectedMerchant.longitude), 
+          '_blank',
+          'noopener,noreferrer'
+        );
+      });
+    }
+
+    // Create and show popup
+    popup.current = new maplibregl.Popup({
+      offset: [0, -24],
+      closeButton: true,
+      closeOnClick: false,
+      className: 'merchant-popup'
+    })
+      .setLngLat([selectedMerchant.longitude, selectedMerchant.latitude])
+      .setDOMContent(popupContent)
+      .addTo(map.current);
+
+    // Center map on selected merchant
+    map.current.flyTo({
+      center: [selectedMerchant.longitude, selectedMerchant.latitude],
+      zoom: Math.max(map.current.getZoom(), 12),
+      duration: 1000
+    });
+
+  }, [selectedMerchant]);
+
+  return (
+    <>
+      <div ref={mapContainer} className="w-full h-full rounded-lg shadow-medium" />
+      <style>{`
+        .merchant-popup .maplibregl-popup-content {
+          border-radius: 8px;
+          box-shadow: var(--shadow-strong);
+          border: 1px solid hsl(var(--border));
+          padding: 0;
+        }
+        .merchant-popup .maplibregl-popup-close-button {
+          color: hsl(var(--muted-foreground));
+          font-size: 18px;
+          padding: 8px;
+        }
+        .merchant-popup .maplibregl-popup-close-button:hover {
+          background: hsl(var(--muted));
+          color: hsl(var(--foreground));
+        }
+      `}</style>
+    </>
+  );
+};
+
+export default Map;
