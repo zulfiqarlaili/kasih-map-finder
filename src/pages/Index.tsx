@@ -158,6 +158,7 @@ const Index = () => {
             selectedMerchant={selectedMerchant}
             onMerchantSelect={handleMerchantSelect}
             userLocation={userLocation}
+            onFindNearMe={handleFindNearMe}
           />
 
           {/* Mobile Floating Button to open Stores list */}

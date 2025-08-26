@@ -23,13 +23,15 @@ interface MapProps {
   selectedMerchant?: Merchant | null;
   onMerchantSelect: (merchant: Merchant) => void;
   userLocation?: { lat: number; lng: number } | null;
+  onFindNearMe?: () => void;
 }
 
 const Map: React.FC<MapProps> = ({ 
   merchants, 
   selectedMerchant, 
   onMerchantSelect, 
-  userLocation 
+  userLocation,
+  onFindNearMe
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -400,25 +402,28 @@ const Map: React.FC<MapProps> = ({
   return (
     <>
       <div ref={mapContainer} className="w-full h-full shadow-elegant overflow-hidden" />
-      {userLocation && (
-        <div className="absolute bottom-4 right-4 z-10">
-          <Button
-            size="sm"
-            className="rounded-full shadow-elegant"
-            onClick={() => {
-              if (!map.current || !userLocation) return;
+      <div className="absolute bottom-4 right-4 z-10">
+        <Button
+          size="sm"
+          className="rounded-full shadow-elegant"
+          onClick={() => {
+            if (!map.current) return;
+            if (userLocation) {
               map.current.resize();
               map.current.easeTo({
                 center: [userLocation.lng, userLocation.lat],
                 zoom: Math.max(map.current.getZoom(), 15),
                 duration: 600
               });
-            }}
-          >
-            <MapPin className="w-4 h-4" />
-          </Button>
-        </div>
-      )}
+            } else if (onFindNearMe) {
+              onFindNearMe();
+            }
+          }}
+          aria-label={userLocation ? 'Center map on my location' : 'Find my location'}
+        >
+          <MapPin className="w-4 h-4" />
+        </Button>
+      </div>
       
       <style>{`
         .merchant-popup .maplibregl-popup-content {
