@@ -5,6 +5,17 @@ import { Merchant } from '@/types/merchant';
 import { formatAddress, getGoogleMapsUrl } from '@/utils/geoUtils';
 import { MapPin } from 'lucide-react';
 
+type MerchantFeatureProps = {
+  merchantId: string;
+  tradingName: string;
+  address1: string;
+  address2: string;
+  address3: string;
+  city: string;
+  state: string;
+  postalCode: string;
+};
+
 interface MapProps {
   merchants: Merchant[];
   selectedMerchant?: Merchant | null;
@@ -24,6 +35,9 @@ const Map: React.FC<MapProps> = ({
   const userMarker = useRef<maplibregl.Marker | null>(null);
   const popup = useRef<maplibregl.Popup | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
+  const merchantsSourceId = useRef<string>('merchants-source');
+  const merchantsLayerId = useRef<string>('merchants-layer');
+  const merchantByIdRef = useRef<Record<string, Merchant>>({});
 
   // Initialize map
   useEffect(() => {
@@ -84,54 +98,127 @@ const Map: React.FC<MapProps> = ({
   useEffect(() => {
     if (!map.current || !mapLoaded) return;
 
-    // Clear existing markers
-    Object.values(markers.current).forEach(marker => marker.remove());
-    markers.current = {};
+    // Build GeoJSON from merchants
+    const geojson: GeoJSON.FeatureCollection<GeoJSON.Point, MerchantFeatureProps> = {
+      type: 'FeatureCollection',
+      features: merchants.map((m) => ({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: [m.longitude, m.latitude] },
+        properties: {
+          merchantId: m.merchantId,
+          tradingName: m.tradingName,
+          address1: m.address1,
+          address2: m.address2,
+          address3: m.address3,
+          city: m.city,
+          state: m.state,
+          postalCode: m.postalCode,
+        }
+      }))
+    };
 
-    // Add merchant markers
-    merchants.forEach(merchant => {
-      const el = document.createElement('div');
-      el.className = 'merchant-marker';
-      el.style.cssText = `
-        width: 30px;
-        height: 30px;
-        background: hsl(var(--map-marker));
-        border: 3px solid white;
-        border-radius: 50%;
-        cursor: pointer;
-        box-shadow: var(--shadow-elegant);
-        transition: var(--transition-smooth);
-        z-index: 1000;
-        position: relative;
-      `;
+    // Keep a fresh lookup to avoid stale closures in event handlers
+    merchantByIdRef.current = merchants.reduce<Record<string, Merchant>>((acc, m) => {
+      acc[m.merchantId] = m;
+      return acc;
+    }, {});
 
-      el.addEventListener('mouseenter', () => {
-        el.style.background = 'hsl(var(--map-hover))';
-        el.style.transform = 'scale(1.3)';
-        el.style.boxShadow = 'var(--shadow-glow)';
-        el.style.zIndex = '2000';
+    // Add or update source
+    if (map.current.getSource(merchantsSourceId.current)) {
+      (map.current.getSource(merchantsSourceId.current) as maplibregl.GeoJSONSource).setData(geojson);
+    } else {
+      map.current.addSource(merchantsSourceId.current, {
+        type: 'geojson',
+        data: geojson
+      });
+    }
+
+    // Add layer if missing
+    if (!map.current.getLayer(merchantsLayerId.current)) {
+      map.current.addLayer({
+        id: merchantsLayerId.current,
+        type: 'circle',
+        source: merchantsSourceId.current,
+        paint: {
+          'circle-radius': 8,
+          'circle-color': '#3b82f6',
+          'circle-stroke-color': '#ffffff',
+          'circle-stroke-width': 2,
+        }
       });
 
-      el.addEventListener('mouseleave', () => {
-        el.style.background = selectedMerchant?.merchantId === merchant.merchantId 
-          ? 'hsl(var(--accent))' 
-          : 'hsl(var(--map-marker))';
-        el.style.transform = selectedMerchant?.merchantId === merchant.merchantId ? 'scale(1.2)' : 'scale(1)';
-        el.style.boxShadow = 'var(--shadow-elegant)';
-        el.style.zIndex = selectedMerchant?.merchantId === merchant.merchantId ? '1500' : '1000';
+      // Ensure the layer is on top of base layers for hit-testing
+      try {
+        map.current.moveLayer(merchantsLayerId.current);
+      } catch (err) {
+        console.warn('moveLayer warning:', err);
+      }
+
+      // Cursor feedback
+      map.current.on('mouseenter', merchantsLayerId.current, () => {
+        if (map.current) {
+          map.current.getCanvas().style.cursor = 'pointer';
+        }
+      });
+      map.current.on('mouseleave', merchantsLayerId.current, () => {
+        if (map.current) {
+          map.current.getCanvas().style.cursor = '';
+        }
       });
 
-      el.addEventListener('click', () => {
-        onMerchantSelect(merchant);
+      // Click to select merchant
+      map.current.on('click', merchantsLayerId.current, (e) => {
+        console.log('Circle layer clicked', e.point, e.lngLat, e.features);
+        const feature = e.features && e.features[0];
+        if (!feature) return;
+        console.log('Feature properties:', feature.properties);
+        const props = (feature.properties as unknown as MerchantFeatureProps);
+        const merchantId = props?.merchantId as string | undefined;
+        if (!merchantId) return;
+        const coords = (feature.geometry as any).coordinates as [number, number];
+        const clickedMerchant: Merchant = {
+          merchantId,
+          tradingName: props.tradingName,
+          address1: props.address1,
+          address2: props.address2,
+          address3: props.address3,
+          city: props.city,
+          state: props.state,
+          postalCode: props.postalCode,
+          latitude: coords[1],
+          longitude: coords[0],
+        };
+        onMerchantSelect(clickedMerchant);
       });
 
-      const marker = new maplibregl.Marker(el)
-        .setLngLat([merchant.longitude, merchant.latitude])
-        .addTo(map.current!);
-
-      markers.current[merchant.merchantId] = marker;
-    });
-
+      // Global map click log to verify map emits clicks
+      map.current.on('click', (evt) => {
+        console.log('Map clicked at', evt.point, evt.lngLat);
+        if (!map.current) return;
+        const features = map.current.queryRenderedFeatures(evt.point, { layers: [merchantsLayerId.current] });
+        console.log('Queried features:', features);
+        const f = features && features[0];
+        const merchantId = f ? (f.properties as unknown as MerchantFeatureProps)?.merchantId : undefined;
+        if (merchantId && f) {
+          const coords = (f.geometry as any).coordinates as [number, number];
+          const p = (f.properties as unknown as MerchantFeatureProps);
+          const clickedMerchant: Merchant = {
+            merchantId,
+            tradingName: p.tradingName,
+            address1: p.address1,
+            address2: p.address2,
+            address3: p.address3,
+            city: p.city,
+            state: p.state,
+            postalCode: p.postalCode,
+            latitude: coords[1],
+            longitude: coords[0],
+          };
+          onMerchantSelect(clickedMerchant);
+        }
+      });
+    }
+ 
     // Fit map to show all merchants
     if (merchants.length > 0) {
       const bounds = new maplibregl.LngLatBounds();
@@ -192,21 +279,33 @@ const Map: React.FC<MapProps> = ({
   useEffect(() => {
     if (!map.current || !selectedMerchant) return;
 
-    // Update marker styles
-    Object.entries(markers.current).forEach(([merchantId, marker]) => {
-      const el = marker.getElement();
-      if (merchantId === selectedMerchant.merchantId) {
-        el.style.background = 'hsl(var(--accent))';
-        el.style.transform = 'scale(1.4)';
-        el.style.zIndex = '1500';
-        el.style.boxShadow = 'var(--shadow-glow)';
-      } else {
-        el.style.background = 'hsl(var(--map-marker))';
-        el.style.transform = 'scale(1)';
-        el.style.zIndex = '1000';
-        el.style.boxShadow = 'var(--shadow-elegant)';
-      }
-    });
+    // Highlight selected merchant via paint expression (bigger + accent color)
+    if (map.current.getLayer(merchantsLayerId.current)) {
+      map.current.setPaintProperty(merchantsLayerId.current, 'circle-color', [
+        'case',
+        ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
+        '#8b5cf6',
+        '#3b82f6'
+      ]);
+      map.current.setPaintProperty(merchantsLayerId.current, 'circle-radius', [
+        'case',
+        ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
+        10,
+        8
+      ]);
+      map.current.setPaintProperty(merchantsLayerId.current, 'circle-stroke-width', [
+        'case',
+        ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
+        3,
+        2
+      ]);
+      map.current.setPaintProperty(merchantsLayerId.current, 'circle-stroke-color', [
+        'case',
+        ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
+        '#ffffff',
+        '#ffffff'
+      ]);
+    }
 
     // Remove existing popup
     if (popup.current) {
@@ -273,6 +372,7 @@ const Map: React.FC<MapProps> = ({
   return (
     <>
       <div ref={mapContainer} className="w-full h-full shadow-elegant overflow-hidden" />
+      
       <style>{`
         .merchant-popup .maplibregl-popup-content {
           border-radius: 16px;
@@ -295,6 +395,10 @@ const Map: React.FC<MapProps> = ({
         }
         .merchant-popup .maplibregl-popup-tip {
           border-top-color: hsl(var(--card) / 0.95);
+        }
+        /* Make DOM markers clearly clickable and above canvas */
+        .maplibregl-canvas-container .maplibregl-canvas {
+          pointer-events: auto;
         }
       `}</style>
     </>

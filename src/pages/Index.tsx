@@ -88,6 +88,7 @@ const Index = () => {
   };
 
   const handleMerchantSelect = (merchant: Merchant) => {
+    console.log('handleMerchantSelect called for:', merchant.tradingName);
     setSelectedMerchant(merchant);
     // Close sidebar on mobile when merchant is selected
     if (window.innerWidth < 768) {
