@@ -4,6 +4,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import { Merchant } from '@/types/merchant';
 import { formatAddress, getGoogleMapsUrl } from '@/utils/geoUtils';
 import { MapPin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 type MerchantFeatureProps = {
   merchantId: string;
@@ -14,6 +15,7 @@ type MerchantFeatureProps = {
   city: string;
   state: string;
   postalCode: string;
+  country?: string;
 };
 
 interface MapProps {
@@ -32,12 +34,12 @@ const Map: React.FC<MapProps> = ({
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
   const markers = useRef<{ [key: string]: maplibregl.Marker }>({});
-  const userMarker = useRef<maplibregl.Marker | null>(null);
   const popup = useRef<maplibregl.Popup | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
   const merchantsSourceId = useRef<string>('merchants-source');
   const merchantsLayerId = useRef<string>('merchants-layer');
   const merchantByIdRef = useRef<Record<string, Merchant>>({});
+  const resizeObserverRef = useRef<ResizeObserver | null>(null);
 
   // Initialize map
   useEffect(() => {
@@ -85,11 +87,38 @@ const Map: React.FC<MapProps> = ({
       setMapLoaded(true);
     });
 
+    // Ensure map resizes correctly when container size changes (e.g., sidebar toggle)
+    const handleWindowResize = () => {
+      if (map.current) {
+        map.current.resize();
+      }
+    };
+    window.addEventListener('resize', handleWindowResize);
+
+    // Observe container resize changes
+    const containerElement = mapContainer.current;
+    if (containerElement && 'ResizeObserver' in window) {
+      resizeObserverRef.current = new ResizeObserver(() => {
+        if (map.current) {
+          map.current.resize();
+        }
+      });
+      resizeObserverRef.current.observe(containerElement);
+    }
+
     // Cleanup
     return () => {
       if (map.current) {
         map.current.remove();
         map.current = null;
+      }
+      window.removeEventListener('resize', handleWindowResize);
+      if (resizeObserverRef.current && containerElement) {
+        try {
+          resizeObserverRef.current.unobserve(containerElement);
+        } catch (err) {
+          console.warn('ResizeObserver unobserve failed:', err);
+        }
       }
     };
   }, []);
@@ -113,6 +142,7 @@ const Map: React.FC<MapProps> = ({
           city: m.city,
           state: m.state,
           postalCode: m.postalCode,
+          country: (m as unknown as { country?: string }).country,
         }
       }))
     };
@@ -168,12 +198,12 @@ const Map: React.FC<MapProps> = ({
 
       // Click to select merchant
       map.current.on('click', merchantsLayerId.current, (e) => {
-        const feature = e.features && e.features[0];
+        const feature = e.features && (e.features[0] as unknown as GeoJSON.Feature<GeoJSON.Point, MerchantFeatureProps>);
         if (!feature) return;
-        const props = (feature.properties as unknown as MerchantFeatureProps);
+        const props = feature.properties as unknown as (MerchantFeatureProps & { country?: string });
         const merchantId = props?.merchantId as string | undefined;
         if (!merchantId) return;
-        const coords = (feature.geometry as any).coordinates as [number, number];
+        const coords = (feature.geometry as GeoJSON.Point).coordinates as [number, number];
         const clickedMerchant: Merchant = {
           merchantId,
           tradingName: props.tradingName,
@@ -183,6 +213,7 @@ const Map: React.FC<MapProps> = ({
           city: props.city,
           state: props.state,
           postalCode: props.postalCode,
+          country: props.country || '',
           latitude: coords[1],
           longitude: coords[0],
         };
@@ -193,11 +224,11 @@ const Map: React.FC<MapProps> = ({
       map.current.on('click', (evt) => {
         if (!map.current) return;
         const features = map.current.queryRenderedFeatures(evt.point, { layers: [merchantsLayerId.current] });
-        const f = features && features[0];
+        const f = features && (features[0] as unknown as GeoJSON.Feature<GeoJSON.Point, MerchantFeatureProps>);
         const merchantId = f ? (f.properties as unknown as MerchantFeatureProps)?.merchantId : undefined;
         if (merchantId && f) {
-          const coords = (f.geometry as any).coordinates as [number, number];
-          const p = (f.properties as unknown as MerchantFeatureProps);
+          const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+          const p = (f.properties as unknown as (MerchantFeatureProps & { country?: string }));
           const clickedMerchant: Merchant = {
             merchantId,
             tradingName: p.tradingName,
@@ -207,6 +238,7 @@ const Map: React.FC<MapProps> = ({
             city: p.city,
             state: p.state,
             postalCode: p.postalCode,
+            country: p.country || '',
             latitude: coords[1],
             longitude: coords[0],
           };
@@ -232,44 +264,9 @@ const Map: React.FC<MapProps> = ({
       });
     }
 
-  }, [merchants, mapLoaded, onMerchantSelect]);
+  }, [merchants, mapLoaded, onMerchantSelect, userLocation]);
 
-  // Update user location marker
-  useEffect(() => {
-    if (!map.current || !mapLoaded || !userLocation) return;
-
-    // Remove existing user marker
-    if (userMarker.current) {
-      userMarker.current.remove();
-    }
-
-    // Add user location marker using MapLibre's built-in marker with custom styling
-    userMarker.current = new maplibregl.Marker({
-      color: '#3b82f6', // Blue color
-      scale: 1.2,
-      anchor: 'bottom'
-    })
-      .setLngLat([userLocation.lng, userLocation.lat])
-      .addTo(map.current);
-    
-    // Add location marker animation style
-    if (!document.getElementById('user-marker-styles')) {
-      const style = document.createElement('style');
-      style.id = 'user-marker-styles';
-      style.textContent = `
-        @keyframes location-bounce {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-4px); }
-        }
-        
-        .maplibregl-marker:last-child {
-          animation: location-bounce 2s ease-in-out infinite;
-        }
-      `;
-      document.head.appendChild(style);
-    }
-
-  }, [userLocation, mapLoaded]);
+  // Removed user location marker effect per request; recentering is handled by the button below
 
   // Handle selected merchant
   useEffect(() => {
@@ -368,6 +365,25 @@ const Map: React.FC<MapProps> = ({
   return (
     <>
       <div ref={mapContainer} className="w-full h-full shadow-elegant overflow-hidden" />
+      {userLocation && (
+        <div className="absolute bottom-4 right-4 z-10">
+          <Button
+            size="sm"
+            className="rounded-full shadow-elegant"
+            onClick={() => {
+              if (!map.current || !userLocation) return;
+              map.current.resize();
+              map.current.easeTo({
+                center: [userLocation.lng, userLocation.lat],
+                zoom: Math.max(map.current.getZoom(), 15),
+                duration: 600
+              });
+            }}
+          >
+            <MapPin className="w-4 h-4" />
+          </Button>
+        </div>
+      )}
       
       <style>{`
         .merchant-popup .maplibregl-popup-content {
