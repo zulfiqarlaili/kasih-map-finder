@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ScrollArea } from '@/components/ui/scroll-area';
 import { 
   Search, 
   ExternalLink, 
@@ -107,7 +106,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full bg-gradient-to-b from-card to-card/80 backdrop-blur-xl border-r border-border/30">
+    <div className="flex flex-col h-full overflow-y-auto bg-gradient-to-b from-card to-card/80 backdrop-blur-xl border-r border-border/30">
       {/* Header */}
       <div className="p-4 space-y-4 border-b border-border/50 bg-gradient-to-r from-primary/5 to-accent/5 flex-shrink-0">
         <div className="flex items-center justify-between">
@@ -214,8 +213,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
       </div>
 
       {/* Merchant List */}
-      <ScrollArea className="flex-1 min-h-0">
-        <div className="p-3 space-y-3">
+      <div className="p-3 space-y-3">
           {visibleMerchants.length === 0 ? (
             <div className="p-8 text-center text-muted-foreground">
               <div className="bg-muted/30 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
@@ -278,8 +276,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
               </Card>
             ))
           )}
-        </div>
-      </ScrollArea>
+      </div>
 
       {/* Load More Stores Progress */}
       {filteredMerchants.length > 0 && (

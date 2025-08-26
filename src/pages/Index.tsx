@@ -113,49 +113,14 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="h-screen flex flex-col bg-gradient-to-br from-background via-background to-muted/20">
-      {/* Header */}
-      <header className="bg-gradient-to-r from-primary via-primary to-accent text-primary-foreground p-4 shadow-elegant backdrop-blur-sm">
-        <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <div className="flex items-center gap-3">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-              className="md:hidden text-primary-foreground hover:bg-white/20 rounded-xl transition-all duration-300"
-            >
-              {isSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </Button>
-            <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-white to-white/90 bg-clip-text text-transparent">
-                MyKasih Store Finder
-              </h1>
-              <p className="text-sm text-primary-foreground/90">
-                {userLocation 
-                  ? `Showing stores within ${currentRadius}km radius` 
-                  : "Find partner stores near you"
-                }
-              </p>
-            </div>
-          </div>
-          <div className="hidden sm:block">
-            <div className="text-right bg-white/10 rounded-xl p-3 backdrop-blur-sm">
-              <p className="text-sm font-medium">{merchants.length} Stores</p>
-              <p className="text-xs text-primary-foreground/80">
-                {userLocation ? `Within ${currentRadius}km` : "Available"}
-              </p>
-            </div>
-          </div>
-        </div>
-      </header>
-
+    <div className="h-screen flex flex-col overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
       {/* Main Content */}
-      <div className="flex-1 flex relative">
+      <div className="flex-1 flex relative min-h-0 overflow-hidden">
         {/* Sidebar */}
         <aside 
           className={`
             ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
-            fixed md:relative z-20 w-80 h-[calc(100vh-8rem)] bg-card/95 backdrop-blur-xl
+            fixed md:relative z-20 w-80 h-full bg-card/95 backdrop-blur-xl overflow-y-auto overscroll-contain
             transition-all duration-500 ease-out
             md:translate-x-0 border-r border-border/50
             shadow-elegant
@@ -178,7 +143,7 @@ const Index = () => {
         {/* Map Container */}
         <main 
           className={`
-            flex-1 relative h-[calc(100vh-8rem)]
+            flex-1 relative h-full overflow-hidden
             ${isSidebarOpen ? 'md:ml-0' : ''}
           `}
         >
@@ -188,6 +153,16 @@ const Index = () => {
             onMerchantSelect={handleMerchantSelect}
             userLocation={userLocation}
           />
+
+          {/* Mobile Sidebar Toggle */}
+          <Button
+            variant="default"
+            size="sm"
+            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            className="md:hidden fixed bottom-4 right-4 z-30 rounded-full shadow-elegant"
+          >
+            {isSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </Button>
         </main>
 
         {/* Mobile Overlay */}
