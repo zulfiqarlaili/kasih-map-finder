@@ -165,7 +165,7 @@ const Index = () => {
             variant="default"
             size="sm"
             onClick={() => setIsMobileSheetOpen(true)}
-            className="md:hidden fixed bottom-4 right-16 z-30 rounded-full shadow-elegant"
+            className="md:hidden fixed bottom-4 right-20 z-30 rounded-full shadow-elegant"
           >
             <List className="w-5 h-5 mr-2" /> Stores
           </Button>
