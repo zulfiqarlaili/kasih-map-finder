@@ -168,10 +168,8 @@ const Map: React.FC<MapProps> = ({
 
       // Click to select merchant
       map.current.on('click', merchantsLayerId.current, (e) => {
-        console.log('Circle layer clicked', e.point, e.lngLat, e.features);
         const feature = e.features && e.features[0];
         if (!feature) return;
-        console.log('Feature properties:', feature.properties);
         const props = (feature.properties as unknown as MerchantFeatureProps);
         const merchantId = props?.merchantId as string | undefined;
         if (!merchantId) return;
@@ -193,10 +191,8 @@ const Map: React.FC<MapProps> = ({
 
       // Global map click log to verify map emits clicks
       map.current.on('click', (evt) => {
-        console.log('Map clicked at', evt.point, evt.lngLat);
         if (!map.current) return;
         const features = map.current.queryRenderedFeatures(evt.point, { layers: [merchantsLayerId.current] });
-        console.log('Queried features:', features);
         const f = features && features[0];
         const merchantId = f ? (f.properties as unknown as MerchantFeatureProps)?.merchantId : undefined;
         if (merchantId && f) {

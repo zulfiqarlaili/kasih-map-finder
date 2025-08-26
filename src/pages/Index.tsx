@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Map from '@/components/Map';
 import MerchantList from '@/components/MerchantList';
 import { Merchant, MerchantWithDistance } from '@/types/merchant';
@@ -19,7 +19,7 @@ const Index = () => {
   const [hasMoreStores, setHasMoreStores] = useState(true);
 
   // Load stores within current radius
-  const loadStoresInRadius = (lat: number, lng: number, radius: number) => {
+  const loadStoresInRadius = useCallback((lat: number, lng: number, radius: number) => {
     const storesInRadius = sortMerchantsByDistance(merchantsData, lat, lng, radius);
     setMerchants(storesInRadius);
     setCurrentRadius(radius);
@@ -29,9 +29,9 @@ const Index = () => {
     setHasMoreStores(nextRadiusStores.length > storesInRadius.length);
     
     return storesInRadius;
-  };
+  }, []);
 
-  const handleFindNearMe = async () => {
+  const handleFindNearMe = useCallback(async () => {
     setIsLoadingLocation(true);
     
     try {
@@ -59,9 +59,14 @@ const Index = () => {
     } finally {
       setIsLoadingLocation(false);
     }
-  };
+  }, [loadStoresInRadius]);
 
-  const handleLoadMoreStores = async () => {
+  // Auto check nearby (5km) on initial load
+  useEffect(() => {
+    handleFindNearMe();
+  }, [handleFindNearMe]);
+
+  const handleLoadMoreStores = useCallback(async () => {
     if (!userLocation || isLoadingMore) return;
     
     setIsLoadingMore(true);
@@ -85,10 +90,9 @@ const Index = () => {
     } finally {
       setIsLoadingMore(false);
     }
-  };
+  }, [userLocation, isLoadingMore, currentRadius, loadStoresInRadius]);
 
   const handleMerchantSelect = (merchant: Merchant) => {
-    console.log('handleMerchantSelect called for:', merchant.tradingName);
     setSelectedMerchant(merchant);
     // Close sidebar on mobile when merchant is selected
     if (window.innerWidth < 768) {
