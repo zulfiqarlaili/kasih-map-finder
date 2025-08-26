@@ -320,10 +320,6 @@ const Map: React.FC<MapProps> = ({
           id="google-maps-btn" 
           class="inline-flex items-center gap-2 px-3 py-2 bg-primary text-primary-foreground rounded-md text-xs font-medium hover:bg-primary-hover transition-colors w-full justify-center"
         >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="m18 13 6-6-6-6"/>
-            <path d="M3 7v10h14l-4-4"/>
-          </svg>
           Open in Google Maps
         </button>
       </div>
