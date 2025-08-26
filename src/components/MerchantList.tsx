@@ -10,10 +10,8 @@ import {
   ExternalLink, 
   MapPin, 
   Navigation,
-  Filter,
   Zap
 } from 'lucide-react';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
 interface MerchantListProps {
   merchants: (Merchant | MerchantWithDistance)[];
@@ -41,22 +39,10 @@ const MerchantList: React.FC<MerchantListProps> = ({
   currentRadius = 5
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [stateFilter, setStateFilter] = useState<string>('all');
-  const [cityFilter, setCityFilter] = useState<string>('all');
   const [visibleCount, setVisibleCount] = useState(10);
   const [isLoadingMoreVisible, setIsLoadingMoreVisible] = useState(false);
 
-  // Get unique states and cities for filters
-  const { states, cities } = useMemo(() => {
-    const uniqueStates = [...new Set(merchants.map(m => m.state))].sort();
-    const uniqueCities = [...new Set(merchants.map(m => m.city))].sort();
-    return {
-      states: uniqueStates,
-      cities: uniqueCities
-    };
-  }, [merchants]);
-
-  // Filter merchants based on search and filters
+  // Filter merchants based on search
   const filteredMerchants = useMemo(() => {
     return merchants.filter(merchant => {
       const matchesSearch = searchTerm === '' || 
@@ -68,12 +54,9 @@ const MerchantList: React.FC<MerchantListProps> = ({
         merchant.state.toLowerCase().includes(searchTerm.toLowerCase()) ||
         merchant.postalCode.includes(searchTerm);
 
-      const matchesState = stateFilter === 'all' || merchant.state === stateFilter;
-      const matchesCityFilter = cityFilter === 'all' || merchant.city === cityFilter;
-
-      return matchesSearch && matchesState && matchesCityFilter;
+      return matchesSearch;
     });
-  }, [merchants, searchTerm, stateFilter, cityFilter]);
+  }, [merchants, searchTerm]);
 
   // Get visible merchants for pagination
   const visibleMerchants = useMemo(() => {
@@ -96,10 +79,10 @@ const MerchantList: React.FC<MerchantListProps> = ({
     }
   };
 
-  // Reset visible count when filters change
+  // Reset visible count when search changes
   useEffect(() => {
     setVisibleCount(10);
-  }, [searchTerm, stateFilter, cityFilter]);
+  }, [searchTerm]);
 
   const hasDistance = (merchant: Merchant | MerchantWithDistance): merchant is MerchantWithDistance => {
     return 'distance' in merchant && typeof merchant.distance === 'number';
@@ -175,41 +158,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
           />
         </div>
 
-        {/* Filters */}
-        <div className="space-y-3">
-          <div className="flex items-center gap-2 text-sm font-medium text-foreground">
-            <Filter className="w-4 h-4 text-primary" />
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-semibold">
-              Filters
-            </span>
-          </div>
-          
-          <div className="grid grid-cols-2 gap-3">
-            <Select value={stateFilter} onValueChange={setStateFilter}>
-              <SelectTrigger className="text-xs rounded-xl border-border/50 bg-background/50 backdrop-blur-sm">
-                <SelectValue placeholder="All States" />
-              </SelectTrigger>
-              <SelectContent className="rounded-xl">
-                <SelectItem value="all">All States</SelectItem>
-                {states.map(state => (
-                  <SelectItem key={state} value={state}>{state}</SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-
-            <Select value={cityFilter} onValueChange={setCityFilter}>
-              <SelectTrigger className="text-xs rounded-xl border-border/50 bg-background/50 backdrop-blur-sm">
-                <SelectValue placeholder="All Cities" />
-              </SelectTrigger>
-              <SelectContent className="rounded-xl">
-                <SelectItem value="all">All Cities</SelectItem>
-                {cities.map(city => (
-                  <SelectItem key={city} value={city}>{city}</SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
-        </div>
+        {/* Filters removed */}
       </div>
 
       {/* Merchant List */}
@@ -220,7 +169,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
                 <MapPin className="w-8 h-8 opacity-50" />
               </div>
               <p className="text-sm font-medium">No stores found</p>
-              <p className="text-xs opacity-70">Try adjusting your search or filters</p>
+              <p className="text-xs opacity-70">Try adjusting your search</p>
             </div>
           ) : (
             visibleMerchants.map((merchant) => (
