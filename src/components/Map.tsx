@@ -40,6 +40,7 @@ const Map: React.FC<MapProps> = ({
   const merchantsLayerId = useRef<string>('merchants-layer');
   const merchantByIdRef = useRef<Record<string, Merchant>>({});
   const resizeObserverRef = useRef<ResizeObserver | null>(null);
+  const userMarkerRef = useRef<maplibregl.Marker | null>(null);
 
   // Initialize map
   useEffect(() => {
@@ -108,6 +109,10 @@ const Map: React.FC<MapProps> = ({
 
     // Cleanup
     return () => {
+      if (userMarkerRef.current) {
+        try { userMarkerRef.current.remove(); } catch {}
+        userMarkerRef.current = null;
+      }
       if (map.current) {
         map.current.remove();
         map.current = null;
@@ -266,7 +271,36 @@ const Map: React.FC<MapProps> = ({
 
   }, [merchants, mapLoaded, onMerchantSelect, userLocation]);
 
-  // Removed user location marker effect per request; recentering is handled by the button below
+  // Show/update current user marker
+  useEffect(() => {
+    if (!map.current || !mapLoaded) return;
+
+    // If no user location, remove existing marker (if any)
+    if (!userLocation) {
+      if (userMarkerRef.current) {
+        try { userMarkerRef.current.remove(); } catch {}
+        userMarkerRef.current = null;
+      }
+      return;
+    }
+
+    const { lat, lng } = userLocation;
+
+    // Create marker element (pulsing-dot style)
+    const el = document.createElement('div');
+    el.className = 'user-location-marker';
+
+    if (!userMarkerRef.current) {
+      userMarkerRef.current = new maplibregl.Marker({ element: el, anchor: 'center' })
+        .setLngLat([lng, lat])
+        .addTo(map.current);
+    } else {
+      // Update position and swap element to keep styles in sync
+      userMarkerRef.current.setLngLat([lng, lat]);
+      const m = userMarkerRef.current.getElement();
+      if (m) m.className = 'user-location-marker';
+    }
+  }, [userLocation, mapLoaded]);
 
   // Handle selected merchant
   useEffect(() => {
@@ -407,6 +441,35 @@ const Map: React.FC<MapProps> = ({
         /* Make DOM markers clearly clickable and above canvas */
         .maplibregl-canvas-container .maplibregl-canvas {
           pointer-events: auto;
+        }
+        /* Current user marker */
+        .user-location-marker {
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          position: relative;
+          box-shadow: 0 0 0 2px #ffffff, 0 0 12px rgba(26,115,232,0.6);
+          background: #1a73e8; /* Google Maps blue */
+        }
+        .user-location-marker::before {
+          content: '';
+          position: absolute;
+          inset: 4px;
+          border-radius: 50%;
+          background: #ffffff;
+        }
+        .user-location-marker::after {
+          content: '';
+          position: absolute;
+          inset: -6px;
+          border-radius: 50%;
+          border: 2px solid rgba(26,115,232,0.45);
+          animation: user-pulse 1.8s ease-out infinite;
+        }
+        @keyframes user-pulse {
+          0% { transform: scale(0.8); opacity: 0.9; }
+          70% { transform: scale(1.6); opacity: 0; }
+          100% { transform: scale(1.6); opacity: 0; }
         }
       `}</style>
     </>
