@@ -122,7 +122,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="h-screen flex flex-col overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
+    <div className="h-[100dvh] flex flex-col overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
       {/* Main Content */}
       <div className="flex-1 flex relative min-h-0 overflow-hidden">
         {/* Sidebar (hidden on mobile, visible on md+) */}
