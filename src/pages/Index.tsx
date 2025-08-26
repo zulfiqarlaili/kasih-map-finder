@@ -6,14 +6,30 @@ import { getCurrentPosition, sortMerchantsByDistance } from '@/utils/geoUtils';
 import { toast } from '@/hooks/use-toast';
 import merchantsData from '@/data/merchants.json';
 import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, MapPin, Loader2 } from 'lucide-react';
 
 const Index = () => {
-  const [merchants, setMerchants] = useState<(Merchant | MerchantWithDistance)[]>(merchantsData);
+  const [merchants, setMerchants] = useState<(Merchant | MerchantWithDistance)[]>([]);
   const [selectedMerchant, setSelectedMerchant] = useState<Merchant | null>(null);
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [isLoadingLocation, setIsLoadingLocation] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [currentRadius, setCurrentRadius] = useState(5); // Start with 5km radius
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [hasMoreStores, setHasMoreStores] = useState(true);
+
+  // Load stores within current radius
+  const loadStoresInRadius = (lat: number, lng: number, radius: number) => {
+    const storesInRadius = sortMerchantsByDistance(merchantsData, lat, lng, radius);
+    setMerchants(storesInRadius);
+    setCurrentRadius(radius);
+    
+    // Check if there are more stores available beyond current radius
+    const nextRadiusStores = sortMerchantsByDistance(merchantsData, lat, lng, radius + 5);
+    setHasMoreStores(nextRadiusStores.length > storesInRadius.length);
+    
+    return storesInRadius;
+  };
 
   const handleFindNearMe = async () => {
     setIsLoadingLocation(true);
@@ -25,13 +41,12 @@ const Index = () => {
       
       setUserLocation({ lat: userLat, lng: userLng });
       
-      // Sort merchants by distance within 10km radius
-      const merchantsWithDistance = sortMerchantsByDistance(merchantsData, userLat, userLng, 10);
-      setMerchants(merchantsWithDistance);
+      // Start with 5km radius for better performance
+      const nearbyStores = loadStoresInRadius(userLat, userLng, 5);
       
       toast({
         title: "Location found",
-        description: `Found ${merchantsWithDistance.length} stores within 10km. Showing closest first.`,
+        description: `Found ${nearbyStores.length} stores within 5km. Showing closest first.`,
       });
       
     } catch (error) {
@@ -43,6 +58,32 @@ const Index = () => {
       });
     } finally {
       setIsLoadingLocation(false);
+    }
+  };
+
+  const handleLoadMoreStores = async () => {
+    if (!userLocation || isLoadingMore) return;
+    
+    setIsLoadingMore(true);
+    
+    try {
+      const newRadius = currentRadius + 5;
+      const moreStores = loadStoresInRadius(userLocation.lat, userLocation.lng, newRadius);
+      
+      toast({
+        title: "More stores loaded",
+        description: `Now showing ${moreStores.length} stores within ${newRadius}km.`,
+      });
+      
+    } catch (error) {
+      console.error('Error loading more stores:', error);
+      toast({
+        title: "Error loading stores",
+        description: "Failed to load more stores. Please try again.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsLoadingMore(false);
     }
   };
 
@@ -84,13 +125,20 @@ const Index = () => {
               <h1 className="text-xl font-bold bg-gradient-to-r from-white to-white/90 bg-clip-text text-transparent">
                 MyKasih Store Finder
               </h1>
-              <p className="text-sm text-primary-foreground/90">Find partner stores within 10km radius</p>
+              <p className="text-sm text-primary-foreground/90">
+                {userLocation 
+                  ? `Showing stores within ${currentRadius}km radius` 
+                  : "Find partner stores near you"
+                }
+              </p>
             </div>
           </div>
           <div className="hidden sm:block">
             <div className="text-right bg-white/10 rounded-xl p-3 backdrop-blur-sm">
               <p className="text-sm font-medium">{merchants.length} Stores</p>
-              <p className="text-xs text-primary-foreground/80">Available</p>
+              <p className="text-xs text-primary-foreground/80">
+                {userLocation ? `Within ${currentRadius}km` : "Available"}
+              </p>
             </div>
           </div>
         </div>
@@ -102,7 +150,7 @@ const Index = () => {
         <aside 
           className={`
             ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
-            fixed md:relative z-20 w-80 h-full bg-card/95 backdrop-blur-xl
+            fixed md:relative z-20 w-80 h-[calc(100vh-8rem)] bg-card/95 backdrop-blur-xl
             transition-all duration-500 ease-out
             md:translate-x-0 border-r border-border/50
             shadow-elegant
@@ -113,15 +161,19 @@ const Index = () => {
             selectedMerchant={selectedMerchant}
             onMerchantSelect={handleMerchantSelect}
             onFindNearMe={handleFindNearMe}
+            onLoadMore={handleLoadMoreStores}
             isLoadingLocation={isLoadingLocation}
+            isLoadingMore={isLoadingMore}
+            hasMoreStores={hasMoreStores}
             userLocation={userLocation}
+            currentRadius={currentRadius}
           />
         </aside>
 
         {/* Map Container */}
         <main 
           className={`
-            flex-1 relative
+            flex-1 relative h-[calc(100vh-8rem)]
             ${isSidebarOpen ? 'md:ml-0' : ''}
           `}
         >
@@ -144,10 +196,7 @@ const Index = () => {
 
       {/* Attribution Footer */}
       <footer className="bg-gradient-subtle p-3 text-xs text-muted-foreground text-center border-t border-border/30 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto">
-          © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary transition-colors">OpenStreetMap</a> contributors | 
-          Powered by <a href="https://maplibre.org/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary transition-colors">MapLibre</a>
-        </div>
+        <p>© 2024 MyKasih Store Finder. Powered by OpenStreetMap contributors.</p>
       </footer>
     </div>
   );
