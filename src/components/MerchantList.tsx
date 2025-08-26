@@ -276,11 +276,27 @@ const MerchantList: React.FC<MerchantListProps> = ({
               <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
               <span>Showing {merchants.length} stores within {currentRadius}km radius</span>
             </div>
-            {hasMoreStores && (
-              <p className="text-xs text-muted-foreground/70">
-                More stores available beyond {currentRadius}km
-              </p>
-            )}
+            <div className="mt-6 pt-6 border-t border-border/50">
+              <div className="flex flex-col items-center space-y-2 text-center">
+                <p className="text-xs text-muted-foreground/70">
+                  More stores available beyond this area
+                </p>
+                <div className="flex items-center space-x-2 text-xs text-muted-foreground/60">
+                  <span>Built with ❤️ by</span>
+                  <a 
+                    href="https://210391.xyz" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline font-medium"
+                  >
+                    zulfiqar
+                  </a>
+                </div>
+                <p className="text-xs text-muted-foreground/50">
+                  © {new Date().getFullYear()} MyKasih Store Finder. All rights reserved.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       )}

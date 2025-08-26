@@ -188,11 +188,6 @@ const Index = () => {
           </SheetContent>
         </Sheet>
       </div>
-
-      {/* Attribution Footer */}
-      <footer className="bg-gradient-subtle p-3 text-xs text-muted-foreground text-center border-t border-border/30 backdrop-blur-sm">
-        <p>© 2024 MyKasih Store Finder. Powered by OpenStreetMap contributors.</p>
-      </footer>
     </div>
   );
 };
