@@ -110,7 +110,7 @@ const Map: React.FC<MapProps> = ({
     // Cleanup
     return () => {
       if (userMarkerRef.current) {
-        try { userMarkerRef.current.remove(); } catch {}
+        try { userMarkerRef.current.remove(); } catch (err) { console.warn('Failed to remove user marker:', err); }
         userMarkerRef.current = null;
       }
       if (map.current) {
@@ -131,6 +131,29 @@ const Map: React.FC<MapProps> = ({
   // Update merchants markers when data changes
   useEffect(() => {
     if (!map.current || !mapLoaded) return;
+
+    // Ensure merchant pin image is available (Google-style red pin)
+    const pinImageId = 'merchant-pin-image';
+    if (map.current && !map.current.hasImage(pinImageId)) {
+      const merchantPinSvg = `data:image/svg+xml;utf8,${encodeURIComponent(
+        '<svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">\
+          <path d="M12 2c-4.42 0-8 3.134-8 7.5 0 5.625 8 12.5 8 12.5s8-6.875 8-12.5C20 5.134 16.42 2 12 2z" fill="#EA4335"/>\
+          <circle cx="12" cy="9.5" r="3.5" fill="#FFFFFF"/>\
+        </svg>'
+      )}`;
+      const img = new Image(75, 75);
+      img.crossOrigin = 'anonymous';
+      img.onload = () => {
+        if (map.current) {
+          try {
+            map.current.addImage(pinImageId, img, { pixelRatio: 2 });
+          } catch (err) {
+            console.warn('Failed to add merchant pin image:', err);
+          }
+        }
+      };
+      img.src = merchantPinSvg;
+    }
 
     // Build GeoJSON from merchants
     const geojson: GeoJSON.FeatureCollection<GeoJSON.Point, MerchantFeatureProps> = {
@@ -172,13 +195,13 @@ const Map: React.FC<MapProps> = ({
     if (!map.current.getLayer(merchantsLayerId.current)) {
       map.current.addLayer({
         id: merchantsLayerId.current,
-        type: 'circle',
+        type: 'symbol',
         source: merchantsSourceId.current,
-        paint: {
-          'circle-radius': 8,
-          'circle-color': '#3b82f6',
-          'circle-stroke-color': '#ffffff',
-          'circle-stroke-width': 2,
+        layout: {
+          'icon-image': pinImageId,
+          'icon-size': 1,
+          'icon-allow-overlap': true,
+          'icon-anchor': 'bottom',
         }
       });
 
@@ -278,7 +301,7 @@ const Map: React.FC<MapProps> = ({
     // If no user location, remove existing marker (if any)
     if (!userLocation) {
       if (userMarkerRef.current) {
-        try { userMarkerRef.current.remove(); } catch {}
+        try { userMarkerRef.current.remove(); } catch (err) { console.warn('Failed to remove user marker:', err); }
         userMarkerRef.current = null;
       }
       return;
@@ -306,31 +329,13 @@ const Map: React.FC<MapProps> = ({
   useEffect(() => {
     if (!map.current || !selectedMerchant) return;
 
-    // Highlight selected merchant via paint expression (bigger + accent color)
+    // Slightly enlarge selected merchant pin
     if (map.current.getLayer(merchantsLayerId.current)) {
-      map.current.setPaintProperty(merchantsLayerId.current, 'circle-color', [
+      map.current.setLayoutProperty(merchantsLayerId.current, 'icon-size', [
         'case',
         ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
-        '#8b5cf6',
-        '#3b82f6'
-      ]);
-      map.current.setPaintProperty(merchantsLayerId.current, 'circle-radius', [
-        'case',
-        ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
-        10,
-        8
-      ]);
-      map.current.setPaintProperty(merchantsLayerId.current, 'circle-stroke-width', [
-        'case',
-        ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
-        3,
-        2
-      ]);
-      map.current.setPaintProperty(merchantsLayerId.current, 'circle-stroke-color', [
-        'case',
-        ['==', ['get', 'merchantId'], selectedMerchant.merchantId],
-        '#ffffff',
-        '#ffffff'
+        1.2,
+        1
       ]);
     }
 

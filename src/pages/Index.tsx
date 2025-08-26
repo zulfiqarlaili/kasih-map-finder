@@ -44,10 +44,10 @@ const Index = () => {
       // Start with 5km radius for better performance
       const nearbyStores = loadStoresInRadius(userLat, userLng, 5);
       
-      toast({
-        title: "Location found",
-        description: `Found ${nearbyStores.length} stores within 5km. Showing closest first.`,
-      });
+      // toast({
+      //   title: "Location found",
+      //   description: `Found ${nearbyStores.length} stores within 5km. Showing closest first.`,
+      // });
       
     } catch (error) {
       console.error('Error getting location:', error);
