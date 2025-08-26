@@ -6,7 +6,8 @@ import { getCurrentPosition, sortMerchantsByDistance } from '@/utils/geoUtils';
 import { toast } from '@/hooks/use-toast';
 import merchantsData from '@/data/merchants.json';
 import { Button } from '@/components/ui/button';
-import { Menu, X, MapPin, Loader2 } from 'lucide-react';
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
+import { Menu, X, MapPin, Loader2, List } from 'lucide-react';
 
 const Index = () => {
   const [merchants, setMerchants] = useState<(Merchant | MerchantWithDistance)[]>([]);
@@ -17,6 +18,7 @@ const Index = () => {
   const [currentRadius, setCurrentRadius] = useState(5); // Start with 5km radius
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [hasMoreStores, setHasMoreStores] = useState(true);
+  const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
 
   // Load stores within current radius
   const loadStoresInRadius = useCallback((lat: number, lng: number, radius: number) => {
@@ -97,6 +99,7 @@ const Index = () => {
     // Close sidebar on mobile when merchant is selected
     if (window.innerWidth < 768) {
       setIsSidebarOpen(false);
+      setIsMobileSheetOpen(false);
     }
   };
 
@@ -116,14 +119,11 @@ const Index = () => {
     <div className="h-screen flex flex-col overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
       {/* Main Content */}
       <div className="flex-1 flex relative min-h-0 overflow-hidden">
-        {/* Sidebar */}
+        {/* Sidebar (hidden on mobile, visible on md+) */}
         <aside 
           className={`
-            ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
-            fixed md:relative z-20 w-80 h-full bg-card/95 backdrop-blur-xl overflow-y-auto overscroll-contain
-            transition-all duration-500 ease-out
-            md:translate-x-0 border-r border-border/50
-            shadow-elegant
+            hidden md:block md:relative z-20 w-80 h-full bg-card/95 backdrop-blur-xl overflow-y-auto overscroll-contain
+            border-r border-border/50 shadow-elegant
           `}
         >
           <MerchantList
@@ -154,24 +154,39 @@ const Index = () => {
             userLocation={userLocation}
           />
 
-          {/* Mobile Sidebar Toggle */}
+          {/* Mobile Floating Button to open Stores list */}
           <Button
             variant="default"
             size="sm"
-            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            onClick={() => setIsMobileSheetOpen(true)}
             className="md:hidden fixed bottom-4 right-4 z-30 rounded-full shadow-elegant"
           >
-            {isSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            <List className="w-5 h-5 mr-2" /> Stores
           </Button>
         </main>
 
-        {/* Mobile Overlay */}
-        {isSidebarOpen && (
-          <div 
-            className="fixed inset-0 bg-black/50 backdrop-blur-md z-10 md:hidden transition-all duration-300"
-            onClick={() => setIsSidebarOpen(false)}
-          />
-        )}
+        {/* Mobile Full-screen Sheet for Merchant List */}
+        <Sheet open={isMobileSheetOpen} onOpenChange={setIsMobileSheetOpen}>
+          <SheetContent side="bottom" className="p-0 h-[100dvh] md:hidden">
+            <SheetHeader className="p-4 border-b border-border/30">
+              <SheetTitle>Stores</SheetTitle>
+            </SheetHeader>
+            <div className="h-[calc(100dvh-61px)] overflow-hidden">
+              <MerchantList
+                merchants={merchants}
+                selectedMerchant={selectedMerchant}
+                onMerchantSelect={handleMerchantSelect}
+                onFindNearMe={handleFindNearMe}
+                onLoadMore={handleLoadMoreStores}
+                isLoadingLocation={isLoadingLocation}
+                isLoadingMore={isLoadingMore}
+                hasMoreStores={hasMoreStores}
+                userLocation={userLocation}
+                currentRadius={currentRadius}
+              />
+            </div>
+          </SheetContent>
+        </Sheet>
       </div>
 
       {/* Attribution Footer */}
