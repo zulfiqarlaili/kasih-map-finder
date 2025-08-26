@@ -251,7 +251,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
                         {merchant.state}
                       </Badge>
                       {hasDistance(merchant) && (
-                        <Badge className="text-xs px-2 py-1 bg-gradient-to-r from-success/20 to-success/10 text-success border border-success/30 rounded-lg">
+                        <Badge className="text-xs px-2 py-1 border border-success/30 rounded-lg">
                           {merchant.distance}km away
                         </Badge>
                       )}

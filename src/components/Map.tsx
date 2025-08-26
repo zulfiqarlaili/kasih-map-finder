@@ -225,7 +225,7 @@ const Map: React.FC<MapProps> = ({
 
     // Create popup content
     const popupContent = document.createElement('div');
-    popupContent.className = 'p-3 min-w-[280px]';
+    popupContent.className = 'p-3';
     popupContent.innerHTML = `
       <div class="space-y-3">
         <h3 class="font-semibold text-primary text-sm leading-tight">
