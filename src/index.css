@@ -37,9 +37,6 @@ All colors MUST be HSL.
     --chart-5: 27 87% 67%;
     --radius: 1rem;
     
-    /* Map colors */
-    --map-marker: 220 100% 58%;
-    --map-hover: 220 100% 65%;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(220 100% 58%), hsl(280 100% 70%));
@@ -94,9 +91,6 @@ All colors MUST be HSL.
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
     
-    /* Map colors for dark mode */
-    --map-marker: 220 100% 65%;
-    --map-hover: 220 100% 72%;
     
     /* Gradients for dark mode */
     --gradient-primary: linear-gradient(135deg, hsl(220 100% 58%), hsl(280 100% 70%));

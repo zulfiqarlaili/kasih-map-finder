@@ -3,8 +3,7 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Merchant } from '@/types/merchant';
 import { formatAddress, getGoogleMapsUrl } from '@/utils/geoUtils';
-import { Button } from '@/components/ui/button';
-import { ExternalLink } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 interface MapProps {
   merchants: Merchant[];
@@ -161,23 +160,14 @@ const Map: React.FC<MapProps> = ({
       userMarker.current.remove();
     }
 
-    // Add user location marker with location pin icon
-    const el = document.createElement('div');
-    el.innerHTML = `
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M16 2C10.48 2 6 6.48 6 12c0 7 10 18 10 18s10-11 10-18c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" fill="hsl(var(--primary))"/>
-        <circle cx="16" cy="12" r="4" fill="white"/>
-        <circle cx="16" cy="12" r="2" fill="hsl(var(--primary))"/>
-      </svg>
-    `;
-    el.style.cssText = `
-      width: 32px;
-      height: 32px;
-      z-index: 2000;
-      position: relative;
-      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
-      animation: location-bounce 2s ease-in-out infinite;
-    `;
+    // Add user location marker using MapLibre's built-in marker with custom styling
+    userMarker.current = new maplibregl.Marker({
+      color: '#3b82f6', // Blue color
+      scale: 1.2,
+      anchor: 'bottom'
+    })
+      .setLngLat([userLocation.lng, userLocation.lat])
+      .addTo(map.current);
     
     // Add location marker animation style
     if (!document.getElementById('user-marker-styles')) {
@@ -188,13 +178,13 @@ const Map: React.FC<MapProps> = ({
           0%, 100% { transform: translateY(0px); }
           50% { transform: translateY(-4px); }
         }
+        
+        .maplibregl-marker:last-child {
+          animation: location-bounce 2s ease-in-out infinite;
+        }
       `;
       document.head.appendChild(style);
     }
-
-    userMarker.current = new maplibregl.Marker(el)
-      .setLngLat([userLocation.lng, userLocation.lat])
-      .addTo(map.current);
 
   }, [userLocation, mapLoaded]);
 
