@@ -34,8 +34,14 @@ const Index = () => {
   }, []);
 
   const handleFindNearMe = useCallback(async () => {
+    // On mobile, immediately close the merchant list to reveal the map
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      setIsMobileSheetOpen(false);
+      setIsSidebarOpen(false);
+    }
+
     setIsLoadingLocation(true);
-    
+
     try {
       const position = await getCurrentPosition();
       const userLat = position.coords.latitude;
