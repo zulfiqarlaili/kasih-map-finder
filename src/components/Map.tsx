@@ -3,8 +3,9 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Merchant } from '@/types/merchant';
 import { formatAddress, getGoogleMapsUrl } from '@/utils/geoUtils';
-import { MapPin } from 'lucide-react';
+import { MapPin, AlertTriangle, Wifi, Smartphone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
 
 type MerchantFeatureProps = {
   merchantId: string;
@@ -22,7 +23,7 @@ interface MapProps {
   merchants: Merchant[];
   selectedMerchant?: Merchant | null;
   onMerchantSelect: (merchant: Merchant) => void;
-  userLocation?: { lat: number; lng: number } | null;
+  userLocation?: { lat: number; lng: number; accuracy: number; method: 'gps' | 'ip' | 'manual' } | null;
   onFindNearMe?: () => void;
 }
 
@@ -309,7 +310,7 @@ const Map: React.FC<MapProps> = ({
       return;
     }
 
-    const { lat, lng } = userLocation;
+    const { lat, lng, accuracy, method } = userLocation;
 
     // Create marker element (pulsing-dot style)
     const el = document.createElement('div');
@@ -399,9 +400,58 @@ const Map: React.FC<MapProps> = ({
 
   }, [selectedMerchant]);
 
+  const getLocationMethodIcon = () => {
+    if (!userLocation) return <MapPin className="w-4 h-4" />;
+    
+    switch (userLocation.method) {
+      case 'gps':
+        return <Smartphone className="w-4 h-4" />;
+      case 'ip':
+        return <Wifi className="w-4 h-4" />;
+      case 'manual':
+        return <MapPin className="w-4 h-4" />;
+      default:
+        return <MapPin className="w-4 h-4" />;
+    }
+  };
+
+  const getLocationMethodColor = () => {
+    if (!userLocation) return 'bg-blue-500';
+    
+    switch (userLocation.method) {
+      case 'gps':
+        return 'bg-green-500';
+      case 'ip':
+        return 'bg-blue-500';
+      case 'manual':
+        return 'bg-purple-500';
+      default:
+        return 'bg-blue-500';
+    }
+  };
+
   return (
     <>
       <div ref={mapContainer} className="w-full h-full shadow-elegant overflow-hidden" />
+      
+      {/* Location Method Indicator */}
+      {userLocation && (
+        <div className="absolute top-4 left-4 z-10">
+          <div className="flex items-center gap-2 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow-lg border">
+            <div className={`w-2 h-2 rounded-full ${getLocationMethodColor()}`}></div>
+            <Badge variant="secondary" className="text-xs">
+              {userLocation.method === 'gps' && 'GPS'}
+              {userLocation.method === 'ip' && 'IP Location'}
+              {userLocation.method === 'manual' && 'Manual'}
+            </Badge>
+            {userLocation.accuracy > 1000 && (
+              <AlertTriangle className="w-4 h-4 text-amber-600" />
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Find Near Me Button */}
       <div className="absolute bottom-4 right-4 z-10">
         <Button
           size="sm"
@@ -421,7 +471,7 @@ const Map: React.FC<MapProps> = ({
           }}
           aria-label={userLocation ? 'Center map on my location' : 'Find my location'}
         >
-          <MapPin className="w-4 h-4" />
+          {getLocationMethodIcon()}
         </Button>
       </div>
       

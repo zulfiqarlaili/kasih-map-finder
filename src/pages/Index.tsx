@@ -1,24 +1,26 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Map from '@/components/Map';
 import MerchantList from '@/components/MerchantList';
+import LocationStatus from '@/components/LocationStatus';
 import { Merchant, MerchantWithDistance } from '@/types/merchant';
-import { getCurrentPosition, sortMerchantsByDistance } from '@/utils/geoUtils';
+import { getLocationWithFallback, detectInAppBrowser } from '@/utils/geoUtils';
 import { toast } from '@/hooks/use-toast';
 import merchantsData from '@/data/merchants.json';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
-import { Menu, X, MapPin, Loader2, List } from 'lucide-react';
+import { Menu, X, MapPin, Loader2, List, Globe, Smartphone } from 'lucide-react';
 
 const Index = () => {
   const [merchants, setMerchants] = useState<(Merchant | MerchantWithDistance)[]>([]);
   const [selectedMerchant, setSelectedMerchant] = useState<Merchant | null>(null);
-  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number; accuracy: number; method: 'gps' | 'ip' } | null>(null);
   const [isLoadingLocation, setIsLoadingLocation] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [currentRadius, setCurrentRadius] = useState(5); // Start with 5km radius
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [hasMoreStores, setHasMoreStores] = useState(true);
   const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
+  const [isInAppBrowser] = useState(detectInAppBrowser());
 
   // Load stores within current radius
   const loadStoresInRadius = useCallback((lat: number, lng: number, radius: number) => {
@@ -43,36 +45,91 @@ const Index = () => {
     setIsLoadingLocation(true);
 
     try {
-      const position = await getCurrentPosition();
-      const userLat = position.coords.latitude;
-      const userLng = position.coords.longitude;
+      const location = await getLocationWithFallback();
       
-      setUserLocation({ lat: userLat, lng: userLng });
+      setUserLocation({
+        lat: location.lat,
+        lng: location.lng,
+        accuracy: location.accuracy,
+        method: location.method
+      });
       
-      // Start with 5km radius for better performance
-      const nearbyStores = loadStoresInRadius(userLat, userLng, 5);
+      // Adjust initial radius based on accuracy
+      let initialRadius = 5;
+      if (location.accuracy > 10000) {
+        initialRadius = 10; // Larger radius for low accuracy locations
+      } else if (location.accuracy > 1000) {
+        initialRadius = 7; // Medium radius for medium accuracy
+      }
       
-      // toast({
-      //   title: "Location found",
-      //   description: `Found ${nearbyStores.length} stores within 5km. Showing closest first.`,
-      // });
+      const nearbyStores = loadStoresInRadius(location.lat, location.lng, initialRadius);
+      
+      // Show appropriate message based on location method
+      // if (location.method === 'ip') {
+      //   toast({
+      //     title: "Location found (IP-based)",
+      //     description: `Found ${nearbyStores.length} stores within ${initialRadius}km. Accuracy: ~50km.`,
+      //   });
+      // } else if (location.method === 'gps') {
+      //   toast({
+      //     title: "Location found (GPS)",
+      //     description: `Found ${nearbyStores.length} stores within ${initialRadius}km.`,
+      //   });
+      // }
       
     } catch (error) {
       console.error('Error getting location:', error);
-      toast({
-        title: "Location access denied",
-        description: "Please enable location access to find nearby stores.",
-        variant: "destructive"
-      });
+      
+      if (isInAppBrowser) {
+        toast({
+          title: "Location access blocked",
+          description: "In-app browsers block location access. Try opening in your device's browser.",
+          variant: "destructive"
+        });
+      } else {
+        toast({
+          title: "Location access denied",
+          description: "Please enable location access in your browser settings.",
+          variant: "destructive"
+        });
+      }
     } finally {
       setIsLoadingLocation(false);
     }
-  }, [loadStoresInRadius]);
+  }, [loadStoresInRadius, isInAppBrowser]);
 
-  // Auto check nearby (5km) on initial load
+  // Auto check nearby on initial load (only if not in in-app browser)
   useEffect(() => {
-    handleFindNearMe();
-  }, [handleFindNearMe]);
+    if (!isInAppBrowser) {
+      handleFindNearMe();
+    }
+  }, [handleFindNearMe, isInAppBrowser]);
+
+  // Function to get the appropriate location button text and action
+  const getLocationButtonProps = useCallback(() => {
+    if (!userLocation) {
+      return {
+        text: "Find My Location",
+        action: handleFindNearMe,
+        icon: <MapPin className="w-4 h-4" />
+      };
+    }
+    
+    if (userLocation.method === 'gps') {
+      return {
+        text: "Refresh GPS Location",
+        action: handleFindNearMe,
+        icon: <Smartphone className="w-4 h-4" />
+      };
+    }
+    
+    // For IP location, show option to refresh
+    return {
+      text: "Refresh IP Location",
+      action: handleFindNearMe,
+      icon: <Globe className="w-4 h-4" />
+    };
+  }, [userLocation, handleFindNearMe]);
 
   const handleLoadMoreStores = useCallback(async () => {
     if (!userLocation || isLoadingMore) return;
@@ -123,6 +180,7 @@ const Index = () => {
 
   return (
     <div className="h-[100dvh] flex flex-col overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
+
       {/* Main Content */}
       <div className="flex-1 flex relative min-h-0 overflow-hidden">
         {/* Sidebar (hidden on mobile, visible on md+) */}
@@ -132,6 +190,14 @@ const Index = () => {
             border-r border-border/50 shadow-elegant
           `}
         >
+          {/* Location Status */}
+          <LocationStatus
+            location={userLocation}
+            onRefreshLocation={handleFindNearMe}
+            isLoadingLocation={isLoadingLocation}
+            getLocationButtonProps={getLocationButtonProps}
+          />
+          
           <MerchantList
             merchants={merchants}
             selectedMerchant={selectedMerchant}
@@ -161,15 +227,25 @@ const Index = () => {
             onFindNearMe={handleFindNearMe}
           />
 
-          {/* Mobile Floating Button to open Stores list */}
-          <Button
-            variant="default"
-            size="sm"
-            onClick={() => setIsMobileSheetOpen(true)}
-            className="md:hidden fixed bottom-4 right-20 z-30 rounded-full shadow-elegant"
-          >
-            <List className="w-5 h-5 mr-2" /> Stores
-          </Button>
+          {/* Mobile Floating Buttons */}
+          <div className="md:hidden fixed bottom-4 right-4 z-30 flex gap-2">
+            <Button
+              variant="default"
+              size="sm"
+              onClick={handleFindNearMe}
+              className="rounded-full shadow-elegant"
+            >
+              <MapPin className="w-4 h-4" />
+            </Button>
+            <Button
+              variant="default"
+              size="sm"
+              onClick={() => setIsMobileSheetOpen(true)}
+              className="rounded-full shadow-elegant"
+            >
+              <List className="w-4 h-4" />
+            </Button>
+          </div>
         </main>
 
         {/* Mobile Full-screen Sheet for Merchant List */}
@@ -179,6 +255,14 @@ const Index = () => {
               <SheetTitle>Stores</SheetTitle>
             </SheetHeader>
             <div className="h-[calc(100dvh-61px)] overflow-hidden">
+              {/* Location Status for Mobile */}
+              <LocationStatus
+                location={userLocation}
+                onRefreshLocation={handleFindNearMe}
+                isLoadingLocation={isLoadingLocation}
+                getLocationButtonProps={getLocationButtonProps}
+              />
+              
               <MerchantList
                 merchants={merchants}
                 selectedMerchant={selectedMerchant}
@@ -198,5 +282,41 @@ const Index = () => {
     </div>
   );
 };
+
+// Helper function to sort merchants by distance (moved from geoUtils for this component)
+function sortMerchantsByDistance(
+  merchants: Merchant[], 
+  userLat: number, 
+  userLon: number,
+  maxRadius: number = 10
+): MerchantWithDistance[] {
+  return merchants
+    .map(merchant => ({
+      ...merchant,
+      distance: calculateDistance(userLat, userLon, merchant.latitude, merchant.longitude)
+    }))
+    .filter(merchant => merchant.distance <= maxRadius)
+    .sort((a, b) => a.distance - b.distance);
+}
+
+// Helper function to calculate distance (moved from geoUtils for this component)
+function calculateDistance(
+  lat1: number, 
+  lon1: number, 
+  lat2: number, 
+  lon2: number
+): number {
+  const R = 6371; // Radius of the Earth in kilometers
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = 
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  const distance = R * c;
+  
+  return Math.round(distance * 100) / 100; // Round to 2 decimal places
+}
 
 export default Index;
