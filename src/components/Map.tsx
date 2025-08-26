@@ -264,7 +264,7 @@ const Map: React.FC<MapProps> = ({
     // Center map on selected merchant
     map.current.flyTo({
       center: [selectedMerchant.longitude, selectedMerchant.latitude],
-      zoom: Math.max(map.current.getZoom(), 12),
+      zoom: Math.max(map.current.getZoom(), 15),
       duration: 1000
     });
 
