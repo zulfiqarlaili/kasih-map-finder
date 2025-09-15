@@ -676,6 +676,19 @@
     "city": "Cheras"
   },
   {
+    "merchantId": "02a3c0d2-1453-4beb-a659-2305c8f193c9",
+    "postalCode": "89500",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (FCA Terawi) - SBH 18318",
+    "address1": "Lot 2, 3 & 4, Ground Floor, FCA Building, Jalan Terawi",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Putatan"
+  },
+  {
     "merchantId": "02a59f3a-34fc-4350-887c-c63797337a5d",
     "postalCode": "81300",
     "longitude": 103.636108,
@@ -1625,6 +1638,19 @@
     "city": "Kota Tinggi"
   },
   {
+    "merchantId": "05da153a-27d6-418c-9e38-74275390fd68",
+    "postalCode": "89000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (Bersatu Light IP) - SBH 27722",
+    "address1": "Lot No. 11 & 12, Ground Floor, Bersatu Light Industrial Park, Jalan Tawau - Keningau",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
+  },
+  {
     "merchantId": "05ddb582-c801-49f6-a991-7dcb8d4cb217",
     "postalCode": "22200",
     "longitude": 102.55497,
@@ -2156,6 +2182,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Sepang"
+  },
+  {
+    "merchantId": "07a702c5-db11-4f36-b782-20cafaab39a1",
+    "postalCode": "88450",
+    "longitude": 116.134682,
+    "latitude": 6.01574993,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman Bakti Ikhlas) - SBH 20518",
+    "address1": "Lot 2 & 3, Ground Floor, Taman Ikhlas Bakti Ph 3, Off Jalan Tuaran By-Pass",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
   },
   {
     "merchantId": "07b1668e-13b1-4b4d-8b54-dc020036803d",
@@ -3185,6 +3224,19 @@
     "city": "TENOM"
   },
   {
+    "merchantId": "0b5066a6-0a09-4536-8b37-3f3348c4e768",
+    "postalCode": "34300",
+    "longitude": 100.500877,
+    "latitude": 5.01952982,
+    "tradingName": "99 Speedmart Sdn Bhd  (PP Serai Prima) - 2398",
+    "address1": "No: 8 & 10 (Ground Floor)",
+    "address2": "Jalan Prima 1",
+    "address3": "Pusat Perniagaan Serai Prima",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Bagan Serai"
+  },
+  {
     "merchantId": "0b5bdf6b-da7f-4293-805d-47742cab15b2",
     "postalCode": "79200",
     "longitude": 103.580261,
@@ -3226,12 +3278,12 @@
   {
     "merchantId": "0b7d0c76-9e65-4c75-937a-66c62560e6fd",
     "postalCode": "51200",
-    "longitude": 101.685242,
-    "latitude": 3.17810988,
+    "longitude": 101.684639,
+    "latitude": 3.17793989,
     "tradingName": "Pasaraya Well-Mart JI1",
-    "address1": "No. 19",
-    "address2": "Jalan Suppiah Pillay",
-    "address3": "Off Jalan Ipoh",
+    "address1": "Jln Sultan Azlan Shah, Jalan Ipoh",
+    "address2": "",
+    "address3": "",
     "country": "Malaysia",
     "state": "W.P Kuala Lumpur",
     "city": "Kuala Lumpur"
@@ -3495,6 +3547,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Kota Kinabatangan"
+  },
+  {
+    "merchantId": "0c83cd96-78f2-455a-b618-6b2989cf351d",
+    "postalCode": "35500",
+    "longitude": 101.297462,
+    "latitude": 4.10707998,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Batang Padang Baru) – 3572",
+    "address1": "No: 8 & 9 (Ground Floor),",
+    "address2": "Persiaran 1,",
+    "address3": "Taman Batang Padang Baru,",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Bidor"
   },
   {
     "merchantId": "0c8f8489-ab09-40e7-99cd-c74852b423a6",
@@ -4394,6 +4459,19 @@
     "city": "Kepala Batas"
   },
   {
+    "merchantId": "0f6fac44-7c0a-4c2d-814d-88dc5a3d9fa7",
+    "postalCode": "98700",
+    "longitude": 115.008392,
+    "latitude": 4.75555992,
+    "tradingName": "CCK Fresh Mart Bank Street, Limbang",
+    "address1": "No. 319 Ground floor Bank streeT Limbang bazaar 98700 Limbang Sarawak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Limbang"
+  },
+  {
     "merchantId": "0f726715-dc85-41ec-b67f-7a9ec3a851ae",
     "postalCode": "77000",
     "longitude": 102.471809,
@@ -4548,6 +4626,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "Kuala Lipis"
+  },
+  {
+    "merchantId": "1004603c-4634-46a1-973d-dd76990a7f28",
+    "postalCode": "90000",
+    "longitude": 118.067238,
+    "latitude": 5.87005997,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman Nasalim) - SBH 32123",
+    "address1": "Ground Floor, Lot 33, Taman Nasalim Phase 7A, Batu 5, Jln Lintas Utara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "1006b780-10a9-48f7-98b0-f6f118252314",
@@ -4758,6 +4849,19 @@
     "city": "Seri Kembangan"
   },
   {
+    "merchantId": "10a730e3-9619-4539-a184-aa16522dd624",
+    "postalCode": "30010",
+    "longitude": 101.105972,
+    "latitude": 4.65298986,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Tasek Damai) - 1932",
+    "address1": "No: 2-4 & 2-5 (Ground Floor) Jalan Tawas Baru 1 Taman Tasek Damai",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "10c86488-c639-4781-a068-1f97c01b6b67",
     "postalCode": "91000",
     "longitude": 117.900787,
@@ -4899,6 +5003,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Batu Pahat"
+  },
+  {
+    "merchantId": "115b74be-2682-487d-a713-efc98ae357e8",
+    "postalCode": "90000",
+    "longitude": 118.032837,
+    "latitude": 5.88193989,
+    "tradingName": "99 Speedmart Sdn Bhd (Sibuga Jaya CC) - SBH 29523",
+    "address1": "Ground Floor, Lot 1 & 2, Block F, Sibuga Jaya Commercial Centre (PH2), Jalan Labuk",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "115e10ea-beda-47f5-873d-dd8925deb896",
@@ -7150,6 +7267,19 @@
     "city": "Permaisuri"
   },
   {
+    "merchantId": "19f6fda1-f6fc-468b-89a8-910a3f260676",
+    "postalCode": "31550",
+    "longitude": 101.029671,
+    "latitude": 4.5127902,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Sri Pengkalan) - 3633",
+    "address1": "No: 1 & 3 (Ground Floor), Laluan Sri Pengkalan 7, Bandar Sri Pengkalan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Pusing"
+  },
+  {
     "merchantId": "1a0482f0-db83-405a-bafd-c6121de85c33",
     "postalCode": "36000",
     "longitude": 101.02697,
@@ -7618,6 +7748,19 @@
     "city": "PENAMPANG"
   },
   {
+    "merchantId": "1ba500d6-e627-4fec-afb4-9ec7c8f7ac3a",
+    "postalCode": "98000",
+    "longitude": 114.00061,
+    "latitude": 4.40723991,
+    "tradingName": "KE FROZEN FRESH MART (PT)",
+    "address1": "Ground Floor, Lot 660, Block 5, MCLD, Jalan Miri-Pujut, 98000 Miri, Sarawak.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Miri"
+  },
+  {
     "merchantId": "1bab01d7-ac0e-41f3-9a68-ea69a8856b97",
     "postalCode": "71750",
     "longitude": 101.642616,
@@ -7629,6 +7772,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "LENGGENG"
+  },
+  {
+    "merchantId": "1be1d3b5-571a-4bdf-a305-a5bb3cff2087",
+    "postalCode": "34000",
+    "longitude": 100.748672,
+    "latitude": 4.84068012,
+    "tradingName": "99 Speedmart Sdn Bhd  (Taiping Business Centre) - 2134",
+    "address1": "No: 11 & 13 (Ground Floor)",
+    "address2": "Persiaran TBC",
+    "address3": "Taiping Business Centre",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Taiping"
   },
   {
     "merchantId": "1be8eae1-222c-4f9d-a575-b5bd11594338",
@@ -7967,6 +8123,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Bedong"
+  },
+  {
+    "merchantId": "1d79287b-51be-40f4-8bdf-d7fd47a599ca",
+    "postalCode": "42500",
+    "longitude": 101.529831,
+    "latitude": 2.94345999,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Tropicana Aman 1) - 2389",
+    "address1": "No: 22A & 26 (Ground Floor)",
+    "address2": "Jalan Aman Sinaria 9",
+    "address3": "Bandar Tropicana Aman",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Telok Panglima Garang"
   },
   {
     "merchantId": "1d7cdd57-73e1-4000-8885-829bc1ac6aa6",
@@ -9139,6 +9308,19 @@
     "city": "Port Klang"
   },
   {
+    "merchantId": "228925ab-c598-4209-9ab3-c6413bb55858",
+    "postalCode": "89000",
+    "longitude": 116.155006,
+    "latitude": 5.33782005,
+    "tradingName": "CCK Fresh Mart Keningau",
+    "address1": "ground & first floor, lot 40, pegalan shoplots, 89000 keningau sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
+  },
+  {
     "merchantId": "228aa8e4-4c64-413d-b169-fb1ab99f81a6",
     "postalCode": "81800",
     "longitude": 103.811371,
@@ -9656,7 +9838,7 @@
     "address3": "",
     "country": "Malaysia",
     "state": "Sarawak",
-    "city": "DEbak"
+    "city": "Debak"
   },
   {
     "merchantId": "24f8fe4b-5c96-45ec-a83d-a3a0efcf482a",
@@ -9839,6 +10021,19 @@
     "country": "Malaysia",
     "state": "Melaka",
     "city": "Batu Berendam"
+  },
+  {
+    "merchantId": "256908d6-e551-48bc-8a56-dae2a4b7ad02",
+    "postalCode": "53300",
+    "longitude": 101.71875,
+    "latitude": 3.20853996,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Danau Kota 2) - 3654",
+    "address1": "No: 10 & 12 (Ground Floor), Jalan 4/23B, Taman Danau Kota",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Danau Kota"
   },
   {
     "merchantId": "2569f7fc-65f9-4126-be2f-1f17f12e5508",
@@ -11401,6 +11596,19 @@
     "city": "Sungai Buloh"
   },
   {
+    "merchantId": "2af03352-614f-4ebe-b86c-49d3a25742e6",
+    "postalCode": "36000",
+    "longitude": 101.03437,
+    "latitude": 4.01133013,
+    "tradingName": "99 Speedmart Sdn Bhd ( Jln Changkat Jong) – 3130",
+    "address1": "No: 54-A & 54-B  (Ground Floor),",
+    "address2": "Jalan Changkat Jong,",
+    "address3": "Eastern Garden,",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Teluk Intan"
+  },
+  {
     "merchantId": "2b1a4955-a23b-4561-b994-a55c17f0fa68",
     "postalCode": "94850",
     "longitude": 110.93457,
@@ -11828,6 +12036,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Sipitang"
+  },
+  {
+    "merchantId": "2cbfbfbf-27f9-4f94-b78e-0550d9a7796b",
+    "postalCode": "31650",
+    "longitude": 101.081718,
+    "latitude": 4.58302021,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Pasir Puteh 1) - 2728",
+    "address1": "No 221 & 223 (Ground Floor) Jalan Pasir Puteh",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "2ccf6c18-59d1-41ef-b0f9-976f15aa3873",
@@ -12482,8 +12703,8 @@
   {
     "merchantId": "2ebd1f0e-fa0e-4075-8aec-db14a1fc8aa4",
     "postalCode": "81300",
-    "longitude": 103.613533,
-    "latitude": 1.574,
+    "longitude": 103.612602,
+    "latitude": 1.56818998,
     "tradingName": "Maslee Express Sdn Bhd (Teratai (TR))",
     "address1": "49 - 65, Jalan Enau 9, Taman Teratai, 81300 Skudai, Johor",
     "address2": "",
@@ -12972,6 +13193,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "KOTA KINABALU"
+  },
+  {
+    "merchantId": "31401af0-9b7b-4c4e-b390-273edd5b6c44",
+    "postalCode": "47620",
+    "longitude": 101.586899,
+    "latitude": 3.04663992,
+    "tradingName": "99 Speedmart Sdn Bhd (Usj 9 (2)) - 3493",
+    "address1": "No: 21 (Ground Floor)",
+    "address2": "Jalan Usj 9/5P",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Subang Jaya"
   },
   {
     "merchantId": "31449e0d-2f39-4acc-9834-cbd57d7cead6",
@@ -13650,6 +13884,19 @@
     "city": "Iskandar Puteri"
   },
   {
+    "merchantId": "33bc84e8-0b6d-46ad-82e6-02ae53fe4667",
+    "postalCode": "14020",
+    "longitude": 100.509033,
+    "latitude": 5.34314013,
+    "tradingName": "Wonderful Supermarket (Bukit Mertajam)",
+    "address1": "1623, Jalan Kulim, Taman Machang Bubok,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Bukit Mertajam"
+  },
+  {
     "merchantId": "33bc9cd4-75b9-403e-9d27-41f2acc2ec9d",
     "postalCode": "89200",
     "longitude": 116.221527,
@@ -13923,6 +14170,19 @@
     "city": "Kota Bharu"
   },
   {
+    "merchantId": "345fbfaf-4e1d-4071-b87f-4859433b1391",
+    "postalCode": "90000",
+    "longitude": 118.08654,
+    "latitude": 5.86315012,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Melrose) - SBH 30323",
+    "address1": "Ground Floor, Lot 1 & 2, Blok B, Bandar Melrose, Batu 3 ½, Jalan Utara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "34617370-5881-469a-8efc-5428d8e67420",
     "postalCode": "34100",
     "longitude": 100.686882,
@@ -13947,6 +14207,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Sekinchan"
+  },
+  {
+    "merchantId": "349a7b92-a3f8-4c58-9ce7-cf57aac0f8d7",
+    "postalCode": "31300",
+    "longitude": 101.126373,
+    "latitude": 4.53725004,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bersatu) - 1964",
+    "address1": "No: 57 & 59 (Ground Floor),",
+    "address2": "Persiaran Sengat Baru 2,",
+    "address3": "Taman Bersatu ,",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Simpang Pulai"
   },
   {
     "merchantId": "349ad7ce-f28f-401f-8ab2-edcad1a57284",
@@ -14077,6 +14350,19 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Tatau"
+  },
+  {
+    "merchantId": "3509cb85-37b7-4b12-b39a-6df3fd231c89",
+    "postalCode": "34000",
+    "longitude": 100.72271,
+    "latitude": 4.86877012,
+    "tradingName": "99 Speedmart Sdn Bhd  (Tmn Panglima Jaya) - 2558",
+    "address1": "No: Lot 18966A  (Ground Floor)",
+    "address2": "Jalan Panglima Jaya",
+    "address3": "Taman Panglima Jaya",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Taiping"
   },
   {
     "merchantId": "3511bbc4-3059-465a-a3e6-834db4be218d",
@@ -15904,9 +16190,9 @@
     "longitude": 100.934723,
     "latitude": 3.88487005,
     "tradingName": "Econsave Cash & Carry (HM) Sdn Bhd (Hutan Melintang)",
-    "address1": "Lot 15362, Lorong Lagenda 8, Medaniaga Lagenda, 36400 Hutan Melintang, Perak",
-    "address2": "Lot 15362, Lorong Lagenda 8, Medaniaga Lagenda, 36400 Hutan Melintang, Perak",
-    "address3": "Lot 15362, Lorong Lagenda 8, Medaniaga Lagenda, 36400 Hutan Melintang, Perak",
+    "address1": "Lot 15362, Lorong Lagenda 8, Medaniaga Lagenda",
+    "address2": "",
+    "address3": "",
     "country": "Malaysia",
     "state": "Perak",
     "city": "Hutan Melintang"
@@ -15975,6 +16261,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Johor Bahru"
+  },
+  {
+    "merchantId": "3c137970-a478-4241-8843-01245f33d246",
+    "postalCode": "98000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KE Frozen Fresh Mart (PT2)",
+    "address1": "Ground Floor, Lot 661, Block 7, MCLD, 98000 Miri, Sarawak.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Miri"
   },
   {
     "merchantId": "3c290351-4d11-4217-b0bf-0ad4dc56d8dd",
@@ -16302,6 +16601,19 @@
     "city": "Batu Caves"
   },
   {
+    "merchantId": "3d47801c-8503-46d6-ad50-91302513f2d6",
+    "postalCode": "32000",
+    "longitude": 100.730186,
+    "latitude": 4.19891977,
+    "tradingName": "99 Speedmart Sdn Bhd (Kg Baru Simpang Dua)-3060",
+    "address1": "No : 120 & 121 (Ground Floor), Jalan Besar",
+    "address2": "Kampung Baru Simpang Dua",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Sitiawan"
+  },
+  {
     "merchantId": "3d4d72e9-446f-4b67-8310-10fa98e90aa6",
     "postalCode": "40170",
     "longitude": 101.48056,
@@ -16523,6 +16835,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "3dc25d5c-7fcc-4631-85df-4a735c10e452",
+    "postalCode": "34100",
+    "longitude": 100.695717,
+    "latitude": 5.21491003,
+    "tradingName": "99 Speedmart Sdn Bhd (Selama) - 2337",
+    "address1": "No: 5 & 6 (Ground Floor) Jalan Sri Permai  Sri Permai",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Selama"
+  },
+  {
     "merchantId": "3dc28623-19ba-41d1-82a3-44238b442871",
     "postalCode": "86000",
     "longitude": 103.319527,
@@ -16718,6 +17043,19 @@
     "city": "Ipoh"
   },
   {
+    "merchantId": "3e3ba067-073f-464f-91e6-1e27fc929ce1",
+    "postalCode": "31500",
+    "longitude": 101.08506,
+    "latitude": 4.51773024,
+    "tradingName": "99 Speedmart Sdn Bhd (Desa Pinji) - 3590",
+    "address1": "No: 12 & 14 (Ground Floor) Persiaran Desa Pinji Utara 1 Desa Pinji",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Lahat"
+  },
+  {
     "merchantId": "3e44564e-0096-4cfe-91dd-c76ad8191ea9",
     "postalCode": "18500",
     "longitude": 102.263237,
@@ -16859,6 +17197,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "pasir gudang"
+  },
+  {
+    "merchantId": "3ee888fb-7232-46b5-b8ed-42b7537237bc",
+    "postalCode": "36000",
+    "longitude": 101.020889,
+    "latitude": 3.99136996,
+    "tradingName": "99 Speedmart Sdn Bhd  (Tmn Perkasa) - 2548",
+    "address1": "No: 25 & 27 (Ground Floor)",
+    "address2": "Jalan Perkasa 1",
+    "address3": "Taman Perkasa",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Teluk Intan"
   },
   {
     "merchantId": "3eef619f-0099-4892-bc93-3d2242b26278",
@@ -17706,6 +18057,19 @@
     "city": "Mersing"
   },
   {
+    "merchantId": "42056886-f1aa-4536-ac71-9ba74691ef4f",
+    "postalCode": "89000",
+    "longitude": 116.032463,
+    "latitude": 5.81715012,
+    "tradingName": "CCK Fresh Mart Keningau 2",
+    "address1": "lot no 2, blok b3, oldshophouses, jalan tun ahmad koroh 89000 keningau sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
+  },
+  {
     "merchantId": "425f97b0-08d0-4b23-87a5-a112f8459d26",
     "postalCode": "40470",
     "longitude": 101.488113,
@@ -18070,6 +18434,19 @@
     "city": "Kangar"
   },
   {
+    "merchantId": "4488a036-1791-45f7-bb51-6b6b8e593f62",
+    "postalCode": "52200",
+    "longitude": 101.606789,
+    "latitude": 3.19362998,
+    "tradingName": "99 Speedmart Sdn Bhd (Sri Damansara 3) - 1556",
+    "address1": "No: 8 & 9, Jalan Cempaka SD 12/1, Bandar Sri Damansara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "449bacb3-c6ff-429f-8986-175c099427ba",
     "postalCode": "17500",
     "longitude": 102.150627,
@@ -18315,6 +18692,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Ipoh"
+  },
+  {
+    "merchantId": "45bdb553-ff68-4d3a-8ee2-72014b2cea6d",
+    "postalCode": "53300",
+    "longitude": 101.745232,
+    "latitude": 3.20956993,
+    "tradingName": "99 Speedmart Sdn Bhd (Wangsa Setia) - 1580",
+    "address1": "No: 44 & 46, Jalan Wangsa Setia 4",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Wangsa Melawati"
   },
   {
     "merchantId": "45d01518-cea4-4a51-84a4-c9687d59e069",
@@ -19851,6 +20241,19 @@
     "city": "Kuala Kangsar"
   },
   {
+    "merchantId": "4aece546-7b63-4840-9439-c914ba9095da",
+    "postalCode": "90000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (Midtown Plaza) - SBH 34924",
+    "address1": "Ground Floor, Lot 36 & Lot 37, Block F, Midtown Plaza Ph 1, Batu 4, Jalan Lintas Utara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "4aedcdb3-ffe0-42c4-bf10-4ac05f2446a4",
     "postalCode": "33300",
     "longitude": 101.127274,
@@ -20044,6 +20447,32 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Sungai Siput"
+  },
+  {
+    "merchantId": "4bc87745-3953-479a-9b24-b47a74f3fb29",
+    "postalCode": "31400",
+    "longitude": 101.113342,
+    "latitude": 4.61253977,
+    "tradingName": "99 Speedmart Sdn Bhd (Ipoh Garden) - 1952",
+    "address1": "No: 135D & 135E (Ground Floor), Jalan Dato Lau Pak Khuan, Ipoh Garden",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
+    "merchantId": "4bd013f1-2b35-4563-858f-b4c9c9c9bb98",
+    "postalCode": "90000",
+    "longitude": 118.048782,
+    "latitude": 5.88053989,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Labuk Jaya) - SBH 32223",
+    "address1": "Ground Floor, Lot 3 & Lot 4, Blk B3, Bandar Labuk Jaya, Batu 7, Jalan Lintas Labuk",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "4be6cde2-b2f6-4408-af37-a885f6070b84",
@@ -20592,6 +21021,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "4dfe1dcb-0c23-448c-9402-d9beacf1aa22",
+    "postalCode": "30020",
+    "longitude": 101.064636,
+    "latitude": 4.63532019,
+    "tradingName": "99 Speedmart Sdn Bhd (Jelapang) - 1886",
+    "address1": "No: 571 & 573 (Ground Floor), Jalan Jelapang, Kampung Baru Jelapang",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "4e1b4197-e056-425a-928d-e388ea85abd7",
     "postalCode": "81750",
     "longitude": 103.869972,
@@ -20681,6 +21123,19 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Serian"
+  },
+  {
+    "merchantId": "4e707598-f206-47b7-addb-45982615b7b7",
+    "postalCode": "53300",
+    "longitude": 101.716949,
+    "latitude": 3.20323992,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Danau Kota) - 1272",
+    "address1": "No: 12A & 16, Jalan Danau Niaga 1, Taman Danau Kota",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Danau Kota"
   },
   {
     "merchantId": "4e77b790-e211-49a3-9a38-0c805bea67ae",
@@ -22503,6 +22958,19 @@
     "city": "Bandar Sri Sendayan"
   },
   {
+    "merchantId": "55f8932b-844c-4071-9f51-d8ae5142d2d8",
+    "postalCode": "32000",
+    "longitude": 100.692848,
+    "latitude": 4.22663021,
+    "tradingName": "99 Speedmart Sdn Bhd  (Jln Haji Mohd Ali) - 2240",
+    "address1": "No 34397 & 34398  (Ground Floor)",
+    "address2": "Jalan Haji Mohd Ali",
+    "address3": "Taman Desa Bintang",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Sitiawan"
+  },
+  {
     "merchantId": "560179f4-9f77-48c2-ac23-079004b6243a",
     "postalCode": "45500",
     "longitude": 101.172417,
@@ -22711,6 +23179,19 @@
     "city": "Puchong"
   },
   {
+    "merchantId": "56f7d17e-9a44-4fde-a88a-aa48697a3c29",
+    "postalCode": "58100",
+    "longitude": 101.685623,
+    "latitude": 3.10285997,
+    "tradingName": "99 Speedmart Sdn Bhd (KL Tmn Desa) - 2286",
+    "address1": "99 Speedmart Sdn Bhd (KL Tmn Desa) - 2286\tNo: 32A & 33A (Ground Floor), Faber Plaza, Jalan Desa Bakti",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Taman Desa"
+  },
+  {
     "merchantId": "56fec8a5-79ac-4ecd-9c73-61d8cd31bcaf",
     "postalCode": "34000",
     "longitude": 100.739159,
@@ -22867,6 +23348,19 @@
     "city": "Kota Samarahan"
   },
   {
+    "merchantId": "57a25321-3ae0-4264-9086-275724356e73",
+    "postalCode": "53100",
+    "longitude": 101.716713,
+    "latitude": 3.23434997,
+    "tradingName": "99 Speedmart Sdn Bhd (Pangsapuri 1 Harmonis) - 3019",
+    "address1": "No : A-G-1 & A-G-2 (Ground Floor), Jalan Sentosa 2, Pangsapuri 1 Harmonis",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Kuala Lumpur"
+  },
+  {
     "merchantId": "57aa3497-ad22-41ff-a3b2-871cfaaf7cde",
     "postalCode": "34300",
     "longitude": 100.535797,
@@ -22878,6 +23372,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Bagan Serai"
+  },
+  {
+    "merchantId": "57abc615-f7c1-4569-940f-e260ea030095",
+    "postalCode": "42700",
+    "longitude": 101.441498,
+    "latitude": 2.78557992,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Seri Bayu) - 3224",
+    "address1": "No: 10 & 12 (Ground Floor)",
+    "address2": "Jalan Raja Borhan 2",
+    "address3": "Taman Seri Bayu, Morib",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Banting"
   },
   {
     "merchantId": "57b3f425-31e8-4005-b931-aa41442f2508",
@@ -23504,6 +24011,19 @@
     "city": "Ranau"
   },
   {
+    "merchantId": "5a42b801-cc04-4aea-93de-bebf7b175d18",
+    "postalCode": "30100",
+    "longitude": 101.063492,
+    "latitude": 4.60909986,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Alkaff) - 1854",
+    "address1": "No: 277 & 279 (Ground Floor)",
+    "address2": "Jalan Kledang Raya 18",
+    "address3": "Taman Alkaff",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "5a511016-515c-4b69-9d9a-b752e02a2f2f",
     "postalCode": "36000",
     "longitude": 101.015289,
@@ -23738,6 +24258,19 @@
     "city": "Kuching"
   },
   {
+    "merchantId": "5b4e0580-f342-4504-8824-378ed00a8684",
+    "postalCode": "05150",
+    "longitude": 100.52401,
+    "latitude": 6.2143302,
+    "tradingName": "MAJA Borong - Kuala Sungai",
+    "address1": "Lot 1461, Kampung Sungai Baru",
+    "address2": "Batu 4 Mergong",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kedah",
+    "city": "Alor Setar"
+  },
+  {
     "merchantId": "5b4ea276-d3a7-41a7-f8ea-08dd084a88a1",
     "postalCode": "96000",
     "longitude": 111.840401,
@@ -23788,6 +24321,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Alor Setar"
+  },
+  {
+    "merchantId": "5b69aa6b-1492-478c-9b6e-753706e610e5",
+    "postalCode": "53100",
+    "longitude": 101.718658,
+    "latitude": 3.21803999,
+    "tradingName": "99 Speedmart Sdn Bhd (M3 Mall) - 2642",
+    "address1": "No: G-01 & G-02\u00A0(Ground Floor), M3 Shopping Mall, Jalan Madrasah, Taman Melati",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Gombak"
   },
   {
     "merchantId": "5b815ac0-78a0-496e-bed9-14f71a25de15",
@@ -24009,6 +24555,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Ipoh"
+  },
+  {
+    "merchantId": "5c9b43c3-e6df-4e31-830f-b24b8a7a9c27",
+    "postalCode": "59100",
+    "longitude": 101.67128,
+    "latitude": 3.13243008,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Telawi) - 1749",
+    "address1": "No: 18, Jalan Telawi, Bangsar Baru",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Bangsar"
   },
   {
     "merchantId": "5ca84461-ed34-4200-8916-abdd1a8ce0c3",
@@ -24882,6 +25441,19 @@
     "city": "Lenggpng"
   },
   {
+    "merchantId": "6008b6fc-edfd-477d-8b1c-8375599aa385",
+    "postalCode": "14400",
+    "longitude": 100.488472,
+    "latitude": 5.41199017,
+    "tradingName": "SH Bistari Mini Market",
+    "address1": "98,96,94",
+    "address2": "Lrg Mengkuang Indah 2 Taman Seri Akasia",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Kubang Semang"
+  },
+  {
     "merchantId": "601acf90-489b-45aa-a675-af63a57a0bd0",
     "postalCode": "70100",
     "longitude": 101.955742,
@@ -25636,6 +26208,19 @@
     "city": "Pendang"
   },
   {
+    "merchantId": "6349efb6-04c0-4a8f-bfd5-009df534c3a4",
+    "postalCode": "89207",
+    "longitude": 116.226997,
+    "latitude": 6.19352007,
+    "tradingName": "99 Speedmart Sdn Bhd (Plaza CKS) - SBH 18618",
+    "address1": "Lot 6 & 7 (Ground Floor), Block A (Intermediate), Plaza CKS Tuaran, Kg.Tutoh, Jalan Tuaran Kota Belud",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tuaran,"
+  },
+  {
     "merchantId": "635b931e-9ead-4c86-aeaa-169032ed48e9",
     "postalCode": "25200",
     "longitude": 103.300827,
@@ -25686,6 +26271,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Semenyih"
+  },
+  {
+    "merchantId": "637f7175-b3c2-402d-9773-5fc8f936402a",
+    "postalCode": "32200",
+    "longitude": 100.616837,
+    "latitude": 4.20986986,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Batik Puteri) - 2002",
+    "address1": "No : 8 & 9 (Ground Floor),",
+    "address2": "Jalan Batik Puteri 1,",
+    "address3": "Taman Batik Puteri,",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Lumut"
   },
   {
     "merchantId": "6389c69e-c884-49a3-81a7-eeb6059d13ee",
@@ -26076,6 +26674,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Sungkai"
+  },
+  {
+    "merchantId": "652eb035-67db-41e5-a427-9b1e83a49afd",
+    "postalCode": "90000",
+    "longitude": 118.073357,
+    "latitude": 5.85626984,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Indah) - SBH 30023",
+    "address1": "Ground Floor, Lot 4 & Lot 5, Block 2, Bandar Indah, Mile 4, Jalan Utara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "653a25f7-1e4e-4354-ac7c-c6b24b2bf352",
@@ -26910,6 +27521,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "68a4d0d2-b959-47d9-a804-b510bc7ddf9f",
+    "postalCode": "31400",
+    "longitude": 101.095978,
+    "latitude": 4.60707998,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Fair Park) - 2034",
+    "address1": "No:  75B (Ground Floor), Jalan Kamaruddin Isa, Taman Fair Park",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "68a94aa9-0b3a-4fd9-821f-9133d3d3f492",
     "postalCode": "86500",
     "longitude": 103.130478,
@@ -27051,6 +27675,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Muar"
+  },
+  {
+    "merchantId": "697676fe-7ffc-43bc-999b-1e4db3b1c498",
+    "postalCode": "88450",
+    "longitude": 116.161392,
+    "latitude": 6.0521102,
+    "tradingName": "99 Speedmart Sdn Bhd (Princess Height) - SBH 35324",
+    "address1": "Lot 9 & Lot 10, Block 1A, Ground Floor, Phase 1A (Stage 1B), Alam Puteri (Princess Heights)",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
   },
   {
     "merchantId": "6981bdd3-689c-470a-9fca-ab0e1b5dad42",
@@ -27467,6 +28104,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Skudai"
+  },
+  {
+    "merchantId": "6a9ddf12-2f9e-4be1-b326-325b21b4447d",
+    "postalCode": "58100",
+    "longitude": 101.677597,
+    "latitude": 3.09736991,
+    "tradingName": "99 Speedmart Sdn Bhd (Desa Business Park) - 1121",
+    "address1": "No.1 & 3, Jalan 109E, Desa Business Park, Taman Desa",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Kuala L"
   },
   {
     "merchantId": "6aba20a2-eba3-4a6e-a6a2-55d7f9563200",
@@ -27924,6 +28574,19 @@
     "city": "PUCHONG"
   },
   {
+    "merchantId": "6cd01920-2e28-4d28-b05b-655c1e058c87",
+    "postalCode": "90000",
+    "longitude": 118.101387,
+    "latitude": 5.83855009,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Leila) - SBH 29222",
+    "address1": "Ground Floor, Lot 6A & 6B, Block C, Bandar Leila, Mile 1 Jalan Leila",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "6cdbff59-6a52-42bd-8430-f3337072b225",
     "postalCode": "52120",
     "longitude": 101.643898,
@@ -28353,6 +29016,19 @@
     "city": "Kuala Ketil"
   },
   {
+    "merchantId": "6e675289-57a8-4356-81c6-ff50be2414cf",
+    "postalCode": "31400",
+    "longitude": 101.135109,
+    "latitude": 4.63653994,
+    "tradingName": "99 Speedmart Sdn Bhd (Pusat Bdr Baru Bercham) - 1949",
+    "address1": "No: 48 & 50 (Ground Floor), Persiaran Bercham Timur 20, Pusat Bandar Baru Bercham",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "6e68f79b-f5cb-44a1-8c67-e1e6321ece6f",
     "postalCode": "97200",
     "longitude": 112.853699,
@@ -28429,6 +29105,19 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Sebangan"
+  },
+  {
+    "merchantId": "6ea197af-f433-4183-a144-07ffc9e9396a",
+    "postalCode": "90000",
+    "longitude": 118.033287,
+    "latitude": 5.88311005,
+    "tradingName": "T.K.S Supersave Sdn Bhd",
+    "address1": "Lot 13,14,15,16,17 & 18 Phase 2 Tingkat Bawah 1,2 & 3, Sandakan Harbour Square, 90000, Sandakan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "6ea3fe35-c5f0-4849-8b2e-e40ded0d5ce2",
@@ -29211,6 +29900,19 @@
     "city": "Kuantan"
   },
   {
+    "merchantId": "71c535a2-e8e9-432b-81f0-f705d6eeb7b1",
+    "postalCode": "42500",
+    "longitude": 101.543892,
+    "latitude": 2.9458499,
+    "tradingName": "99 Speedmart Sdn Bhd (Eco Santuari) - 2748",
+    "address1": "No 60 & 62 (Ground Floor)",
+    "address2": "Jalan Eco Santuari 8/2B",
+    "address3": "Eco Santuari",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Telok Panglima Garang"
+  },
+  {
     "merchantId": "71dccf17-2570-4af6-9335-f41c7b63d41b",
     "postalCode": "31350",
     "longitude": 101.100098,
@@ -29378,6 +30080,19 @@
     "country": "Malaysia",
     "state": "Melaka",
     "city": "Sungai Udang"
+  },
+  {
+    "merchantId": "727374af-d917-445c-a69d-c8e08b348273",
+    "postalCode": "43650",
+    "longitude": 101.75399,
+    "latitude": 2.96351004,
+    "tradingName": "99 Speedmart Sdn Bhd (Bangi SEK 8) - 1306",
+    "address1": "No: 36",
+    "address2": "Jalan Medan Pusat 2C",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bandar Baru Bangi"
   },
   {
     "merchantId": "72740d39-2f57-48f5-85ab-c301c899847a",
@@ -29586,6 +30301,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Muar"
+  },
+  {
+    "merchantId": "7369e234-fa6d-46b4-92d5-38f3d674b98a",
+    "postalCode": "90000",
+    "longitude": 118.032913,
+    "latitude": 5.88308001,
+    "tradingName": "CCK Fresh Mart Sandakan",
+    "address1": "lot 8 & 9 blok 1 tingkat bawah bandar sibuga jaya batu 8 jalan labuk sandakan, 90000 Sandakan, sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "737ec121-e74a-4ef5-8cda-0b1b1c6a6c08",
@@ -29965,6 +30693,19 @@
     "city": "Kulai"
   },
   {
+    "merchantId": "74fe4bc4-5a37-48b4-9e88-7b7e186aeb42",
+    "postalCode": "88300",
+    "longitude": 116.090118,
+    "latitude": 5.96472979,
+    "tradingName": "99 Speedmart Sdn Bhd (Wisma Damai) - SBH 20619",
+    "address1": "Parcel No: 7, Block No 7, Ground Floor, Wisma Damai,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "7525f5ce-79de-4db7-a9f9-a1aa6eb2ec6a",
     "postalCode": "34300",
     "longitude": 100.586578,
@@ -30238,6 +30979,19 @@
     "city": "Karak"
   },
   {
+    "merchantId": "761b1db2-d0ee-4787-a99e-5f2711932fcb",
+    "postalCode": "32610",
+    "longitude": 100.980957,
+    "latitude": 4.36405993,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Universiti) - 1918",
+    "address1": "No : 1\u00A0& 2\u00A0(Ground Floor),",
+    "address2": "Jalan PP 9,",
+    "address3": "Bandar Universiti,",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Seri Iskandar"
+  },
+  {
     "merchantId": "761c1fec-f950-497e-9693-aa21abbb5860",
     "postalCode": "20000",
     "longitude": 103.141403,
@@ -30483,6 +31237,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Seremban"
+  },
+  {
+    "merchantId": "770abf35-7eb9-476f-8b0f-7e0d2556a589",
+    "postalCode": "52200",
+    "longitude": 101.610527,
+    "latitude": 3.21002007,
+    "tradingName": "99 Speedmart Sdn Bhd (Wangsa Permai) - 1026",
+    "address1": "SSG6 & SSG7, Sri Saujana, Jalan Wangsa Permai",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Kepong"
   },
   {
     "merchantId": "770f7363-956c-469a-b82e-3aff47805c93",
@@ -30886,6 +31653,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Tanjung Karang"
+  },
+  {
+    "merchantId": "78c03e5c-1215-42b2-b264-5aa877b697cf",
+    "postalCode": "30100",
+    "longitude": 101.051842,
+    "latitude": 4.58176994,
+    "tradingName": "99 Speedmart Sdn Bhd (Persiaran Desa Rishah) - 1856",
+    "address1": "No: 93 (Ground Floor)",
+    "address2": "Persiaran Desa Rishah 1",
+    "address3": "Desa Rishah",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "78db8761-eea4-4772-8a8c-f3a8e08d1599",
@@ -31330,6 +32110,19 @@
     "city": "Limbang"
   },
   {
+    "merchantId": "7aaa68c4-8d6e-4148-b3c1-997d7c683e64",
+    "postalCode": "30450",
+    "longitude": 101.096527,
+    "latitude": 4.60024023,
+    "tradingName": "99 Speedmart Sdn Bhd (Greentown Business Centre) - 1995",
+    "address1": "No : 16 & 18 (Ground Floor) Persiaran Greentown 10 Greentown Business Centre",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "7aaecebb-1eef-48a4-acc1-c1825d82cd23",
     "postalCode": "89000",
     "longitude": 116.108261,
@@ -31347,7 +32140,7 @@
     "postalCode": "91100",
     "longitude": 118.295677,
     "latitude": 5.02615976,
-    "tradingName": "Servay Hypermarket - SHLD",
+    "tradingName": "Servay Evergreen Sdn Bhd - SHLD",
     "address1": "BANDAR SRI PERDANA PH3, JALAN SILAM",
     "address2": "",
     "address3": "",
@@ -31783,6 +32576,19 @@
     "country": "Malaysia",
     "state": "Kelantan",
     "city": "Kota Bahru"
+  },
+  {
+    "merchantId": "7c646c94-4983-4221-b2aa-da5de6c47718",
+    "postalCode": "33300",
+    "longitude": 101.155724,
+    "latitude": 5.60280991,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Semarak) - 2276",
+    "address1": "No: 20 & 21 (Ground Floor), Jalan Semarak 1, Taman Semarak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Gerik"
   },
   {
     "merchantId": "7c67fd07-0c9e-4b4b-9aea-98cacf9259b7",
@@ -33046,6 +33852,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "81959e00-3432-4c34-97f2-8a82925ac624",
+    "postalCode": "30020",
+    "longitude": 101.06031,
+    "latitude": 4.6201601,
+    "tradingName": "99 Speedmart Sdn Bhd (Kg Tengku Hussein Baru) - 3100",
+    "address1": "No: 9 & 11 (Ground Floor), Jalan Syukur, Kampung Tengku Hussein Baru",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "81af9b5c-53a0-4051-928f-fa9f38078abc",
     "postalCode": "93250",
     "longitude": 110.298943,
@@ -33987,12 +34806,12 @@
     "longitude": 110.612267,
     "latitude": 1.54270005,
     "tradingName": "Hong Jaya Trading",
-    "address1": "Sublot No 9, 10, Asajaya New Town Ship, Phase 11, Asajaya, 94600 Kota Samarahan",
+    "address1": "Sublot No 9, 10, Asajaya New Town Ship, Phase 11, Kota Samarahan",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
     "state": "Sarawak",
-    "city": "Kota Samarahan"
+    "city": "Asajaya"
   },
   {
     "merchantId": "85616dfc-e16b-40ef-bc83-bfab64d77adb",
@@ -34580,6 +35399,19 @@
     "city": "Lahad Datu"
   },
   {
+    "merchantId": "8762042e-32ca-475c-b32b-19e8a7299a50",
+    "postalCode": "42700",
+    "longitude": 101.465263,
+    "latitude": 2.78445005,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Damai Morib) - 1454",
+    "address1": "No : 22 & 24",
+    "address2": "Jln Damai",
+    "address3": "Tmn Damai",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Morib"
+  },
+  {
     "merchantId": "877d1b12-8e80-44a2-84b6-9e354f8902c9",
     "postalCode": "06700",
     "longitude": 100.482224,
@@ -34747,6 +35579,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Alor Setar"
+  },
+  {
+    "merchantId": "8822e091-2e88-4af8-991c-59334e65dcdc",
+    "postalCode": "31459",
+    "longitude": 101.049652,
+    "latitude": 4.57537985,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Baru Menglembu) - 2315",
+    "address1": "No: 52 & 54 (Ground Floor) Persiaran Kledang Timur 21 Bandar Baru Menglembu",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Menglembu"
   },
   {
     "merchantId": "882d4cf6-1924-4aeb-99bc-23f6a12469db",
@@ -35503,6 +36348,19 @@
     "city": "Kuantan"
   },
   {
+    "merchantId": "8b34696f-ddf7-40c7-9b2a-978ac5cac5ce",
+    "postalCode": "31650",
+    "longitude": 101.086861,
+    "latitude": 4.58481979,
+    "tradingName": "99 Speedmart Sdn Bhd (Pinji Centrepoint) - 2596",
+    "address1": "No: 99 (Ground Floor), Jalan Bharu Off Jalan Tokong, Pinji Centrepoint",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "8b3a443f-c56f-43ea-8eb2-73fe183efd15",
     "postalCode": "42800",
     "longitude": 101.565887,
@@ -36073,6 +36931,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Port Dickson"
+  },
+  {
+    "merchantId": "8dd4f420-31f4-4e88-b050-e786480b2588",
+    "postalCode": "98700",
+    "longitude": 115.009567,
+    "latitude": 4.75373983,
+    "tradingName": "CCK Fresh Mart limbang",
+    "address1": "Lot 2356 & 2357, Ground Floor, Bangunan Lakil, Jalan Buangsiol 98700 Limbang, Sarawak.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Limbang"
   },
   {
     "merchantId": "8dda0139-39cb-41e7-a2a4-36047659b796",
@@ -37102,6 +37973,19 @@
     "city": "Keningau"
   },
   {
+    "merchantId": "91ec1081-dc4d-4c2c-89eb-d3956c05442e",
+    "postalCode": "31400",
+    "longitude": 101.107269,
+    "latitude": 4.62250996,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Mirindy) - 3482",
+    "address1": "No: 122 & 124 (Ground Floor), Hala Wah Keong, Taman Mirindy",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "91ec5f25-3c15-470f-bea3-fb2d98fa1250",
     "postalCode": "77000",
     "longitude": 102.406219,
@@ -37698,6 +38582,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Batu Pahat"
+  },
+  {
+    "merchantId": "93a4de68-db34-44cc-a6a5-abfcd56ecc46",
+    "postalCode": "34000",
+    "longitude": 100.740646,
+    "latitude": 4.82336998,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Mas) - 2441",
+    "address1": "No : 90 (Ground Floor)",
+    "address2": "Jalan Taman Mas 1, Taman Mas",
+    "address3": "Jalan Air Kuning",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Taiping"
   },
   {
     "merchantId": "93b09a96-b68c-46cd-ae3d-9cdb2e4ccab4",
@@ -38467,6 +39364,19 @@
     "city": "Kota Kinabalu"
   },
   {
+    "merchantId": "96407c00-f8d6-472c-9455-3382958631a2",
+    "postalCode": "30250",
+    "longitude": 101.092598,
+    "latitude": 4.58447981,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Raja Permaisuri Bainun) - 3049",
+    "address1": "No : 108B & 108C (Ground Floor), Jalan Raja Permaisuri Bainun",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "964dae3a-2599-4fc4-81b0-f3958b1e6580",
     "postalCode": "84020",
     "longitude": 102.615128,
@@ -38556,6 +39466,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Ulu Tiram"
+  },
+  {
+    "merchantId": "968af63e-5a5b-4181-9979-85ac76c03713",
+    "postalCode": "30250",
+    "longitude": 101.085747,
+    "latitude": 4.59100008,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Yang Kalsom) - 3232",
+    "address1": "No: 52 & 54 (Ground Floor), Jalan Yang Kalsom",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "96a57035-d70f-4960-8c1e-612952ec784f",
@@ -38777,6 +39700,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Jeniang"
+  },
+  {
+    "merchantId": "9755f77c-0ec0-4f9b-a44a-0e04e13e80b7",
+    "postalCode": "32000",
+    "longitude": 100.706551,
+    "latitude": 4.21261978,
+    "tradingName": "99 Speedmart Sdn Bhd  (Setia Residen)-2768",
+    "address1": "No: 445 & 446 (Ground Floor), Persiaran Setia 20",
+    "address2": "Setia Residen",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Sitiawan"
   },
   {
     "merchantId": "976aef99-a9ad-4435-98ad-5608ca0f18ac",
@@ -40391,6 +41327,19 @@
     "city": "Kuala Selangor"
   },
   {
+    "merchantId": "9daec066-4581-422e-b33b-5aeb126e74f1",
+    "postalCode": "30100",
+    "longitude": 101.058487,
+    "latitude": 4.59868002,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Pertama 1) - 1844",
+    "address1": "No: 22 & 24 (Ground Floor) Lorong Taman 13 Taman Pertama",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "9dce2df8-7cac-4607-af57-9a24d43e7fc5",
     "postalCode": "96520",
     "longitude": 0,
@@ -40818,6 +41767,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Alor Setar"
+  },
+  {
+    "merchantId": "9f4ae346-b4f2-41d4-88e5-229ecfa6902b",
+    "postalCode": "53000",
+    "longitude": 101.709824,
+    "latitude": 3.20539999,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Sampadi) - 1540",
+    "address1": "SH 20 & SH 21, Jalan Sampadi Dua, Tmn Setapak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Setapak"
   },
   {
     "merchantId": "9f540b72-e9a4-4c84-9c8f-2b05f0c8f229",
@@ -42562,6 +43524,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "a5b11b98-5255-4c58-9db9-223ec0e9307c",
+    "postalCode": "94600",
+    "longitude": 110.612617,
+    "latitude": 1.54320002,
+    "tradingName": "Jik Lu Fatt Super Store Sdn Bhd",
+    "address1": "No 12, New Asajaya Bazaar, 94600 Asajaya",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Asajaya"
+  },
+  {
     "merchantId": "a5c17036-8d87-4bd1-8ed9-ae9c302519df",
     "postalCode": "31200",
     "longitude": 101.120537,
@@ -42848,6 +43823,19 @@
     "city": "Tampin"
   },
   {
+    "merchantId": "a695855c-8348-4a7f-a69d-46dacca8b8b3",
+    "postalCode": "91100",
+    "longitude": 118.361633,
+    "latitude": 5.03415012,
+    "tradingName": "Servay Evergreen Sdn Bhd - SJPC",
+    "address1": "PORTCITY @ POIC RETAIL SHOPLOT BEARING POSTAL ADDRESS OF LOT E1,E2,E3,E22,E23&E24, 3 STOREY SHOPLOT PHASE 1B&1C",
+    "address2": "POIC PORTCITY",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "LAHAD DATU"
+  },
+  {
     "merchantId": "a697b1b0-6e60-4a07-809c-336bb090567d",
     "postalCode": "93250",
     "longitude": 110.254707,
@@ -42976,19 +43964,6 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Telok Panglima Garang"
-  },
-  {
-    "merchantId": "a71fe8d8-5e02-4895-ba9e-b9c989fe807a",
-    "postalCode": "90100",
-    "longitude": 117.385674,
-    "latitude": 6.39271021,
-    "tradingName": "Go Green Mini Market",
-    "address1": "Kg Kubambangan Paitan, Beluran",
-    "address2": "P.O Box 208 Mini Pos Pitas",
-    "address3": "",
-    "country": "Malaysia",
-    "state": "Sabah",
-    "city": "Beluran"
   },
   {
     "merchantId": "a72054f4-337f-4ceb-b6fb-4f6aebc4c8ff",
@@ -43223,6 +44198,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Mantin"
+  },
+  {
+    "merchantId": "a7ceabd0-5c29-4588-ba6a-ab85868a9eac",
+    "postalCode": "89200",
+    "longitude": 116.196091,
+    "latitude": 6.08904982,
+    "tradingName": "99 Speedmart Sdn Bhd (Telipok Town) - SBH 21319",
+    "address1": "Lot 28, Rumah Kedai Sedco Telipok, Pekan Telipok, Jalan Tuaran",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Telipok"
   },
   {
     "merchantId": "a7f15ac6-45ce-4215-9a39-e1b6309211fc",
@@ -44382,6 +45370,19 @@
     "city": "Gemas"
   },
   {
+    "merchantId": "ac42bafb-f888-4e42-8e1b-7ce86c62aecc",
+    "postalCode": "90000",
+    "longitude": 118.077469,
+    "latitude": 5.85599995,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Kim Fung) - SBH 31223",
+    "address1": "Lot 4 & 5, Ground Floor, Block B, Bandar Kim Fung, Batu 4 ,Jalan Utara 90000 Sandakan, Sabah.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "ac4312d4-f99b-466a-af35-ebc046467212",
     "postalCode": "15150",
     "longitude": 102.235451,
@@ -44445,6 +45446,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Gombak"
+  },
+  {
+    "merchantId": "ac7910a0-6b01-4f9c-9cfd-60d984d2f8ce",
+    "postalCode": "31500",
+    "longitude": 101.04464,
+    "latitude": 4.54035997,
+    "tradingName": "99 Speedmart Sdn Bhd (Lahat Baru) - 1909",
+    "address1": "No : 93\u00A0& 95\u00A0(Ground Floor) Laluan Lahat Baru 2 Bandar Lahat Baru",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Lahat"
   },
   {
     "merchantId": "ac7ad91d-eaeb-4fd7-8c5b-1889cc6c6005",
@@ -45043,6 +46057,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Pontian"
+  },
+  {
+    "merchantId": "aeeaa888-4a9e-4bad-b00c-dbf9df93864d",
+    "postalCode": "31550",
+    "longitude": 101.015541,
+    "latitude": 4.50477982,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Baru Puspa) - 3616",
+    "address1": "No: 7 & 8 (Ground Floor), Persiaran Puspa Timur 1, Bandar Baru Puspa",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Pusing"
   },
   {
     "merchantId": "aef34303-205f-48ac-a4df-f36644e59568",
@@ -45682,6 +46709,19 @@
     "city": "Trong"
   },
   {
+    "merchantId": "b13e5d52-ff7c-4aa5-aefd-c1ab3076dfe2",
+    "postalCode": "14000",
+    "longitude": 100.480789,
+    "latitude": 5.33127022,
+    "tradingName": "Wonderful (Alma)",
+    "address1": "2875-2877,Jalan Rozhan,Taman Pusat Perniagaan Rozhan,",
+    "address2": "14000 Bukit Mertajam,Pulau Pinang.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Bukit Mertajam"
+  },
+  {
     "merchantId": "b140778a-8376-4885-90fb-9b0e2226638a",
     "postalCode": "43000",
     "longitude": 101.791313,
@@ -45955,6 +46995,19 @@
     "city": "Banting"
   },
   {
+    "merchantId": "b245cdf1-4448-47bb-b588-a2d723f68bbd",
+    "postalCode": "52200",
+    "longitude": 101.617668,
+    "latitude": 3.19739008,
+    "tradingName": "99 Speedmart Sdn Bhd (Sri Damansara 2) - 1376",
+    "address1": "No: 1, Jalan Margosa 10/4B, Bandar Sri Damansara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Damansara"
+  },
+  {
     "merchantId": "b24f314a-0735-4a78-8277-0cbad762fd5d",
     "postalCode": "45100",
     "longitude": 100.894997,
@@ -46072,6 +47125,19 @@
     "city": "Belaga"
   },
   {
+    "merchantId": "b2a132bf-fe30-45ef-8107-3554d0c55e96",
+    "postalCode": "75260",
+    "longitude": 102.181793,
+    "latitude": 2.28580999,
+    "tradingName": "MR. D.I.Y. (M) Sdn Bhd - Taman Perindustrian Tanjung Minyak Perdana",
+    "address1": "No.22, 24 & 26, Jalan Industri TMP 2, Taman Perindustrian Tanjung Minyak Perdana",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Melaka",
+    "city": "Melaka"
+  },
+  {
     "merchantId": "b2a306cc-eb5e-4cb5-95d0-9b002842a4c0",
     "postalCode": "05300",
     "longitude": 100.359573,
@@ -46187,6 +47253,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Gerik"
+  },
+  {
+    "merchantId": "b32595a5-4153-4fff-ad01-2d30f0085f7b",
+    "postalCode": "53300",
+    "longitude": 101.729538,
+    "latitude": 3.19458008,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Megan Sri Rampai) - 1167",
+    "address1": "No.7 & 9, Jalan Megan Setapak 1, Taman Megan Sri Rampai",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Sri Rampai"
   },
   {
     "merchantId": "b35c9386-63b3-4351-a2d9-9f2d86f98b87",
@@ -46462,6 +47541,19 @@
     "city": "Guar Chempedak"
   },
   {
+    "merchantId": "b46120d5-40a5-46a5-947f-7f2e9247bc62",
+    "postalCode": "31200",
+    "longitude": 101.121483,
+    "latitude": 4.69791985,
+    "tradingName": "99 Speedmart Sdn Bhd  (Bdr Baru Sri Klebang) - 2053",
+    "address1": "No: 20 & 22 (Ground Floor)",
+    "address2": "Jalan Sri Klebang A/12",
+    "address3": "Bandar Baru Sri Klebang",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Chemor"
+  },
+  {
     "merchantId": "b462a908-c945-4946-9115-61a14f87eedb",
     "postalCode": "86000",
     "longitude": 103.327438,
@@ -46618,6 +47710,19 @@
     "city": "Kuala Terengganu"
   },
   {
+    "merchantId": "b5362bdd-bb77-45a3-80c0-0e3f725b8f6a",
+    "postalCode": "90000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (IJM) - SBH 30523",
+    "address1": "Blok T, Ground Floor, Lot 17&18, Lorong Avenue 1, Bandar Utama Mile 6, North Road",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "b54b88ec-edc1-4f5a-846d-a6a19d0d6300",
     "postalCode": "77500",
     "longitude": 102.378082,
@@ -46772,6 +47877,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Bahau"
+  },
+  {
+    "merchantId": "b610bd19-2ba1-485d-b5c3-ed1f3168be14",
+    "postalCode": "31600",
+    "longitude": 101.167992,
+    "latitude": 4.47340012,
+    "tradingName": "99 Speedmart Sdn Bhd (Gopeng) - 1784",
+    "address1": "No: 29/ Lot 224 & No: 30/ Lot 225",
+    "address2": "Susur Kay Long",
+    "address3": "Kampung Kuala Sepetang",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Gopeng"
   },
   {
     "merchantId": "b619d9f5-25d9-4aa2-9a38-b46e0f379dff",
@@ -46967,6 +48085,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Segamat"
+  },
+  {
+    "merchantId": "b6e00abf-b742-4687-bf27-64d6307aae9c",
+    "postalCode": "31600",
+    "longitude": 101.150124,
+    "latitude": 4.49721003,
+    "tradingName": "99 Speedmart Sdn Bhd (PP Gopeng) - 2180",
+    "address1": "No: 47 & 49 (Ground Floor)",
+    "address2": "Jalan Mewah 1",
+    "address3": "Pusat Perniagaan Gopeng",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Gopeng"
   },
   {
     "merchantId": "b6e8cb25-1ef2-49e0-97b3-6231e565a258",
@@ -48152,6 +49283,19 @@
     "city": "Ipoh"
   },
   {
+    "merchantId": "bb691780-c638-4bbc-bbce-e898f4c5353a",
+    "postalCode": "59000",
+    "longitude": 101.678993,
+    "latitude": 3.12897992,
+    "tradingName": "99 Speedmart Sdn Bhd (Bangsar Utama) - 1872",
+    "address1": "No: 4 (Ground Floor), Jalan Bangsar Utama 9, Bangsar Utama",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Bangsar"
+  },
+  {
     "merchantId": "bb755263-7a4c-43f4-86a3-8e74aec2ff31",
     "postalCode": "94200",
     "longitude": 110.402229,
@@ -48566,6 +49710,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Kulim"
+  },
+  {
+    "merchantId": "bd974e12-f0e7-433a-95e7-dc2f429c7a54",
+    "postalCode": "90000",
+    "longitude": 118.119766,
+    "latitude": 5.8393302,
+    "tradingName": "TKS Grocer",
+    "address1": "Lot 133 & 134 (Lot G01) Blok HS-16 & HS-17 Tingkat Bawah Harbour Mall Sandakan, 90000, Sandakan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "bd9f2508-0f9f-4363-b6c6-899c11d2d60d",
@@ -49660,6 +50817,19 @@
     "city": "Jeli"
   },
   {
+    "merchantId": "c1c61375-169c-4754-aab0-797d66767da1",
+    "postalCode": "31450",
+    "longitude": 101.042908,
+    "latitude": 4.57375002,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Rasi) - 1868",
+    "address1": "No: 2 & 4 (Ground Floor), Lorong Kledang Timur 15, Taman Rasi",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Menglembu"
+  },
+  {
     "merchantId": "c1c78ea2-c9f9-4826-8f40-8f4c65110a26",
     "postalCode": "32020",
     "longitude": 100.762009,
@@ -50063,6 +51233,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "c2f349a3-28b5-4762-a668-7798053c9718",
+    "postalCode": "42500",
+    "longitude": 101.528748,
+    "latitude": 2.95065999,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Tropicana Aman 2) - 2980",
+    "address1": "No: 52A & 56 (Ground Floor)",
+    "address2": "Jalan Aman Tiara 7",
+    "address3": "Bandar Tropicana Aman",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Telok Panglima Garang"
+  },
+  {
     "merchantId": "c302e800-19ba-439d-9c33-093e6b8792fd",
     "postalCode": "47150",
     "longitude": 101.603462,
@@ -50258,6 +51441,19 @@
     "city": "Segamat"
   },
   {
+    "merchantId": "c3df1fc8-0f9b-4431-bfca-639e56840f84",
+    "postalCode": "14000",
+    "longitude": 100.436737,
+    "latitude": 5.36744022,
+    "tradingName": "Wonderful Supermarket (Jalan Perda Selatan)",
+    "address1": "G10-G16&1 10-13,De'rendzvous,Jalan Perda Selatan,",
+    "address2": "14000 Bukit Mertajam,Pulau Pinang.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Bukit Mertajam"
+  },
+  {
     "merchantId": "c3eae8ef-0ace-4bc8-bb51-1355eb11330a",
     "postalCode": "39010",
     "longitude": 101.414932,
@@ -50282,6 +51478,19 @@
     "country": "Malaysia",
     "state": "Kelantan",
     "city": "Kota Bharu"
+  },
+  {
+    "merchantId": "c401ca38-d670-4515-85e2-dd4b64df7ab5",
+    "postalCode": "91308",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "SERVAY EVERGREEN SDN BHD - SJBGS",
+    "address1": "TL NO. 1230001436, LOT 1,2,3,4 & LOT 5, JALAN KAMPUNG TANJUNG KAPOR, 91308 SEMPORNA, SABAH.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Semporna"
   },
   {
     "merchantId": "c40fe59c-7940-43b7-b81a-d9a49b55fa64",
@@ -50882,6 +52091,19 @@
     "city": "Senai"
   },
   {
+    "merchantId": "c60e092f-ff60-4ad3-8217-9c9fac20772f",
+    "postalCode": "88300",
+    "longitude": 116.101837,
+    "latitude": 5.93857002,
+    "tradingName": "Milimewa Superstore (Penampang)",
+    "address1": "Unit 33 - 36,Ground Floor Beverly Hills Plaza",
+    "address2": "Jalan Bundusan",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Penampang"
+  },
+  {
     "merchantId": "c6226431-3ff0-4608-814d-072fee5bc2b6",
     "postalCode": "81800",
     "longitude": 103.657021,
@@ -51090,6 +52312,19 @@
     "city": "Batu Pahat"
   },
   {
+    "merchantId": "c6d65829-5492-4db0-a301-1948cac16a85",
+    "postalCode": "43300",
+    "longitude": 101.666367,
+    "latitude": 2.99941993,
+    "tradingName": "99 Speedmart Sdn Bhd (Lestari Perdana 1) - 1948",
+    "address1": "No: 8 & 9 (Ground Floor)",
+    "address2": "Jalan LP 3/5",
+    "address3": "Taman Lestari Perdana",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
+  },
+  {
     "merchantId": "c6e3e514-22fe-479d-8558-d76fb124b744",
     "postalCode": "36000",
     "longitude": 101.025673,
@@ -51114,6 +52349,19 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Serian"
+  },
+  {
+    "merchantId": "c6f7bfeb-018c-46ca-bd49-cc087df27131",
+    "postalCode": "30000",
+    "longitude": 101.078438,
+    "latitude": 4.59478998,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Bijih Timah) - 3008",
+    "address1": "No: 18 20 & 22 (Ground Floor) Jalan Bijih Timah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "c7019d5e-a29a-4ca7-a116-973f39a628c8",
@@ -51545,6 +52793,19 @@
     "city": "Paka"
   },
   {
+    "merchantId": "c897abdd-ef36-48f8-bb37-29c973f05528",
+    "postalCode": "98000",
+    "longitude": 114.008148,
+    "latitude": 4.47547007,
+    "tradingName": "KE Frozen Fresh Mart (LT)",
+    "address1": "Lot No.14, Ground Floor, Parent Lot 991, Block 1, MCLD Off Jalan Pasar Lutong, 98000 Miri, Sarawak.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Miri"
+  },
+  {
     "merchantId": "c8aae035-72c6-41d9-a433-618e8f82c398",
     "postalCode": "39200",
     "longitude": 101.399879,
@@ -51829,6 +53090,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "Ringlet"
+  },
+  {
+    "merchantId": "ca512fdf-3ced-4ef8-9fc2-431eeed0754b",
+    "postalCode": "31400",
+    "longitude": 101.119301,
+    "latitude": 4.61246014,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Ipoh Selatan) - 2824",
+    "address1": "No: 33\u00A0& 35\u00A0(Ground Floor), Lorong Taman Ipoh 1, Taman Ipoh Selatan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "ca5bf68d-87a9-45aa-b997-b2c802fa8d0f",
@@ -52611,6 +53885,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "cd882ab4-ed8b-460c-83a8-30cf6affceb8",
+    "postalCode": "89600",
+    "longitude": 115.947083,
+    "latitude": 5.73604012,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman Eko Tropika) - SBH 33724",
+    "address1": "Ground Floor, Lot No. S2 & S3, Taman Eko Tropika, Kg. Sapat, Jalan Sumiling Mogon",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Papar"
+  },
+  {
     "merchantId": "cd884e86-7580-43b1-b3d8-29fe857170cd",
     "postalCode": "83000",
     "longitude": 103.002319,
@@ -52884,19 +54171,6 @@
     "city": "Setiu"
   },
   {
-    "merchantId": "ce9bff2c-d429-4f51-8fc7-2640b9ccfb80",
-    "postalCode": "90000",
-    "longitude": 117.924622,
-    "latitude": 5.89172983,
-    "tradingName": "Fung Ming Mini Market Sdn Bhd",
-    "address1": "CL 075169881 BATU 16 JALAN LABUK SANDAKAN, PPM 599 ELOPURA, 90000 SANDAKAN SABAH",
-    "address2": "",
-    "address3": "",
-    "country": "Malaysia",
-    "state": "Sabah",
-    "city": "Sandakan"
-  },
-  {
     "merchantId": "ce9f468c-81dd-4be3-b36c-e7b23a9ef3d9",
     "postalCode": "42100",
     "longitude": 101.420403,
@@ -52908,6 +54182,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Klang"
+  },
+  {
+    "merchantId": "cea56f68-c50e-4b56-833c-caa7bd9493f0",
+    "postalCode": "32200",
+    "longitude": 100.645668,
+    "latitude": 4.21019983,
+    "tradingName": "99 Speedmart Sdn Bhd  (Tmn Venice Sutera) - 2344",
+    "address1": "No: 64 & 65 (Ground Floor)",
+    "address2": "Persiaran Venice Sutera 1",
+    "address3": "Desa Manjung Raya",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Lumut"
   },
   {
     "merchantId": "ceaf0599-e86d-4364-a0d4-1ed62d4ce823",
@@ -53313,6 +54600,19 @@
     "city": "Shah Alam"
   },
   {
+    "merchantId": "d090c5ca-270d-47f9-9dc0-dff7ebd96e51",
+    "postalCode": "89000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (Jutaya Commercial) - SBH 25620",
+    "address1": "Lot 3, Ground Floor, Jutaya Commercial, Jalan Lingkudau,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
+  },
+  {
     "merchantId": "d0966cdf-cfa3-4bbb-b6e2-c30424e81c5c",
     "postalCode": "45200",
     "longitude": 101.111023,
@@ -53703,6 +55003,19 @@
     "city": "Pantai Remis"
   },
   {
+    "merchantId": "d206a3ef-8525-474f-9af4-88e7115040b2",
+    "postalCode": "31500",
+    "longitude": 101.063568,
+    "latitude": 4.53225994,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Desa Pengkalan) - 3514",
+    "address1": "No: 23 & 25 (Ground Floor), Lebuh Desa Pengkalan, Taman Desa Pengkalan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Lahat"
+  },
+  {
     "merchantId": "d21625c5-c6b1-499f-877d-860bf09de12b",
     "postalCode": "22000",
     "longitude": 102.501427,
@@ -53911,6 +55224,19 @@
     "city": "Sri Petaling"
   },
   {
+    "merchantId": "d2c993f6-e00b-4ae8-9b23-541b03e5fad6",
+    "postalCode": "90000",
+    "longitude": 118.119041,
+    "latitude": 5.84113979,
+    "tradingName": "Suntos Market Sdn Bhd",
+    "address1": "Lot 1B,2&3, Tingkat Bawah & Lot 2B, 3 & 4 Tingkat 1 Blok 12 Jalan 3 Sandakan, 90000 Sandakan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "d2cb5f05-bd7b-482b-9083-6c200ba52eed",
     "postalCode": "26070",
     "longitude": 103.203682,
@@ -54080,6 +55406,19 @@
     "city": "Sitiawan"
   },
   {
+    "merchantId": "d379299f-696f-4859-87e5-0eeb58eb3394",
+    "postalCode": "42700",
+    "longitude": 101.630943,
+    "latitude": 2.77030993,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Seri Ehsan) - 3531",
+    "address1": "No: 18 & 20 (Ground Floor)",
+    "address2": "Jalan BSE 4/46",
+    "address3": "Bandar Seri Ehsan",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Banting"
+  },
+  {
     "merchantId": "d3792db3-6035-4597-9477-bbf599852870",
     "postalCode": "35800",
     "longitude": 101.611473,
@@ -54143,6 +55482,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "Kuantan"
+  },
+  {
+    "merchantId": "d3e17d28-8736-442f-8929-50e23b0a5fa0",
+    "postalCode": "89300",
+    "longitude": 117.13327,
+    "latitude": 5.62691021,
+    "tradingName": "88 Superstore Telupid",
+    "address1": "Block H, Lot 1 & 2, Telupid New Township, 89300 Telupid",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Telupid"
   },
   {
     "merchantId": "d3e7e1fd-75c0-4af8-a0ca-7cb6b1de51c9",
@@ -54845,6 +56197,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "BELURAN"
+  },
+  {
+    "merchantId": "d64514c2-1958-41cd-9d70-0c8e550947dd",
+    "postalCode": "31400",
+    "longitude": 101.136841,
+    "latitude": 4.62931013,
+    "tradingName": "99 Speedmart Sdn Bhd (Bercham Sinar) - 2736",
+    "address1": "No 140 & 142 (Ground Floor) Lebuh Bercham Timur Bercham Sinar",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "d65797e3-d8a5-4827-82fb-e845f0745ebf",
@@ -55679,6 +57044,19 @@
     "city": "Hang Tuah Jaya"
   },
   {
+    "merchantId": "d986f260-2e26-47e2-99cb-8dcdcebdf0b9",
+    "postalCode": "42300",
+    "longitude": 101.451553,
+    "latitude": 3.2474401,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Industri Alam Jaya 1) - 1714",
+    "address1": "No 169 & 171",
+    "address2": "Jalan Tiaj 1/3",
+    "address3": "Taman Industri Alam Jaya",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bandar Puncak Alam"
+  },
+  {
     "merchantId": "d98aeb22-b872-4d81-9643-0e49e3ac4cdc",
     "postalCode": "34300",
     "longitude": 100.571907,
@@ -56158,6 +57536,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Seremban"
+  },
+  {
+    "merchantId": "db6057c7-4ca5-43fa-9e6f-1ddd840a55c7",
+    "postalCode": "89208",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman D'Sri Gayang) - SBH 29422",
+    "address1": "Ground Floor, Lot No 11 & 12, Taman D’Sri Gayang Shoplot, Jalan Sulaman Tuaran",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tuaran"
   },
   {
     "merchantId": "db6e8587-5b63-4319-aea2-64b403309005",
@@ -56706,6 +58097,19 @@
     "city": "Tanjung Piandang"
   },
   {
+    "merchantId": "dd83b2a2-0856-419d-a797-7789d30b7061",
+    "postalCode": "35500",
+    "longitude": 101.277229,
+    "latitude": 4.13295984,
+    "tradingName": "99 Speedmart Sdn Bhd (Pp Bidor Central) - 3636",
+    "address1": "No: 13 & 14 (Ground Floor), Jalan Bidor Sentral 1, Pusat Perdagangan Bidor Central",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Bidor"
+  },
+  {
     "merchantId": "dd8bb30a-022a-485d-b661-198a5cf93f08",
     "postalCode": "89800",
     "longitude": 115.745354,
@@ -56914,6 +58318,19 @@
     "city": "Pasir Mas"
   },
   {
+    "merchantId": "de3d1e71-67a2-4687-8ee9-5a92ef776174",
+    "postalCode": "89600",
+    "longitude": 115.934921,
+    "latitude": 5.70273018,
+    "tradingName": "CCK Fresh Mart Benoni",
+    "address1": "lot 66, jalan papar baru benoni commercial centre, 89600 Papar, sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Papar"
+  },
+  {
     "merchantId": "de4215ea-cfa7-4261-874e-6496071c06b2",
     "postalCode": "34500",
     "longitude": 100.799751,
@@ -57048,7 +58465,7 @@
     "postalCode": "91100",
     "longitude": 118.338051,
     "latitude": 5.02463007,
-    "tradingName": "Servay Jaya Supermarket - SJLD",
+    "tradingName": "Servay Evergreen Sdn Bhd - SJLD",
     "address1": "GROUND FLOOR, 2ND FLOOR, LOT 1-4, CIRCULAR BLOCK C, HARBOUR TOWN JALAN PANTAI",
     "address2": "",
     "address3": "",
@@ -58136,6 +59553,19 @@
     "city": "KOTA KINABALU"
   },
   {
+    "merchantId": "e34c5f6b-e2f8-4073-8eaa-4afd55220088",
+    "postalCode": "89500",
+    "longitude": 116.126617,
+    "latitude": 5.91048002,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman Vista Kiranau) - SBH 19918",
+    "address1": "Lot 6 & 7, Ground Floor, Block H, Taman Vista Seri Kiranau, Jalan Kibambangan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Penampang"
+  },
+  {
     "merchantId": "e36faee8-706b-4bcb-98f5-75613abfd62f",
     "postalCode": "36000",
     "longitude": 101.019707,
@@ -58303,6 +59733,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "HULU LANGAT"
+  },
+  {
+    "merchantId": "e3fb18c1-3d48-408c-8e8b-dc4868fd4470",
+    "postalCode": "31100",
+    "longitude": 101.08744,
+    "latitude": 4.8063302,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Tun Sambanthan) - 2338",
+    "address1": "No: 249 & 250 (Ground Floor) Lorong Tun Sambanthan 5 Taman Tun Sambanthan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Sungai Siput"
   },
   {
     "merchantId": "e3fd018b-901b-4952-89dd-7b1c04b44d0b",
@@ -58500,6 +59943,19 @@
     "city": "Langkawi"
   },
   {
+    "merchantId": "e4b75973-cb59-462a-8030-9f9411b7055c",
+    "postalCode": "42500",
+    "longitude": 2.90733004,
+    "latitude": 2.90733004,
+    "tradingName": "99 Speedmart Sdn Bhd (Telok Panglima Garang 4) - 3458",
+    "address1": "No: 11 & 15 (Ground Floor)",
+    "address2": "Jalan Pandan, Taman Dato Hormat",
+    "address3": "Eco Ardence, Seksyen U13",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Telok Panglima Garang"
+  },
+  {
     "merchantId": "e4c85d64-30de-48cd-9465-4f732a69faa0",
     "postalCode": "32400",
     "longitude": 100.763046,
@@ -58643,6 +60099,19 @@
     "city": "Nusajaya"
   },
   {
+    "merchantId": "e5ad52b6-8570-4f6a-a741-9b8565d154d2",
+    "postalCode": "98000",
+    "longitude": 113.994164,
+    "latitude": 4.33093977,
+    "tradingName": "KE Frozen Fresh Mart (TT)",
+    "address1": "Lot 2911, Jalan Miri-Bintulu, Taman Tunku Industrial Estate, 98000 Miri, Sarawak.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Miri"
+  },
+  {
     "merchantId": "e5ada148-1668-460d-93cb-193b2edf48cd",
     "postalCode": "51000",
     "longitude": 101.689812,
@@ -58758,19 +60227,6 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Kuching"
-  },
-  {
-    "merchantId": "e648667f-7546-417d-a689-5ac6051ea968",
-    "postalCode": "89857",
-    "longitude": 115.549606,
-    "latitude": 5.07881021,
-    "tradingName": "Choon Cheong Departmental Store (Sipitang) Sdn Bhd",
-    "address1": "Lot No 19-21, Jalan Datuk HJ Mohd Yassin, 89857 Sipitang",
-    "address2": "",
-    "address3": "",
-    "country": "Malaysia",
-    "state": "Sabah",
-    "city": "Sipitang"
   },
   {
     "merchantId": "e649e9c5-ad83-4c7d-a076-521c0c5250cd",
@@ -59618,6 +61074,19 @@
     "city": "Trong"
   },
   {
+    "merchantId": "e9076b2a-1cf4-4eb5-8880-dd179214d2dd",
+    "postalCode": "89000",
+    "longitude": 116.180511,
+    "latitude": 5.37600994,
+    "tradingName": "99 Speedmart Sdn Bhd (Harmony Plaza) - SBH 33123",
+    "address1": "Lot No. S2 & S3, Type 1, Harmony Plaza, Jalan by Pass Bingkor",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
+  },
+  {
     "merchantId": "e91f63d3-b1eb-430d-b5e2-6e60c61ae079",
     "postalCode": "71000",
     "longitude": 101.795662,
@@ -59720,6 +61189,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "JOHOR BAHRU"
+  },
+  {
+    "merchantId": "e9952e18-abfe-4bfd-b2eb-ccd47ad4b3f2",
+    "postalCode": "52200",
+    "longitude": 101.60788,
+    "latitude": 3.18482995,
+    "tradingName": "99 Speedmart Sdn Bhd (Sri Damansara 1) - 1069",
+    "address1": "NO: 20-1, Jalan Damar SD 15/1, Bandar Sri Damansara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Petaling Jaya"
   },
   {
     "merchantId": "e99acc06-ad51-4d3b-9d24-dfa93ff1ac71",
@@ -60838,6 +62320,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Lumut"
+  },
+  {
+    "merchantId": "ee2adf68-a19d-4530-ae92-0353dae358e6",
+    "postalCode": "53100",
+    "longitude": 101.72361,
+    "latitude": 3.22585011,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Melati) - 2015",
+    "address1": "SH 3/5 & SH 3/6 (Ground Floor), Jalan Taman Melati 11",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Taman Melati"
   },
   {
     "merchantId": "ee433a04-b524-447e-88fe-47a58475f38b",
@@ -62322,6 +63817,19 @@
     "city": "Kajang"
   },
   {
+    "merchantId": "f4215197-84fa-489f-9c62-909f6477dd98",
+    "postalCode": "90000",
+    "longitude": 118.029121,
+    "latitude": 5.88344002,
+    "tradingName": "TKS Hypersave Sdn Bhd",
+    "address1": "Lot 1 Tingkat Bawah dan Satu Bandar Andamy Square Batu 8 Jalan Labuk Sandakan, 90000, Sandakan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "f422058e-6968-4b97-8e0e-44d4d3f32178",
     "postalCode": "41200",
     "longitude": 101.431473,
@@ -62907,6 +64415,19 @@
     "city": "Tanah Merah"
   },
   {
+    "merchantId": "f5f1f9f9-eaf4-494e-8059-409a318d9134",
+    "postalCode": "36400",
+    "longitude": 100.93811,
+    "latitude": 3.89432001,
+    "tradingName": "99 Speedmart Sdn Bhd (Medan Niaga Lagenda) - 1559",
+    "address1": "No: 2 & 4,",
+    "address2": "Lorong Lagenda 1,",
+    "address3": "Medan Niaga Lagenda,",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Hutan Melintang"
+  },
+  {
     "merchantId": "f5f30d32-23cb-49c0-b44f-eb132b4cdf09",
     "postalCode": "34700",
     "longitude": 100.705452,
@@ -63323,6 +64844,32 @@
     "city": "Batang Kali"
   },
   {
+    "merchantId": "f74e0309-b1da-466e-a1b5-f8815cb16c16",
+    "postalCode": "53300",
+    "longitude": 101.735863,
+    "latitude": 3.18791008,
+    "tradingName": "99 Speedmart Sdn Bhd (Seasons Garden Residensi) - 2016",
+    "address1": "No: G36 & G37 (Ground Floor), Seasons Garden Residensi, No: 7, Jalan 1/27E, Seksyen 10",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Wangsa Maju"
+  },
+  {
+    "merchantId": "f75c8304-1218-44ef-ba40-1c7e361a4894",
+    "postalCode": "28400",
+    "longitude": 102.347443,
+    "latitude": 3.48373008,
+    "tradingName": "Santhi Value Mart Sdn Bhd",
+    "address1": "No 98, Ground Floor, Jalan Haji Kassim",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Pahang",
+    "city": "Mentakab"
+  },
+  {
     "merchantId": "f76b23dc-8201-4d21-a240-622a6046fd37",
     "postalCode": "86000",
     "longitude": 103.334,
@@ -63531,6 +65078,19 @@
     "city": "Gurun"
   },
   {
+    "merchantId": "f83910ea-d5dd-4694-a0bc-eafd45440fb1",
+    "postalCode": "41200",
+    "longitude": 101.517807,
+    "latitude": 2.96111989,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Kebun Nenas) - 2628",
+    "address1": "No: 29 & 31 (Ground Floor)",
+    "address2": "Jalan Kebun Nenas 7A/KS 8",
+    "address3": "Bandar Putera 2",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
+  },
+  {
     "merchantId": "f844a438-1d12-468b-9f22-b0e463a78caa",
     "postalCode": "05000",
     "longitude": 100.368233,
@@ -63609,6 +65169,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "f8780e38-3581-4660-aedc-079948bb13dd",
+    "postalCode": "34700",
+    "longitude": 100.70694,
+    "latitude": 4.8457098,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Simpang Bersatu) - 2709",
+    "address1": "No: 45 & 47\u00A0(Ground Floor),",
+    "address2": "Lorong Bersatu 11,",
+    "address3": "Taman Simpang Bersatu,",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Simpang"
+  },
+  {
     "merchantId": "f8809170-31d6-4548-81e2-2f554d24e0fb",
     "postalCode": "77500",
     "longitude": 0,
@@ -63659,6 +65232,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Langkawi"
+  },
+  {
+    "merchantId": "f8b3cdbf-b782-4dcf-958d-7b16f6361175",
+    "postalCode": "42700",
+    "longitude": 101.455093,
+    "latitude": 2.73215008,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bahagia Morib) - 1637",
+    "address1": "No: 50",
+    "address2": "Jalan Bahagia 2",
+    "address3": "Taman Bahagia, Morib",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Banting"
   },
   {
     "merchantId": "f8c1c88f-d993-4005-b839-c5d1560ed4bc",
@@ -64075,6 +65661,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Jelebu"
+  },
+  {
+    "merchantId": "face0101-222d-4160-a5bf-6203e0adb7bd",
+    "postalCode": "31650",
+    "longitude": 101.076134,
+    "latitude": 4.55470991,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Shatin Baru) - 1912",
+    "address1": "No : 143 & 145\u00A0(Ground Floor), Jalan Pengkalan Barat, Taman Shatin Baru",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "fae84af4-d829-44ab-9025-d6fbfcce9941",
@@ -64545,6 +66144,19 @@
     "city": "Seremban"
   },
   {
+    "merchantId": "fcfd3271-76d2-4f1b-9c86-f857a6e8a071",
+    "postalCode": "30100",
+    "longitude": 101.076523,
+    "latitude": 4.61258984,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Labrooy) - 2195",
+    "address1": "No: 16E & 16F (Ground Floor), Jalan Labrooy",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "fd03abec-32e1-4cdc-91bc-47da604d9ae6",
     "postalCode": "33000",
     "longitude": 100.931389,
@@ -64844,6 +66456,19 @@
     "city": "Pusing"
   },
   {
+    "merchantId": "fe4c4a56-c8da-4053-a372-b1586cf0d1fd",
+    "postalCode": "87100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "Test Account",
+    "address1": "test",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perlis",
+    "city": "test"
+  },
+  {
     "merchantId": "fe5d100c-380a-4b7f-8742-8572ccc9f1b9",
     "postalCode": "83000",
     "longitude": 102.933548,
@@ -64909,6 +66534,19 @@
     "city": "Mukah"
   },
   {
+    "merchantId": "fe72ad34-40a0-482b-a58f-85683e98f1f2",
+    "postalCode": "88300",
+    "longitude": 116.116791,
+    "latitude": 5.96888018,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman BDC) - SBH 19418",
+    "address1": "Ground Floor, Lot 14 & 15, Taman BDC, Lorong Pokok Resam A,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "fe7a118e-5898-44a0-8ef8-8d5e75512628",
     "postalCode": "70300",
     "longitude": 101.886871,
@@ -64948,6 +66586,19 @@
     "city": "Skudai"
   },
   {
+    "merchantId": "fea131a6-0396-4480-a505-45ea9d9b3b45",
+    "postalCode": "32400",
+    "longitude": 100.792877,
+    "latitude": 4.35045004,
+    "tradingName": "99 Speedmart Sdn Bhd  (Tmn Ilham) - 2723",
+    "address1": "No: 4 & 5\u00A0(Ground Floor)",
+    "address2": "Jalan Ilham 1",
+    "address3": "Taman Ilham",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ayer Tawar"
+  },
+  {
     "merchantId": "fea6d3ba-8f95-4565-816b-eee77d7b8de9",
     "postalCode": "16800",
     "longitude": 102.403931,
@@ -64959,6 +66610,19 @@
     "country": "Malaysia",
     "state": "Kelantan",
     "city": "Pasir Puteh"
+  },
+  {
+    "merchantId": "feabb1e8-332a-4492-a26f-b419f5e86b2e",
+    "postalCode": "90000",
+    "longitude": 118.056557,
+    "latitude": 5.86528015,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Utama) - SBH 35524",
+    "address1": "Ground Floor, Lot 58 & 59, Block C1, Utama Place 6 & 7, Jalan Utara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "feb201ce-5809-4555-90cd-5573e184ed88",
