@@ -25,6 +25,7 @@ interface MapProps {
   onMerchantSelect: (merchant: Merchant) => void;
   userLocation?: { lat: number; lng: number; accuracy: number; method: 'gps' | 'ip' | 'manual' } | null;
   onFindNearMe?: () => void;
+  mapCenter?: { lat: number; lng: number } | null;
 }
 
 const Map: React.FC<MapProps> = ({ 
@@ -32,7 +33,8 @@ const Map: React.FC<MapProps> = ({
   selectedMerchant, 
   onMerchantSelect, 
   userLocation,
-  onFindNearMe
+  onFindNearMe,
+  mapCenter
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -399,6 +401,26 @@ const Map: React.FC<MapProps> = ({
     });
 
   }, [selectedMerchant]);
+
+  // Handle map center changes (for state-based search)
+  useEffect(() => {
+    if (!map.current || !mapCenter) return;
+
+    // Ensure map is properly resized before flying to new center
+    // This is especially important on mobile where layout might change
+    setTimeout(() => {
+      if (map.current) {
+        map.current.resize();
+        
+        // Fly to the new center (state center)
+        map.current.flyTo({
+          center: [mapCenter.lng, mapCenter.lat],
+          zoom: 8, // Good zoom level for viewing a state
+          duration: 1500
+        });
+      }
+    }, 100); // Small delay to ensure layout has settled
+  }, [mapCenter]);
 
   const getLocationMethodIcon = () => {
     if (!userLocation) return <MapPin className="w-4 h-4" />;
