@@ -93,7 +93,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto bg-gradient-to-b from-card to-card/80 backdrop-blur-xl border-r border-border/30">
+    <>
       {/* Header */}
       <div className="p-4 space-y-4 border-b border-border/50 bg-gradient-to-r from-primary/5 to-accent/5 flex-shrink-0">
         <div className="flex items-center justify-between">
@@ -331,7 +331,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

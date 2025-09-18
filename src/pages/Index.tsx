@@ -95,9 +95,13 @@ const Index = () => {
           setIsMobileSheetOpen(false);
         }
         
+        const message = stores.length > 500 
+          ? `Found ${stores.length} stores in ${state}. Showing first 500 on map.`
+          : `Found ${stores.length} stores in ${state}.`;
+        
         toast({
           title: "State search",
-          description: `Found ${stores.length} stores in ${state}.`,
+          description: message,
         });
       } else {
         setMerchants([]);
