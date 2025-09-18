@@ -2,13 +2,14 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Map from '@/components/Map';
 import MerchantList from '@/components/MerchantList';
 import LocationStatus from '@/components/LocationStatus';
+import StateSelector, { MALAYSIAN_STATE_CENTERS } from '@/components/StateSelector';
 import { Merchant, MerchantWithDistance } from '@/types/merchant';
 import { getLocationWithFallback, detectInAppBrowser } from '@/utils/geoUtils';
 import { toast } from '@/hooks/use-toast';
 import merchantsData from '@/data/merchants.json';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
-import { Menu, X, MapPin, Loader2, List, Globe, Smartphone } from 'lucide-react';
+import { Menu, X, MapPin, Loader2, List, Globe, Smartphone, Map as MapIcon, Navigation } from 'lucide-react';
 
 const Index = () => {
   const [merchants, setMerchants] = useState<(Merchant | MerchantWithDistance)[]>([]);
@@ -21,6 +22,9 @@ const Index = () => {
   const [hasMoreStores, setHasMoreStores] = useState(true);
   const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
   const [isInAppBrowser] = useState(detectInAppBrowser());
+  const [searchMode, setSearchMode] = useState<'proximity' | 'state'>('proximity');
+  const [selectedState, setSelectedState] = useState<string | null>(null);
+  const [mapCenter, setMapCenter] = useState<{ lat: number; lng: number } | null>(null);
 
   // Load stores within current radius
   const loadStoresInRadius = useCallback((lat: number, lng: number, radius: number) => {
@@ -34,6 +38,77 @@ const Index = () => {
     
     return storesInRadius;
   }, []);
+
+  // Load stores by state
+  const loadStoresByState = useCallback((state: string) => {
+    const storesInState = merchantsData.filter(merchant => merchant.state === state);
+    setMerchants(storesInState);
+    setHasMoreStores(false); // No "load more" for state search
+    return storesInState;
+  }, []);
+
+  // Handle search mode change
+  const handleSearchModeChange = useCallback((mode: 'proximity' | 'state') => {
+    setSearchMode(mode);
+    
+    if (mode === 'proximity') {
+      // Switch back to proximity search
+      setSelectedState(null);
+      setMapCenter(null); // Reset to user location
+      if (userLocation) {
+        loadStoresInRadius(userLocation.lat, userLocation.lng, currentRadius);
+      } else {
+        setMerchants([]);
+      }
+    } else {
+      // Switch to state search
+      if (selectedState) {
+        loadStoresByState(selectedState);
+        // Set map center to state
+        const stateCenter = MALAYSIAN_STATE_CENTERS[selectedState as keyof typeof MALAYSIAN_STATE_CENTERS];
+        if (stateCenter) {
+          setMapCenter(stateCenter);
+        }
+      } else {
+        setMerchants([]);
+        setMapCenter(null);
+      }
+    }
+  }, [userLocation, currentRadius, selectedState, loadStoresInRadius, loadStoresByState]);
+
+  // Handle state selection
+  const handleStateChange = useCallback((state: string | null) => {
+    setSelectedState(state);
+    
+    if (searchMode === 'state') {
+      if (state) {
+        const stores = loadStoresByState(state);
+        
+        // Center map on the selected state
+        const stateCenter = MALAYSIAN_STATE_CENTERS[state as keyof typeof MALAYSIAN_STATE_CENTERS];
+        if (stateCenter) {
+          setMapCenter(stateCenter);
+        }
+        
+        // Close mobile sheet on mobile to show the map
+        if (typeof window !== 'undefined' && window.innerWidth < 768) {
+          setIsMobileSheetOpen(false);
+        }
+        
+        const message = stores.length > 500 
+          ? `Found ${stores.length} stores in ${state}. Showing first 500 on map.`
+          : `Found ${stores.length} stores in ${state}.`;
+        
+        toast({
+          title: "State search",
+          description: message,
+        });
+      } else {
+        setMerchants([]);
+        setMapCenter(null);
+      }
+    }
+  }, [searchMode, loadStoresByState]);
 
   const handleFindNearMe = useCallback(async () => {
     // On mobile, immediately close the merchant list to reveal the map
@@ -53,6 +128,11 @@ const Index = () => {
         accuracy: location.accuracy,
         method: location.method
       });
+      
+      // Switch to proximity mode when finding location
+      setSearchMode('proximity');
+      setSelectedState(null);
+      setMapCenter(null); // Reset map center to use user location
       
       // Adjust initial radius based on accuracy
       let initialRadius = 5;
@@ -197,6 +277,44 @@ const Index = () => {
             isLoadingLocation={isLoadingLocation}
             getLocationButtonProps={getLocationButtonProps}
           />
+
+          {/* Search Mode Toggle */}
+          <div className="p-4 border-b border-border/30 bg-gradient-to-r from-primary/5 to-accent/5">
+            <div className="space-y-3">
+              <h3 className="text-sm font-semibold text-foreground">Search Mode</h3>
+              <div className="flex gap-2">
+                <Button
+                  variant={searchMode === 'proximity' ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={() => handleSearchModeChange('proximity')}
+                  className="flex-1 rounded-xl transition-all duration-300"
+                  disabled={!userLocation && searchMode !== 'proximity'}
+                >
+                  <Navigation className="w-4 h-4 mr-2" />
+                  Near Me
+                </Button>
+                <Button
+                  variant={searchMode === 'state' ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={() => handleSearchModeChange('state')}
+                  className="flex-1 rounded-xl transition-all duration-300"
+                >
+                  <MapIcon className="w-4 h-4 mr-2" />
+                  By State
+                </Button>
+              </div>
+              
+              {searchMode === 'state' && (
+                <div className="mt-3">
+                  <StateSelector
+                    selectedState={selectedState}
+                    onStateChange={handleStateChange}
+                    merchants={merchantsData}
+                  />
+                </div>
+              )}
+            </div>
+          </div>
           
           <MerchantList
             merchants={merchants}
@@ -209,6 +327,8 @@ const Index = () => {
             hasMoreStores={hasMoreStores}
             userLocation={userLocation}
             currentRadius={currentRadius}
+            searchMode={searchMode}
+            selectedState={selectedState}
           />
         </aside>
 
@@ -225,6 +345,7 @@ const Index = () => {
             onMerchantSelect={handleMerchantSelect}
             userLocation={userLocation}
             onFindNearMe={handleFindNearMe}
+            mapCenter={mapCenter}
           />
 
           {/* Mobile Floating Buttons */}
@@ -262,6 +383,44 @@ const Index = () => {
                 isLoadingLocation={isLoadingLocation}
                 getLocationButtonProps={getLocationButtonProps}
               />
+
+              {/* Search Mode Toggle for Mobile */}
+              <div className="p-4 border-b border-border/30 bg-gradient-to-r from-primary/5 to-accent/5">
+                <div className="space-y-3">
+                  <h3 className="text-sm font-semibold text-foreground">Search Mode</h3>
+                  <div className="flex gap-2">
+                    <Button
+                      variant={searchMode === 'proximity' ? 'default' : 'outline'}
+                      size="sm"
+                      onClick={() => handleSearchModeChange('proximity')}
+                      className="flex-1 rounded-xl transition-all duration-300"
+                      disabled={!userLocation && searchMode !== 'proximity'}
+                    >
+                      <Navigation className="w-4 h-4 mr-2" />
+                      Near Me
+                    </Button>
+                    <Button
+                      variant={searchMode === 'state' ? 'default' : 'outline'}
+                      size="sm"
+                      onClick={() => handleSearchModeChange('state')}
+                      className="flex-1 rounded-xl transition-all duration-300"
+                    >
+                      <MapIcon className="w-4 h-4 mr-2" />
+                      By State
+                    </Button>
+                  </div>
+                  
+                  {searchMode === 'state' && (
+                    <div className="mt-3">
+                    <StateSelector
+                      selectedState={selectedState}
+                      onStateChange={handleStateChange}
+                      merchants={merchantsData}
+                    />
+                    </div>
+                  )}
+                </div>
+              </div>
               
               <MerchantList
                 merchants={merchants}
@@ -274,6 +433,8 @@ const Index = () => {
                 hasMoreStores={hasMoreStores}
                 userLocation={userLocation}
                 currentRadius={currentRadius}
+                searchMode={searchMode}
+                selectedState={selectedState}
               />
             </div>
           </SheetContent>

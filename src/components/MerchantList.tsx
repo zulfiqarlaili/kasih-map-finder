@@ -24,6 +24,8 @@ interface MerchantListProps {
   hasMoreStores?: boolean;
   userLocation?: { lat: number; lng: number } | null;
   currentRadius?: number;
+  searchMode?: 'proximity' | 'state';
+  selectedState?: string | null;
 }
 
 const MerchantList: React.FC<MerchantListProps> = ({
@@ -36,7 +38,9 @@ const MerchantList: React.FC<MerchantListProps> = ({
   isLoadingMore = false,
   hasMoreStores = false,
   userLocation,
-  currentRadius = 5
+  currentRadius = 5,
+  searchMode = 'proximity',
+  selectedState = null
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [visibleCount, setVisibleCount] = useState(10);
@@ -89,7 +93,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto bg-gradient-to-b from-card to-card/80 backdrop-blur-xl border-r border-border/30">
+    <>
       {/* Header */}
       <div className="p-4 space-y-4 border-b border-border/50 bg-gradient-to-r from-primary/5 to-accent/5 flex-shrink-0">
         <div className="flex items-center justify-between">
@@ -104,47 +108,61 @@ const MerchantList: React.FC<MerchantListProps> = ({
           </Badge>
         </div>
 
-        {/* Find Near Me Button */}
-        <Button
-          onClick={onFindNearMe}
-          disabled={isLoadingLocation}
-          className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary-hover hover:to-accent text-primary-foreground font-medium rounded-xl shadow-elegant transition-all duration-300 hover:shadow-glow hover:scale-105"
-          size="sm"
-        >
-          {isLoadingLocation ? (
-            <>
-              <div className="w-4 h-4 border-2 border-primary-foreground border-t-transparent rounded-full animate-spin mr-2" />
-              Finding your location...
-            </>
-          ) : (
-            <>
-              <Navigation className="w-4 h-4 mr-2" />
-              Find Near Me ({currentRadius}km)
-            </>
-          )}
-        </Button>
+        {/* Find Near Me Button - Only show in proximity mode */}
+        {searchMode === 'proximity' && (
+          <>
+            <Button
+              onClick={onFindNearMe}
+              disabled={isLoadingLocation}
+              className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary-hover hover:to-accent text-primary-foreground font-medium rounded-xl shadow-elegant transition-all duration-300 hover:shadow-glow hover:scale-105"
+              size="sm"
+            >
+              {isLoadingLocation ? (
+                <>
+                  <div className="w-4 h-4 border-2 border-primary-foreground border-t-transparent rounded-full animate-spin mr-2" />
+                  Finding your location...
+                </>
+              ) : (
+                <>
+                  <Navigation className="w-4 h-4 mr-2" />
+                  Find Near Me ({currentRadius}km)
+                </>
+              )}
+            </Button>
 
-        {/* Load More Button - Only show when user has location and there are more stores */}
-        {userLocation && hasMoreStores && (
-          <Button
-            onClick={onLoadMore}
-            disabled={isLoadingMore}
-            variant="outline"
-            className="w-full border-border/50 bg-background/50 hover:bg-background transition-all duration-300"
-            size="sm"
-          >
-            {isLoadingMore ? (
-              <>
-                <div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin mr-2" />
-                Loading more stores...
-              </>
-            ) : (
-              <>
-                <MapPin className="w-4 h-4 mr-2" />
-                Load More Stores (Expand to {currentRadius + 5}km)
-              </>
+            {/* Load More Button - Only show when user has location and there are more stores */}
+            {userLocation && hasMoreStores && (
+              <Button
+                onClick={onLoadMore}
+                disabled={isLoadingMore}
+                variant="outline"
+                className="w-full border-border/50 bg-background/50 hover:bg-background transition-all duration-300"
+                size="sm"
+              >
+                {isLoadingMore ? (
+                  <>
+                    <div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin mr-2" />
+                    Loading more stores...
+                  </>
+                ) : (
+                  <>
+                    <MapPin className="w-4 h-4 mr-2" />
+                    Load More Stores (Expand to {currentRadius + 5}km)
+                  </>
+                )}
+              </Button>
             )}
-          </Button>
+          </>
+        )}
+
+        {/* State Search Info - Show in state mode */}
+        {searchMode === 'state' && selectedState && (
+          <div className="p-3 bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl border border-primary/20">
+            <div className="flex items-center gap-2 text-sm text-foreground">
+              <MapPin className="w-4 h-4 text-primary" />
+              <span>Showing all stores in <strong>{selectedState}</strong></span>
+            </div>
+          </div>
         )}
 
         {/* Search */}
@@ -269,18 +287,31 @@ const MerchantList: React.FC<MerchantListProps> = ({
       )}
 
       {/* Footer */}
-      {userLocation && (
+      {(userLocation || searchMode === 'state') && (
         <div className="p-4 border-t border-border/30 bg-gradient-to-r from-success/5 to-primary/5 flex-shrink-0">
           <div className="space-y-2 text-center">
             <div className="flex items-center justify-center gap-2 text-xs text-muted-foreground">
               <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
-              <span>Showing {merchants.length} stores within {currentRadius}km radius</span>
+              {searchMode === 'proximity' && userLocation ? (
+                <span>Showing {merchants.length} stores within {currentRadius}km radius</span>
+              ) : searchMode === 'state' && selectedState ? (
+                <span>Showing {merchants.length} stores in {selectedState}</span>
+              ) : (
+                <span>Showing {merchants.length} stores</span>
+              )}
             </div>
             <div className="mt-6 pt-6 border-t border-border/50">
               <div className="flex flex-col items-center space-y-2 text-center">
-                <p className="text-xs text-muted-foreground/70">
-                  More stores available beyond this area
-                </p>
+                {searchMode === 'proximity' && (
+                  <p className="text-xs text-muted-foreground/70">
+                    More stores available beyond this area
+                  </p>
+                )}
+                {searchMode === 'state' && (
+                  <p className="text-xs text-muted-foreground/70">
+                    Switch to "Near Me" to find stores by your location
+                  </p>
+                )}
                 <div className="flex items-center space-x-2 text-xs text-muted-foreground/60">
                   <span>Built with ❤️ by</span>
                   <a 
@@ -300,7 +331,7 @@ const MerchantList: React.FC<MerchantListProps> = ({
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

@@ -25,6 +25,7 @@ interface MapProps {
   onMerchantSelect: (merchant: Merchant) => void;
   userLocation?: { lat: number; lng: number; accuracy: number; method: 'gps' | 'ip' | 'manual' } | null;
   onFindNearMe?: () => void;
+  mapCenter?: { lat: number; lng: number } | null;
 }
 
 const Map: React.FC<MapProps> = ({ 
@@ -32,7 +33,8 @@ const Map: React.FC<MapProps> = ({
   selectedMerchant, 
   onMerchantSelect, 
   userLocation,
-  onFindNearMe
+  onFindNearMe,
+  mapCenter
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -135,8 +137,21 @@ const Map: React.FC<MapProps> = ({
   useEffect(() => {
     if (!map.current || !mapLoaded) return;
 
-    // Ensure merchant pin image is available (Google-style red pin)
-    const pinImageId = 'merchant-pin-image';
+    try {
+      console.log(`Rendering ${merchants.length} merchants on map`);
+      
+      // Performance optimization: limit merchants if too many
+      const MAX_MERCHANTS_ON_MAP = 500;
+      const merchantsToRender = merchants.length > MAX_MERCHANTS_ON_MAP 
+        ? merchants.slice(0, MAX_MERCHANTS_ON_MAP)
+        : merchants;
+      
+      if (merchants.length > MAX_MERCHANTS_ON_MAP) {
+        console.warn(`Limiting map display to first ${MAX_MERCHANTS_ON_MAP} merchants out of ${merchants.length}`);
+      }
+      
+      // Ensure merchant pin image is available (Google-style red pin)
+      const pinImageId = 'merchant-pin-image';
     if (map.current && !map.current.hasImage(pinImageId)) {
       const merchantPinSvg = `data:image/svg+xml;utf8,${encodeURIComponent(
         '<svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">\
@@ -161,7 +176,7 @@ const Map: React.FC<MapProps> = ({
     // Build GeoJSON from merchants
     const geojson: GeoJSON.FeatureCollection<GeoJSON.Point, MerchantFeatureProps> = {
       type: 'FeatureCollection',
-      features: merchants.map((m) => ({
+      features: merchantsToRender.map((m) => ({
         type: 'Feature',
         geometry: { type: 'Point', coordinates: [m.longitude, m.latitude] },
         properties: {
@@ -179,7 +194,7 @@ const Map: React.FC<MapProps> = ({
     };
 
     // Keep a fresh lookup to avoid stale closures in event handlers
-    merchantByIdRef.current = merchants.reduce<Record<string, Merchant>>((acc, m) => {
+    merchantByIdRef.current = merchantsToRender.reduce<Record<string, Merchant>>((acc, m) => {
       acc[m.merchantId] = m;
       return acc;
     }, {});
@@ -279,9 +294,9 @@ const Map: React.FC<MapProps> = ({
     }
  
     // Fit map to show all merchants
-    if (merchants.length > 0) {
+    if (merchantsToRender.length > 0) {
       const bounds = new maplibregl.LngLatBounds();
-      merchants.forEach(merchant => {
+      merchantsToRender.forEach(merchant => {
         bounds.extend([merchant.longitude, merchant.latitude]);
       });
       
@@ -295,6 +310,10 @@ const Map: React.FC<MapProps> = ({
       });
     }
 
+    } catch (error) {
+      console.error('Error rendering merchants on map:', error);
+      // Don't crash the app, just log the error
+    }
   }, [merchants, mapLoaded, onMerchantSelect, userLocation]);
 
   // Show/update current user marker
@@ -399,6 +418,26 @@ const Map: React.FC<MapProps> = ({
     });
 
   }, [selectedMerchant]);
+
+  // Handle map center changes (for state-based search)
+  useEffect(() => {
+    if (!map.current || !mapCenter) return;
+
+    // Ensure map is properly resized before flying to new center
+    // This is especially important on mobile where layout might change
+    setTimeout(() => {
+      if (map.current) {
+        map.current.resize();
+        
+        // Fly to the new center (state center)
+        map.current.flyTo({
+          center: [mapCenter.lng, mapCenter.lat],
+          zoom: 10, // Good zoom level for viewing a state
+          duration: 1500
+        });
+      }
+    }, 100); // Small delay to ensure layout has settled
+  }, [mapCenter]);
 
   const getLocationMethodIcon = () => {
     if (!userLocation) return <MapPin className="w-4 h-4" />;
