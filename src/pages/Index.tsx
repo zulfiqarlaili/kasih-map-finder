@@ -183,19 +183,19 @@ const Index = () => {
     <div className="h-[100dvh] flex flex-col overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
       
       {/* Header */}
-      <div className="bg-card/95 backdrop-blur-xl border-b border-border/50 p-4">
-        <div className="container mx-auto flex items-center justify-between">
+      <div className="bg-card/95 backdrop-blur-xl border-b border-border/50 px-4 py-2">
+        <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-foreground">
+            <h1 className="text-lg font-bold text-foreground">
               Kedai Berdaftar MyKasih
             </h1>
-            <p className="text-muted-foreground">
+            <p className="text-xs text-muted-foreground">
               Cari kedai terdekat di Klang Valley
             </p>
           </div>
           <Link to="/faq">
-            <Button variant="outline" size="sm">
-              <HelpCircle className="w-4 h-4 mr-2" />
+            <Button variant="outline" size="sm" className="h-8 px-3">
+              <HelpCircle className="w-3 h-3 mr-1" />
               FAQ
             </Button>
           </Link>

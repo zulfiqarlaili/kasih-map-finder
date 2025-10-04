@@ -249,30 +249,26 @@ const LocationPage = () => {
   return (
     <div className="h-[100dvh] flex flex-col overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
       {/* Location Header */}
-      <div className="bg-card/95 backdrop-blur-xl border-b border-border/50 p-4">
-        <div className="container mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-4">
+      <div className="bg-card/95 backdrop-blur-xl border-b border-border/50 px-4 py-2">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
             <Link to="/">
-              <Button variant="ghost" size="sm">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back
+              <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+                <ArrowLeft className="w-4 h-4" />
               </Button>
             </Link>
             <div>
-              <h1 className="text-2xl font-bold text-foreground">
+              <h1 className="text-lg font-bold text-foreground">
                 Kedai MyKasih di {locationData.name}
               </h1>
-              <p className="text-muted-foreground">
-                {merchants.length} kedai berdaftar MyKasih ditemui
-              </p>
             </div>
           </div>
-          <div className="flex gap-2">
-            <Badge variant="secondary" className="flex items-center gap-1">
+          <div className="flex gap-1">
+            <Badge variant="secondary" className="flex items-center gap-1 text-xs px-2 py-1">
               <Store className="w-3 h-3" />
-              {merchants.length} Kedai
+              {merchants.length}
             </Badge>
-            <Badge variant="outline" className="flex items-center gap-1">
+            <Badge variant="outline" className="flex items-center gap-1 text-xs px-2 py-1">
               <MapPin className="w-3 h-3" />
               {locationData.name}
             </Badge>
