@@ -208,6 +208,19 @@
     "city": "Muar"
   },
   {
+    "merchantId": "00dce86c-236d-47a2-b62e-0efa7414ae9d",
+    "postalCode": "43300",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Seri Kembangan, One South)",
+    "address1": "D-G-02, Streetmall One South, Jalan OS Seksyen 6,",
+    "address2": "Taman Serdang Perdana, 43300 Seri Kembangan, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
+  },
+  {
     "merchantId": "00e83c78-1eca-4da5-8252-d9df3f13201e",
     "postalCode": "98050",
     "longitude": 114.322891,
@@ -468,6 +481,32 @@
     "city": "Pokok Sena"
   },
   {
+    "merchantId": "0216184f-e4f9-4344-a36e-bd9cb93949a2",
+    "postalCode": "43300",
+    "longitude": 101.66906,
+    "latitude": 2.99611998,
+    "tradingName": "KK Super Mart (Taman Equine (2))",
+    "address1": "No.42,",
+    "address2": "Jalan Putra Permai 1B, Taman Equine,",
+    "address3": "43300 Seri Kembangan, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
+  },
+  {
+    "merchantId": "021dec0c-7db9-43dc-bad3-0184f8191858",
+    "postalCode": "11600",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Pulau Pinang, Jalan Van Praagh)",
+    "address1": "No.42-G-8, 9 & 10, Jalan Van Praagh,",
+    "address2": "11600 Georgetown, Pulau Pinang.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Georgetown"
+  },
+  {
     "merchantId": "021f518d-acec-4643-901c-dd632b3b906e",
     "postalCode": "41050",
     "longitude": 101.439369,
@@ -505,6 +544,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Sandakan"
+  },
+  {
+    "merchantId": "0236ccd5-480d-4dab-9328-bd6fec08dd93",
+    "postalCode": "76100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Melaka, Durian Tunggal)",
+    "address1": "MB-0-08, Jalan SB Utama, Taman Sri Bayan, Hang Tuah Jaya,",
+    "address2": "76100 Durian Tunggal, Melaka.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Durian Tunggal"
   },
   {
     "merchantId": "0238324a-a888-4036-b64e-e1aaaac54753",
@@ -856,6 +908,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Kampung Kepayang"
+  },
+  {
+    "merchantId": "0346feb1-ff87-4928-ac54-e73e236a3a3c",
+    "postalCode": "40000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Shah Alam, Seksyen 7)",
+    "address1": "No.32, Jalan Kristal J7/J, Seksyen 7,",
+    "address2": "40000 Shah Alam, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
   },
   {
     "merchantId": "0347e7c3-01d9-40cc-8f4c-31dcd0372593",
@@ -2223,6 +2288,19 @@
     "city": "GELANG PATAH"
   },
   {
+    "merchantId": "07cae629-c775-477c-8ad4-61bd0469121d",
+    "postalCode": "95400",
+    "longitude": 111.292976,
+    "latitude": 1.61770999,
+    "tradingName": "CCK Fresh Mart - Pusa",
+    "address1": "no.12, pasar baru, 94950, 95400 pusa, sarawak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Pusa"
+  },
+  {
     "merchantId": "07ddcfbf-16fd-4f4b-905f-0f29a1dc294b",
     "postalCode": "27070",
     "longitude": 102.780159,
@@ -2260,6 +2338,19 @@
     "country": "Malaysia",
     "state": "Terengganu",
     "city": "Marang"
+  },
+  {
+    "merchantId": "07f18aea-be0f-42a6-a154-c400b1ba89a3",
+    "postalCode": "43300",
+    "longitude": 101.691299,
+    "latitude": 3.03805995,
+    "tradingName": "KK Super Mart (Bukit Serdang (2))",
+    "address1": "SA-AG-06 & SA-BG-06, Block B, Pangsapuri Timur, Jalan Kasturi Taman Bukit Serdang,",
+    "address2": "Seksyen 10, 43300 Seri Kembangan, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
   },
   {
     "merchantId": "07f1b32c-f50d-44ad-b6e0-775228f6e91a",
@@ -2548,6 +2639,19 @@
     "city": "Kulim"
   },
   {
+    "merchantId": "08e7cea5-5c0f-44c0-8287-5ef1bb5bdc12",
+    "postalCode": "90000",
+    "longitude": 118.06002,
+    "latitude": 5.86795998,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Tyng) - SBH 29322",
+    "address1": "Ground Floor, Lot 20 & 21, Block B, Taman Tyng, Batu 5, Jalan Utara,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "09008bf0-3a9b-4698-89bd-be18c53dfa15",
     "postalCode": "40200",
     "longitude": 101.515831,
@@ -2650,6 +2754,19 @@
     "country": "Malaysia",
     "state": "Terengganu",
     "city": "Marang"
+  },
+  {
+    "merchantId": "0954f7b5-9cb0-4605-9852-480caee082b3",
+    "postalCode": "43300",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Kajang, Taman Villa Tropika)",
+    "address1": "No.10, Jalan Villa Tropika 1, Taman Villa Tropika,",
+    "address2": "43300 Kajang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
   },
   {
     "merchantId": "095838ef-49a6-44bb-9e4a-d400aed5f1e1",
@@ -3042,6 +3159,19 @@
     "city": "Batu Niah"
   },
   {
+    "merchantId": "0a8893fc-996f-438b-9d5e-9db29371180d",
+    "postalCode": "43500",
+    "longitude": 101.86644,
+    "latitude": 2.94492006,
+    "tradingName": "KK Super Mart (Semenyih, Setia Mayuri)",
+    "address1": "No.23A,",
+    "address2": "Jalan Mayuri 1/5A, Setia Mayuri,",
+    "address3": "43500 Semenyih, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Semenyih"
+  },
+  {
     "merchantId": "0a97bfae-f59f-4880-abf7-e2490f1541ef",
     "postalCode": "93150",
     "longitude": 110.336868,
@@ -3341,6 +3471,19 @@
     "city": "Tangkak"
   },
   {
+    "merchantId": "0bc08c50-4614-43e1-99a2-1c3c54dc9651",
+    "postalCode": "96800",
+    "longitude": 112.93914,
+    "latitude": 2.01636004,
+    "tradingName": "CCK Fresh Mart Kapit",
+    "address1": "no. 65 & 66, jalan tiong ung hung, lot 261, kapit town district road,96800 Kapit, Sarawak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Kapit"
+  },
+  {
     "merchantId": "0bcf0fdf-3798-4c08-8583-3c78b741375d",
     "postalCode": "89058",
     "longitude": 117.085022,
@@ -3445,6 +3588,19 @@
     "city": "Rawang"
   },
   {
+    "merchantId": "0c38dec6-da15-4bd0-9e75-b884fcac6a73",
+    "postalCode": "47820",
+    "longitude": 101.618721,
+    "latitude": 3.17603993,
+    "tradingName": "KK Super Mart (Damansara Perdana 2)",
+    "address1": "A-G-K02, Flora Damansara, Jalan PJU 8/9, Bandar Damansara Perdana,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "0c44353d-7be5-4f1d-a9b5-5d58229963b6",
     "postalCode": "91100",
     "longitude": 0,
@@ -3521,6 +3677,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Muar"
+  },
+  {
+    "merchantId": "0c74fe19-7bb8-40b2-a9c7-c8878b80e08d",
+    "postalCode": "43650",
+    "longitude": 101.757942,
+    "latitude": 2.96274996,
+    "tradingName": "KK Super Mart (Bandar Baru Bangi (3))",
+    "address1": "No.189,",
+    "address2": "Jalan 8/1, Seksyen 8,",
+    "address3": "43650 Bandar Baru Bangi, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bandar Baru Bangi"
   },
   {
     "merchantId": "0c7645d1-e96b-4b13-9254-88b29fd21164",
@@ -5525,6 +5694,19 @@
     "city": "Sungai Besar"
   },
   {
+    "merchantId": "130eae6f-e13c-4d32-8c2f-26668dddd222",
+    "postalCode": "80150",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Johor, Pusat Komersal Bayu Tasik)",
+    "address1": "D-1-1, Blok D, Pusat Komersal Bayu Tasik, Persiaran Southkey 1,",
+    "address2": "Kota Southkey, 80150 Johor Bahru, Johor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Johor Bahru"
+  },
+  {
     "merchantId": "130edaa4-6077-4a72-bbb2-0fb9dbbe5f06",
     "postalCode": "46150",
     "longitude": 101.611412,
@@ -6448,6 +6630,19 @@
     "city": "Lawas"
   },
   {
+    "merchantId": "16b0cabc-ce46-471b-8d76-3ee0d8e3ef60",
+    "postalCode": "43300",
+    "longitude": 101.699707,
+    "latitude": 3.0220499,
+    "tradingName": "KK Super Mart (Bukit Serdang)",
+    "address1": "No.20-1, Jalan 4/1,",
+    "address2": "Taman Bukit Serdang, Seksyen 4",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
+  },
+  {
     "merchantId": "16cb049f-81f3-4460-8d68-62855e85240e",
     "postalCode": "56000",
     "longitude": 101.733551,
@@ -6825,6 +7020,19 @@
     "city": "KULAI"
   },
   {
+    "merchantId": "184b90ff-843b-40ef-b83d-bba066217637",
+    "postalCode": "43000",
+    "longitude": 101.75959,
+    "latitude": 2.9242301,
+    "tradingName": "KK Super Mart (Bangi Taman Jernang Jaya)",
+    "address1": "No.35,",
+    "address2": "Jalan Jernang Jaya 1, Taman Jernang Jaya,",
+    "address3": "43000 Bandar Baru Bangi, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bandar Baru Bangi"
+  },
+  {
     "merchantId": "18511e96-8634-4325-bc69-c30a7bbfa35b",
     "postalCode": "09000",
     "longitude": 100.543251,
@@ -6901,6 +7109,19 @@
     "country": "Malaysia",
     "state": "Melaka",
     "city": "Tampin"
+  },
+  {
+    "merchantId": "1891f8d7-f732-43b1-b6f7-dfadf79d4d73",
+    "postalCode": "31200",
+    "longitude": 101.046562,
+    "latitude": 4.68289995,
+    "tradingName": "PASARAYA MS HARI (HQ) - MS GROCER@KLEBANG RESTU",
+    "address1": "No. 52-68, Laluan Klebang Restu 15, Medan Klebang Restu",
+    "address2": "",
+    "address3": ",",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Chemor"
   },
   {
     "merchantId": "189201c6-a6b9-4923-b48d-2c969523d704",
@@ -6981,6 +7202,19 @@
     "city": "Parit Raja"
   },
   {
+    "merchantId": "18fb957a-30c8-475d-887b-43a467019771",
+    "postalCode": "31400",
+    "longitude": 101.124931,
+    "latitude": 4.59445,
+    "tradingName": "KK Super Mart (Taman Cempaka Ipoh)",
+    "address1": "No.29, Jalan Sri Cempaka, Taman Cempaka",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "191651d7-b65e-4281-b0dd-96729c5fcc64",
     "postalCode": "76300",
     "longitude": 102.129272,
@@ -7005,6 +7239,19 @@
     "country": "Malaysia",
     "state": "W.P Kuala Lumpur",
     "city": "Sungai Besi"
+  },
+  {
+    "merchantId": "19399a1f-fa6c-4e4f-a06b-4acdaa4f5129",
+    "postalCode": "13800",
+    "longitude": 100.430511,
+    "latitude": 5.43915987,
+    "tradingName": "Cahaya Murni - Sungai Dua",
+    "address1": "No. 2& 4, Jalan Murni 1, Taman Desa Murni",
+    "address2": "Sungai Dua",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Butterworth"
   },
   {
     "merchantId": "193a8e8e-7717-4a91-bb29-803929d713d7",
@@ -7440,8 +7687,8 @@
     "postalCode": "93350",
     "longitude": 0,
     "latitude": 0,
-    "tradingName": "DOREMART TROPICS CITY",
-    "address1": "B1-1 TO B1-20,LOTS 258, 259, 1169, 1173 & 3582, TROPICS CITY, JLN TABUAN DAYAK, 93350 KUCHING,\u00A0SARAWAK.",
+    "tradingName": "Doremart Tropics City",
+    "address1": "B1-1 TO B1-20,LOTS 258, 259, 1169, 1173 & 3582, TROPICS CITY, JLN TABUAN DAYAK",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
@@ -7622,8 +7869,8 @@
     "postalCode": "89200",
     "longitude": 116.225487,
     "latitude": 6.18038988,
-    "tradingName": "SERVAY EXPRESS SDN BHD - SETPR",
-    "address1": "LOT NO 10, 1 TELIPOK COMMERCIAL CENTRE, JALAN TUARAN, 89200 TUARAN SABAH.",
+    "tradingName": "Servay Express Sdn Bhd - SETPR",
+    "address1": "LOT NO 10, 1 TELIPOK COMMERCIAL CENTRE, JALAN TUARAN",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
@@ -7733,6 +7980,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Petaling Jaya"
+  },
+  {
+    "merchantId": "1b81a842-00e2-4a15-b8e2-3ed998a1450d",
+    "postalCode": "90000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (Sandakan Town) - SBH 29022",
+    "address1": "Ground Floor, Lot 1A, 1B & Lot 2A, Block 43, Third Avenue, Leila Road, Sandakan Town",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "1b8528ef-5dd4-4a3f-817f-e954abc01513",
@@ -8268,6 +8528,19 @@
     "city": "Petaling Jaya"
   },
   {
+    "merchantId": "1e1a28b0-1084-41f5-a0d3-45d794b22df1",
+    "postalCode": "89158",
+    "longitude": 116.42939,
+    "latitude": 6.35682011,
+    "tradingName": "88 Fresh Mart Kota Belud",
+    "address1": "Lot 7, Ground Floor, Block F, Kompleks Centenary, 89158 Kota belud, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Belud"
+  },
+  {
     "merchantId": "1e37b547-d105-4db2-b427-9d7a5e749697",
     "postalCode": "09210",
     "longitude": 100.748001,
@@ -8346,6 +8619,19 @@
     "city": "Kuala Berang"
   },
   {
+    "merchantId": "1e9ecea6-8227-4432-b6fd-4e72d66bb448",
+    "postalCode": "89200",
+    "longitude": 116.223061,
+    "latitude": 6.14795017,
+    "tradingName": "KK Tetap Jaya Sdn Bhd (Berungis Commercial Centre)",
+    "address1": "LOT NO. 6,7,8 DAN 9, GROUND FLOOR, BERUNGIS COMMERCIAL CENTRE, 89200 TUARAN, SABAH.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tuaran"
+  },
+  {
     "merchantId": "1eaf06f2-d9f4-4334-9e06-8f4e13a8a6a5",
     "postalCode": "24000",
     "longitude": 0,
@@ -8383,6 +8669,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Sungai Petani"
+  },
+  {
+    "merchantId": "1ecd47be-e41c-469b-b31b-bf43de069178",
+    "postalCode": "89320",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "TAWAI TRADING SDN. BHD.",
+    "address1": "Jalan Sapi-Nangoh (NT 083236391)",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Telupid"
   },
   {
     "merchantId": "1f0ad4b0-b5e7-4219-85c1-0887d3eb9644",
@@ -9100,6 +9399,19 @@
     "city": "Kuala Lipis"
   },
   {
+    "merchantId": "218f26b8-3cef-41ad-95be-f2a705f1c03a",
+    "postalCode": "89050",
+    "longitude": 116.849922,
+    "latitude": 6.89351988,
+    "tradingName": "88 Fresh Mart Kudat 2",
+    "address1": "No. Bgn. 0862, Taman Seri Kapor, Jalan Bawah,89050 Kudat Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kudat"
+  },
+  {
     "merchantId": "21b84a4c-5677-460c-9147-9e30234cc981",
     "postalCode": "45200",
     "longitude": 100.879593,
@@ -9150,6 +9462,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Keningau"
+  },
+  {
+    "merchantId": "21f3b8f0-a1a4-4d90-9fa3-828411e5dc12",
+    "postalCode": "79100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Johor, Taman Nusa Sentral)",
+    "address1": "No.5, Jalan Sentral 25, Taman Nusa Sentral,",
+    "address2": "79100 Iskandar Puteri, Johor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Iskandar Puteri"
   },
   {
     "merchantId": "2206564c-9831-45d7-9b98-71752befd4ae",
@@ -9306,6 +9631,32 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Port Klang"
+  },
+  {
+    "merchantId": "227369c2-3d8a-4611-b51c-9eccca8967e1",
+    "postalCode": "81100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Johor, Taman Seri Austin)",
+    "address1": "G-22, Jalan Seri Austin 1/1, Taman Seri Austin,",
+    "address2": "81100 Johor Bahru, Johor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Johor Bahru"
+  },
+  {
+    "merchantId": "22848481-c733-4e90-8c9c-917b096ec528",
+    "postalCode": "40170",
+    "longitude": 101.486343,
+    "latitude": 3.08590007,
+    "tradingName": "99 Speedmart Sdn Bhd (Shah Alam U12) - 1449",
+    "address1": "No: 31-1 & 33-1",
+    "address2": "Jalan Selasih J U12/J",
+    "address3": "Seksyen U12",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
   },
   {
     "merchantId": "228925ab-c598-4209-9ab3-c6413bb55858",
@@ -10166,6 +10517,19 @@
     "city": "Klang"
   },
   {
+    "merchantId": "25ecb310-e1dd-4f34-a607-c71e47779e8d",
+    "postalCode": "53100",
+    "longitude": 101.728897,
+    "latitude": 3.22250009,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Melati Utama) - 1191",
+    "address1": "No.11-G & 15-G, Jalan Melati Utama 2, Taman Melati Utama",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Taman Melati"
+  },
+  {
     "merchantId": "25f567e9-26f7-481b-b6ab-01eda899c4d7",
     "postalCode": "26600",
     "longitude": 103.416901,
@@ -10816,6 +11180,19 @@
     "city": "KOTA KINABALU"
   },
   {
+    "merchantId": "2868597c-67b1-4a6b-bbfe-a9412d660af6",
+    "postalCode": "14300",
+    "longitude": 100.476341,
+    "latitude": 5.16691017,
+    "tradingName": "Yawata (Nibong Tebal)",
+    "address1": "1, JALAN NURI, TAMAN SENTOSA, 14300 NIBONG TEBAL",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Nibong Tebal"
+  },
+  {
     "merchantId": "286bdf6b-2d0a-4f83-9b9b-b285c38dd022",
     "postalCode": "42610",
     "longitude": 101.585892,
@@ -11323,6 +11700,19 @@
     "city": "ISKANDAR PUTERI"
   },
   {
+    "merchantId": "2a122325-cb12-446c-96f3-0419ddf6dc18",
+    "postalCode": "27600",
+    "longitude": 101.854332,
+    "latitude": 3.76023006,
+    "tradingName": "TMG Express 3000 Sdn Bhd (Raub)",
+    "address1": "No 1-G, 2-G & 3-G, GF, Lorong Seri Wawasan 1, Taman Seri Wawasan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Pahang",
+    "city": "Raub"
+  },
+  {
     "merchantId": "2a199371-903e-4208-b0cb-6f68e6159631",
     "postalCode": "86100",
     "longitude": 103.179382,
@@ -11609,6 +11999,19 @@
     "city": "Teluk Intan"
   },
   {
+    "merchantId": "2af803b8-66a4-450c-abac-8735fb4afdbc",
+    "postalCode": "88200",
+    "longitude": 116.137413,
+    "latitude": 5.99226999,
+    "tradingName": "KK TETAP JAYA SDN BHD",
+    "address1": "LOT 7, 8 & 9, BLOCK G, GROUND FLOOR, INANAM PLAZA, INANAM NEW TOWNSHIP, JALAN TUARAN,88200 KOTA KINABALU, SABAH.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "2b1a4955-a23b-4561-b994-a55c17f0fa68",
     "postalCode": "94850",
     "longitude": 110.93457,
@@ -11674,6 +12077,19 @@
     "city": "Pusa"
   },
   {
+    "merchantId": "2b72a825-4443-4eec-81eb-b1a1a5225644",
+    "postalCode": "47630",
+    "longitude": 101.587029,
+    "latitude": 3.04613996,
+    "tradingName": "KK Super Mart (USJ 9 2)",
+    "address1": "No.7-1, Jalan USJ 9/5P, UEP Subang Jaya,",
+    "address2": "Goodyear Court 4, Persiaran Kewajipan, USJ 8,",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Subang Jaya"
+  },
+  {
     "merchantId": "2b862199-f575-4187-ab5f-83b650349474",
     "postalCode": "43300",
     "longitude": 0,
@@ -11685,6 +12101,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "SERI KEMBANGAN"
+  },
+  {
+    "merchantId": "2b8d4e8a-f689-4fbf-b5f9-41f3fdbd547d",
+    "postalCode": "89800",
+    "longitude": 115.744072,
+    "latitude": 5.34689999,
+    "tradingName": "CCK Fresh Mart Beaufort",
+    "address1": "tingkat ground & first, lot 1, jalan baru pekan beaufort 89800, sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Beaufort"
   },
   {
     "merchantId": "2b99e9dc-4cdc-4a62-95f8-9d7d5acdda20",
@@ -12049,6 +12478,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Ipoh"
+  },
+  {
+    "merchantId": "2ccd16f8-ac9a-4de7-9f79-db7e1dbfe48d",
+    "postalCode": "57000",
+    "longitude": 101.483757,
+    "latitude": 3.0647099,
+    "tradingName": "KK Super Mart (Shah Alam, I-City)",
+    "address1": "MENARA KK, T6-01-03, Tower 6, Maju Link,",
+    "address2": "Jalan Lingkaran Tengah 2, Bandar Tasik Selatan,",
+    "address3": "57000 Kuala Lumpur.",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Kuala Lumpur"
   },
   {
     "merchantId": "2ccf6c18-59d1-41ef-b0f9-976f15aa3873",
@@ -12727,6 +13169,19 @@
     "city": "Klang"
   },
   {
+    "merchantId": "2ee29e1a-3766-4310-926b-b3fd748d9454",
+    "postalCode": "47810",
+    "longitude": 101.57058,
+    "latitude": 3.15754008,
+    "tradingName": "KK Super Mart (Kota Damansara Seksyen 3)",
+    "address1": "No.6, Jalan Teknologi 3/6D,",
+    "address2": "Taman Sains Selangor 1, Seksyen 3,",
+    "address3": "Kota Damansara, Sungai Buloh,",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "2ee4938a-88e1-4636-88fa-1dd7794a50c5",
     "postalCode": "89157",
     "longitude": 116.429398,
@@ -12738,6 +13193,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Kota Belud"
+  },
+  {
+    "merchantId": "2f095e56-11b2-4c63-ab5a-7843b48695e5",
+    "postalCode": "41000",
+    "longitude": 101.475052,
+    "latitude": 3.02558994,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Maznah) - 3165",
+    "address1": "No: 391 & 392 (Ground Floor)",
+    "address2": "Jalan Songket",
+    "address3": "Taman Maznah",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
   },
   {
     "merchantId": "2f0e93a8-fa71-4151-a8b4-d4101fdd59cb",
@@ -13559,6 +14027,19 @@
     "city": "Kota Bharu"
   },
   {
+    "merchantId": "32a144de-6a6b-4fc3-8ee9-11dd7f858348",
+    "postalCode": "89307",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "8090 SUPERSTORE SDN. BHD.",
+    "address1": "126620 KG KUNDASANG 89307 RANAU SABAH MALAYSIA",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Ranau"
+  },
+  {
     "merchantId": "32a2c320-146c-433f-9615-86ebb4f34119",
     "postalCode": "86810",
     "longitude": 103.856621,
@@ -13780,6 +14261,19 @@
     "city": "Klang"
   },
   {
+    "merchantId": "336bb64f-e603-4aea-9f93-154ed3cbfefc",
+    "postalCode": "89850",
+    "longitude": 115.55024,
+    "latitude": 5.07609987,
+    "tradingName": "CCK Fresh Mart Sipitang",
+    "address1": "lot 6 ground & first floor, campeka ai bangunan lppb 2b, 89850 sipitang 89850, sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sipitang"
+  },
+  {
     "merchantId": "337203ce-ab75-4ac4-a207-0b05655bf283",
     "postalCode": "40150",
     "longitude": 101.525391,
@@ -13830,6 +14324,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Ampang"
+  },
+  {
+    "merchantId": "33945e73-a19a-4fc1-9d78-60578f3f1b24",
+    "postalCode": "89800",
+    "longitude": 115.740623,
+    "latitude": 5.34559011,
+    "tradingName": "88 Fresh Mart Beaufort",
+    "address1": "Ground Floor, Shop Lot No.16, Beaufort Jaya, 89800 Beaufort, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Beaufort"
   },
   {
     "merchantId": "339bba1f-bc26-4824-b4b7-ba1a0926b615",
@@ -14144,6 +14651,19 @@
     "city": "Maran"
   },
   {
+    "merchantId": "34437e46-6cce-484d-994f-c91e1dc0f6c5",
+    "postalCode": "88450",
+    "longitude": 116.166183,
+    "latitude": 5.98016024,
+    "tradingName": "99 Speedmart Sdn Bhd (Taman Seri Kionsom) - SBH 19518",
+    "address1": "Lot No 2 & 3 (Ground Floor), Taman Seri Kionsom, Jalan Kionsom",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "3445015b-35e9-4ea4-aafb-11e2ca8b3ec2",
     "postalCode": "40160",
     "longitude": 101.565132,
@@ -14233,6 +14753,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Johor Bahru"
+  },
+  {
+    "merchantId": "34a6aad9-7642-4509-b872-03fefb811f6d",
+    "postalCode": "53300",
+    "longitude": 101.713753,
+    "latitude": 3.19595003,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Genting Klang 2) - 3530",
+    "address1": "No: 231 & 233 (Ground Floor), Jalan Genting Klang",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Setapak"
   },
   {
     "merchantId": "34af2654-2fee-4422-849b-4cd81e3f0915",
@@ -14691,16 +15224,29 @@
   },
   {
     "merchantId": "365bc5c8-9be2-451b-a957-260b5f867356",
-    "postalCode": "77200",
+    "postalCode": "78100",
     "longitude": 102.39151,
     "latitude": 2.27679992,
-    "tradingName": "Venus GC Fresh Mart Sdn Bhd",
-    "address1": "JC 3486 & 3487 Jln Jasin Perdana 1 Tmn Jasin Perdana",
+    "tradingName": "Venus GC Fresh Mart Sdn Bhd (Lubok Cina)",
+    "address1": "RK 204, 205, 206 & 207, Jalan Wira Indah Utama, Taman Wira Indah 1",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
     "state": "Melaka",
-    "city": "Bemban"
+    "city": "Lubok China"
+  },
+  {
+    "merchantId": "3663edad-e693-48f8-9baa-3ddf6ad70cea",
+    "postalCode": "89500",
+    "longitude": 116.120277,
+    "latitude": 5.91400003,
+    "tradingName": "88 Fresh Mart Kasigui",
+    "address1": "Lot No. 8 & 9, Ground Floor, Plaza Kivatu, 89500 Penampang, Kota Kinabalu Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Penampang"
   },
   {
     "merchantId": "3665f8e6-7533-4e30-becb-74645911784e",
@@ -14909,6 +15455,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Sungai Siput (U)"
+  },
+  {
+    "merchantId": "370d4c5a-e530-40dd-b720-ffd9ab6fa070",
+    "postalCode": "47300",
+    "longitude": 101.61673,
+    "latitude": 3.11622,
+    "tradingName": "KK Super Mart (Taman Bahagia)",
+    "address1": "No.131,",
+    "address2": "Jalan SS 2/6, Taman Bahagia,",
+    "address3": "47300 Petaling Jaya, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
   },
   {
     "merchantId": "3714a9f8-269c-4a46-9a34-111c6186c093",
@@ -15223,6 +15782,19 @@
     "city": "Temerloh"
   },
   {
+    "merchantId": "3826c28f-f2ad-4e9b-9c88-1c56f4b97a4f",
+    "postalCode": "40000",
+    "longitude": 101.489594,
+    "latitude": 3.07650995,
+    "tradingName": "99 Speedmart Sdn Bhd (Shah Alam Jln Kristal) - 1168",
+    "address1": "No: 23 & 25",
+    "address2": "Jalan Kristal AS 7/AS",
+    "address3": "Seksyen 7",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
+  },
+  {
     "merchantId": "38291cf1-1ffb-4e85-a568-a23c0aaa355f",
     "postalCode": "81400",
     "longitude": 103.678467,
@@ -15312,6 +15884,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Rawang"
+  },
+  {
+    "merchantId": "387db6df-8d55-4127-ad9c-8f0c9c89c446",
+    "postalCode": "88300",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "Pick n Pay (KBS1)",
+    "address1": "nt.213208416, lot 1&2, ground floor, blok b, simpang tiga, jalan kobusak/hungab, 88300 penampang, kota kinabalu, sabah.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
   },
   {
     "merchantId": "38a0db21-a500-496a-a231-20a88c079817",
@@ -15795,6 +16380,19 @@
     "city": "KUNDASANG"
   },
   {
+    "merchantId": "39da4cda-29e0-4da1-9948-d5e7d94eb960",
+    "postalCode": "89657",
+    "longitude": 116.366951,
+    "latitude": 5.66940022,
+    "tradingName": "88 Fresh Mart Tambunan",
+    "address1": "Lot No.1,Block D, SUDC, 89657 Tambunan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tambunan"
+  },
+  {
     "merchantId": "39e01b93-2b32-4cd5-91f7-0a77b40e6ce4",
     "postalCode": "05200",
     "longitude": 100.369377,
@@ -15886,6 +16484,19 @@
     "city": "Masai"
   },
   {
+    "merchantId": "3a3b00ec-b298-4902-83b3-4136e9d55f7a",
+    "postalCode": "89000",
+    "longitude": 116.183884,
+    "latitude": 5.37159014,
+    "tradingName": "88 Fresh Mart Keningau 2",
+    "address1": "Ground Floor, Lot No 11 & 12,Block A, One Plaza, KM-5, Jalan Keningau Apin-apin, 89000, Keningau Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
+  },
+  {
     "merchantId": "3a53add7-b0c3-4ce0-8090-06b63f990fcf",
     "postalCode": "93350",
     "longitude": 110.354233,
@@ -15923,6 +16534,19 @@
     "country": "Malaysia",
     "state": "Kelantan",
     "city": "Kuala Krai"
+  },
+  {
+    "merchantId": "3a8ccea5-aa22-4305-a06d-e31f0c39c61f",
+    "postalCode": "23000",
+    "longitude": 103.408684,
+    "latitude": 4.83900023,
+    "tradingName": "DS Barokah Mart",
+    "address1": "No 1 Kedai Pt 5837, Jalan Kuala Abang, Kg Kuala Abang",
+    "address2": "",
+    "address3": "4.838997853165379, 103.40867851188207",
+    "country": "Malaysia",
+    "state": "Terengganu",
+    "city": "Dungun"
   },
   {
     "merchantId": "3a8dae45-5877-4102-85fa-b51a190c284f",
@@ -16079,6 +16703,19 @@
     "country": "Malaysia",
     "state": "Melaka",
     "city": "Alor Gajah"
+  },
+  {
+    "merchantId": "3b4e0c9b-76cc-44d3-9fcb-695293d46b2d",
+    "postalCode": "89000",
+    "longitude": 116.153488,
+    "latitude": 5.34009981,
+    "tradingName": "HIAP LEE(WHOLESALE) MARKETING SDN BHD",
+    "address1": "LOT 7-11, NT 133064981, JALAN TAMAN ADIKA 89000 KENINGAU SABAH",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
   },
   {
     "merchantId": "3b4f771f-82e5-49b4-a0f3-a4674e1a2be4",
@@ -16744,6 +17381,19 @@
     "city": "Sendayan"
   },
   {
+    "merchantId": "3d83968b-988b-46c5-83d2-4744d8d2abef",
+    "postalCode": "90000",
+    "longitude": 118.059273,
+    "latitude": 5.85665989,
+    "tradingName": "99 Speedmart Sdn Bhd (Villa Permai Jaya) - SBH 34824",
+    "address1": "Ground Floor, Lot 10 & 11, Villa Permai Jaya, Jalan Sibuga",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "3d8b9b4c-b4a9-4cf1-a223-14633ed86385",
     "postalCode": "89007",
     "longitude": 116.152473,
@@ -16861,6 +17511,19 @@
     "city": "Kluang"
   },
   {
+    "merchantId": "3dd65ed0-028a-4658-af77-969bacbd9040",
+    "postalCode": "53100",
+    "longitude": 101.716217,
+    "latitude": 3.22382998,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Perwira Gombak) - 1503",
+    "address1": "No : 9, Jalan Intan, Taman Perwira",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Gombak"
+  },
+  {
     "merchantId": "3dd68ad5-e310-4a49-a6d5-9a4cd5b6bf01",
     "postalCode": "86200",
     "longitude": 103.263382,
@@ -16872,6 +17535,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Simpang Renggam"
+  },
+  {
+    "merchantId": "3dda9958-cb11-4b25-a805-4fa0a2260ae6",
+    "postalCode": "53100",
+    "longitude": 101.711601,
+    "latitude": 3.20135999,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Langkawi) - 1744",
+    "address1": "No: 61& 63, Jalan Langkawi, Taman Setapak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Setapak"
   },
   {
     "merchantId": "3de77c02-5c36-4034-aaaf-804f69a127df",
@@ -16900,6 +17576,19 @@
     "city": "Rasa"
   },
   {
+    "merchantId": "3e023919-24b7-4a42-80c3-266ae0ed51fe",
+    "postalCode": "88300",
+    "longitude": 116.087883,
+    "latitude": 5.94650984,
+    "tradingName": "Pick n Pay Express (LTS1)",
+    "address1": "no.11-0 & 12-0, ground floor, lorong lintas plaza 4, lintas plaza, jalan lintas, 88300 kota kinabalu, sabah.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "3e052728-2cce-46c5-9f9f-b6585e28cb52",
     "postalCode": "81200",
     "longitude": 103.716652,
@@ -16911,6 +17600,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Johor Bahru"
+  },
+  {
+    "merchantId": "3e0dda3d-623f-4fc7-bae7-6d54206e1177",
+    "postalCode": "40600",
+    "longitude": 101.654648,
+    "latitude": 3.10721993,
+    "tradingName": "KK Super Mart (Jalan Gasing)",
+    "address1": "No.113, Jalan Gasing, Seksyen 10,",
+    "address2": "40600 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
   },
   {
     "merchantId": "3e10f434-af77-4a09-9f33-e8c5d32779fb",
@@ -17836,6 +18538,19 @@
     "city": "Baram"
   },
   {
+    "merchantId": "41393e75-d524-4975-a672-82ffb1671fec",
+    "postalCode": "46200",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Petaling Jaya, Jalan Bukit)",
+    "address1": "No.13, Jalan Bukit 11/2, Seksyen 11,",
+    "address2": "46200 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "413b65d6-2063-4daf-b1a9-500c91d1b34b",
     "postalCode": "08100",
     "longitude": 100.434868,
@@ -18523,6 +19238,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Tampin"
+  },
+  {
+    "merchantId": "44fa0913-7d9f-4145-899b-970b4cea262c",
+    "postalCode": "53300",
+    "longitude": 101.720261,
+    "latitude": 3.20179009,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Genting Klang 1) - 1684",
+    "address1": "No. 68 & 70, Jalan 2/23A, Off Jalan Genting Klang, Tmn Danau Kota",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Setapak"
   },
   {
     "merchantId": "45004117-ebf1-4163-ad87-241db0434e48",
@@ -19225,6 +19953,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Sungai Rengit"
+  },
+  {
+    "merchantId": "474ed38d-08fe-4782-839e-b998529ec49c",
+    "postalCode": "89500",
+    "longitude": 116.076912,
+    "latitude": 5.92503023,
+    "tradingName": "Pick n Pay (PLZ1)",
+    "address1": "lot no.9, (ground floor & 1 ), lot no 10&lot no 11, ground floor, block a, lorong plaza 333-1, plaza 333 kobusak commerical centre, 89500 penampang sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Penampang"
   },
   {
     "merchantId": "474fcad4-3ba7-4eb0-9c0c-2ae1216e7997",
@@ -20181,7 +20922,7 @@
     "longitude": 114.800903,
     "latitude": 4.03438997,
     "tradingName": "Sungai Pala Mini Mart Mulu",
-    "address1": "N0. 52, Kampung Melinau, 98070, Mulu, Baran",
+    "address1": "N0. 52, Kampung Melinau",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
@@ -20304,6 +21045,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "Raub"
+  },
+  {
+    "merchantId": "4b1b97fc-5c96-4b34-9f2f-27edfc6cd1e8",
+    "postalCode": "88450",
+    "longitude": 116.147842,
+    "latitude": 6.0295701,
+    "tradingName": "KK Tetap Jaya Sdn Bhd (Menggatal)",
+    "address1": "NT 013023035 KAMPUNG RAMPAYAN, JALAN MENGGATAL, JALAN TUARAN, 88450 KOTA KINABALU",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
   },
   {
     "merchantId": "4b262e5f-4907-469c-911f-5282132335f5",
@@ -20499,6 +21253,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Seremban"
+  },
+  {
+    "merchantId": "4bfc2763-d5b8-4655-8f60-0d91aa0c0fb7",
+    "postalCode": "28020",
+    "longitude": 102.370377,
+    "latitude": 3.57637,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Kerdau Aman) - 2711",
+    "address1": "No: 19 & 21\u00A0(Ground Floor),",
+    "address2": "Jalan Kerdau Aman 1,",
+    "address3": "Taman Kerdau Aman,",
+    "country": "Malaysia",
+    "state": "Pahang",
+    "city": "Kerdau"
   },
   {
     "merchantId": "4c2e4633-f38b-4c3c-b3c0-d8932a1d515f",
@@ -21125,6 +21892,19 @@
     "city": "Serian"
   },
   {
+    "merchantId": "4e5465e4-4979-40ae-b5c1-e9c6d2217ba0",
+    "postalCode": "87010",
+    "longitude": 115.241562,
+    "latitude": 5.27948999,
+    "tradingName": "Sun Mini Mart",
+    "address1": "U0053, Ground Floor, Jalan Bunga Mawar, 87010 Labuan, W.P Labuan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Labuan",
+    "city": "W.P Labuan"
+  },
+  {
     "merchantId": "4e707598-f206-47b7-addb-45982615b7b7",
     "postalCode": "53300",
     "longitude": 101.716949,
@@ -21357,6 +22137,19 @@
     "country": "Malaysia",
     "state": "Penang",
     "city": "Pulau Pinang"
+  },
+  {
+    "merchantId": "4f08603e-26d3-4756-8192-7a81f80935d1",
+    "postalCode": "43200",
+    "longitude": 101.758034,
+    "latitude": 3.05885005,
+    "tradingName": "KK Super Mart (Cheras, Tun Perak)",
+    "address1": "No.9,",
+    "address2": "Jalan Tun Perak 6, Taman Tun Perak,",
+    "address3": "43200 Cheras, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Cheras"
   },
   {
     "merchantId": "4f0b220d-f762-45d7-aea0-dfdc86b8647d",
@@ -21645,6 +22438,19 @@
     "city": "Batang Berjuntai"
   },
   {
+    "merchantId": "504446d4-653e-4d00-bda7-b9d7e9c634fc",
+    "postalCode": "89250",
+    "longitude": 116.269661,
+    "latitude": 6.13565016,
+    "tradingName": "88 Fresh Mart Tamparuli",
+    "address1": "Lot 13, Jalan Bontoi, Pekan Tamparuli, 89250 Tamparuli, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tamparuli"
+  },
+  {
     "merchantId": "504eedee-8189-40b5-82b7-6cd16f9c9021",
     "postalCode": "42960",
     "longitude": 101.401657,
@@ -21825,6 +22631,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Kota Belud"
+  },
+  {
+    "merchantId": "511a7593-d726-49a1-a964-bdf7da216a0b",
+    "postalCode": "64000",
+    "longitude": 101.686462,
+    "latitude": 2.74330997,
+    "tradingName": "KK Super Mart (KLIA 2, Gateway (2))",
+    "address1": "Unit L2M-20 & L2M-21, Level 2M, Gateway @ KLIA 2, Terminal KLIA 2, KL International Airport,",
+    "address2": "Jalan KLIA 2/1, 64000 KLIA, Sepang , Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Sepang"
   },
   {
     "merchantId": "511f4409-47e4-4dff-936a-3cda7784cf16",
@@ -22555,6 +23374,19 @@
     "city": "Labis"
   },
   {
+    "merchantId": "542331c8-8a3f-4199-93bd-ebe3a2090f52",
+    "postalCode": "41000",
+    "longitude": 101.467117,
+    "latitude": 3.02147007,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bunga Raya Klang) - 3073",
+    "address1": "No: PT 14562 (Ground Floor)",
+    "address2": "Jalan Raja Nong 1",
+    "address3": "Taman Bunga Raya",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
+  },
+  {
     "merchantId": "54293683-1cc9-4df7-bdce-80ee74aed212",
     "postalCode": "52000",
     "longitude": 101.66053,
@@ -22683,6 +23515,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Tangkak"
+  },
+  {
+    "merchantId": "54b81be3-5d7d-4caa-a602-34bfb3e4ad9c",
+    "postalCode": "40170",
+    "longitude": 101.4786,
+    "latitude": 3.0769701,
+    "tradingName": "99 Speedmart Sdn Bhd (Desa Alam) - 3323",
+    "address1": "No: 34 & 36 (Ground Floor)",
+    "address2": "Jalan Pegaga C U12/C",
+    "address3": "Desa Alam, Seksyen U12",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
   },
   {
     "merchantId": "54b85dec-a113-4975-b84b-4d01cbdb46ce",
@@ -23270,6 +24115,19 @@
     "city": "Kluang"
   },
   {
+    "merchantId": "573b2f57-54ea-4427-a7ea-0d910ec4e4b4",
+    "postalCode": "53000",
+    "longitude": 101.69976,
+    "latitude": 3.17783999,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Sarikei) - 2893",
+    "address1": "No: 35 & 37 (Ground Floor), Jalan Sarikei",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Kuala Lumpur"
+  },
+  {
     "merchantId": "575ab1b6-a1cc-4531-869e-7190780d28de",
     "postalCode": "98700",
     "longitude": 115.00946,
@@ -23439,6 +24297,19 @@
     "city": "KUALA TERENGGANU"
   },
   {
+    "merchantId": "581d1520-0d8f-4eab-b56b-5df36db0ec52",
+    "postalCode": "43200",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Cheras, Bandar Damai Cheras)",
+    "address1": "No.7, Jalan Damai Perdana 5/1B, Bandar Damai Cheras,",
+    "address2": "43200 Cheras, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Cheras"
+  },
+  {
     "merchantId": "58400f9e-2625-4da2-a65b-0c502f0f3043",
     "postalCode": "34600",
     "longitude": 100.732033,
@@ -23478,6 +24349,19 @@
     "city": "Pitas"
   },
   {
+    "merchantId": "5869766d-a4c9-4b2d-8063-26783f4515dd",
+    "postalCode": "93350",
+    "longitude": 110.378036,
+    "latitude": 1.52100003,
+    "tradingName": "CCK FRESH MART - STUTONG",
+    "address1": "block k, stutong parade, 5/2 88-c, jalan setia raja, tabuan jaya, 93350 kuching, sarawak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Kuching"
+  },
+  {
     "merchantId": "5875bf16-f234-46b4-a6fa-dac4b43da922",
     "postalCode": "81300",
     "longitude": 103.611954,
@@ -23515,6 +24399,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Ayer Tawar"
+  },
+  {
+    "merchantId": "5893f24a-4cf1-4340-96d2-8d82bab9065e",
+    "postalCode": "93000",
+    "longitude": 110.344109,
+    "latitude": 1.56053996,
+    "tradingName": "CCK Fresh Mart - Gambier",
+    "address1": "16, jln gambier, 93000 kuching, sarawak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Kuching"
   },
   {
     "merchantId": "589c150f-1ed6-402b-8bf3-6d478bab706e",
@@ -23658,6 +24555,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Mukim Jerlun"
+  },
+  {
+    "merchantId": "59543e77-76f0-4f34-bfae-7e6160ae344a",
+    "postalCode": "43300",
+    "longitude": 101.726486,
+    "latitude": 3.02827001,
+    "tradingName": "KK Super Mart (Sungai Besi Indah 2)",
+    "address1": "No:5, Jalan Sg. Besi Indah 1",
+    "address2": "Taman Sg. Besi Indah",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
   },
   {
     "merchantId": "596183a6-c14b-492c-9d4c-ba1e658290c4",
@@ -23814,6 +24724,19 @@
     "country": "Malaysia",
     "state": "Perlis",
     "city": "Kangar"
+  },
+  {
+    "merchantId": "59a53452-d1d5-4794-b6b6-a0f25eeacc9b",
+    "postalCode": "55100",
+    "longitude": 101.732193,
+    "latitude": 3.12898993,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Maluri) - 1072",
+    "address1": "No.289 & 291, Jalan Mahkota, Taman Maluri",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Maluri"
   },
   {
     "merchantId": "59bc444c-29d8-48d3-948e-1c4ba054618a",
@@ -24154,6 +25077,19 @@
     "city": "Pasir Gudang"
   },
   {
+    "merchantId": "5aba4e27-bc0b-47ca-be59-dc5aa8a043fd",
+    "postalCode": "52200",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Kepong, Bandar Menjalara (3))",
+    "address1": "No.19, Jalan 11/62A, Bandar Menjalara,",
+    "address2": "52200 Kuala Lumpur.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Cheras"
+  },
+  {
     "merchantId": "5ad64c33-74a8-4775-95eb-59e99599498a",
     "postalCode": "15000",
     "longitude": 102.24131,
@@ -24178,6 +25114,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Pasir Gudang"
+  },
+  {
+    "merchantId": "5af40202-c338-4aca-93a2-c94fc03939bf",
+    "postalCode": "68000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Ampang, Taman Mulia Jaya)",
+    "address1": "No.3-G, Jalan Mulia 2/1, Taman Mulia Jaya,",
+    "address2": "68000 Ampang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Ampang"
   },
   {
     "merchantId": "5af59312-10c0-485f-81eb-3ce3c70deaf2",
@@ -24427,6 +25376,19 @@
     "city": "Muar"
   },
   {
+    "merchantId": "5bd9ad75-9c6f-4e2c-814f-1163a324d744",
+    "postalCode": "47100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Taman Kinrara (3))",
+    "address1": "No.C-01-06, Jalan PPK 1, Pusat Perniagaan Kinrara, Taman Kinrara, Seksyen 3,",
+    "address2": "47100 Puchong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
+  },
+  {
     "merchantId": "5be7d97e-6652-4212-af49-06fff8e3d701",
     "postalCode": "94300",
     "longitude": 110.445801,
@@ -24622,6 +25584,19 @@
     "city": "Ayer Bemban"
   },
   {
+    "merchantId": "5cf93dd5-952b-427e-aab2-6bacbec8a12f",
+    "postalCode": "56100",
+    "longitude": 101.753799,
+    "latitude": 3.10569,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bkt Pandan) - 1572",
+    "address1": "No: 28, Jalan BP 1, Tmn Bkt Pandan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Bukit Pandan"
+  },
+  {
     "merchantId": "5cf96625-1848-4eb9-9c21-d74171e55ca0",
     "postalCode": "81300",
     "longitude": 103.583199,
@@ -24711,6 +25686,32 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Telok Panglima Garang"
+  },
+  {
+    "merchantId": "5d30bd84-ec6f-4a4d-b273-65d840a744eb",
+    "postalCode": "79250",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Johor, Pusat Komersil Visi Medini)",
+    "address1": "S-02-1, Pusat Komersil Visi Medini, Persiaran Medini,",
+    "address2": "Bandar Medini,",
+    "address3": "79250 Iskandar Puteri, Johor.",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Iskandar Puteri"
+  },
+  {
+    "merchantId": "5d3ca059-3410-438c-af74-76714f5310f6",
+    "postalCode": "89300",
+    "longitude": 116.666672,
+    "latitude": 5.9534502,
+    "tradingName": "88 Fresh Mart Ranau",
+    "address1": "Lot No.2, Ground Floor, Bangunan Ranau Plaza, 89300 Ranau Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Ranau"
   },
   {
     "merchantId": "5d6a4519-be39-411f-83c6-b14c408c0377",
@@ -25156,16 +26157,29 @@
   },
   {
     "merchantId": "5ec80f6e-7913-4c7e-bd7f-301194a9d0a6",
-    "postalCode": "81000",
+    "postalCode": "81400",
     "longitude": 116.077164,
     "latitude": 5.92741013,
     "tradingName": "CKS RETAIL SDN.BHD.",
-    "address1": "Lot 3311",
-    "address2": "Jalan Besi Utama Jalan Air Hitam",
-    "address3": "Batu 24",
+    "address1": "No. 99 & 100",
+    "address2": "Jalan Idaman 1/8",
+    "address3": "Taman Desa Idaman",
     "country": "Malaysia",
     "state": "Johor",
-    "city": "Kulai"
+    "city": "Senai"
+  },
+  {
+    "merchantId": "5ed06d00-8d01-4ab9-8677-4b0708110180",
+    "postalCode": "88200",
+    "longitude": 116.07019,
+    "latitude": 5.94955015,
+    "tradingName": "Pick n Pay (KPY1)",
+    "address1": "lot 5, ground floor, taman tuan huat, mile 3, jalan penampang, 88200 kota kinabalu",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
   },
   {
     "merchantId": "5ed81fe0-5b9a-4118-8871-9bbd75985fd4",
@@ -25179,6 +26193,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Pantai Remis"
+  },
+  {
+    "merchantId": "5ee0366e-2c8c-4f7c-8ba2-c57939e3f65d",
+    "postalCode": "90000",
+    "longitude": 118.05291,
+    "latitude": 5.89452982,
+    "tradingName": "99 Speedmart Sdn Bhd (Sejati Walk) - SBH 32623",
+    "address1": "Unit G-D-113a, G-D-113b, G-D-115 & G-D-116, Ground Floor, Sejati Walk, Off Mile 7, Jalan Airport",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
   },
   {
     "merchantId": "5ee5d529-4405-4c01-bb1d-267486ed6f47",
@@ -25454,6 +26481,19 @@
     "city": "Kubang Semang"
   },
   {
+    "merchantId": "601a9149-32d7-4617-af08-881d4121ff96",
+    "postalCode": "68100",
+    "longitude": 101.695976,
+    "latitude": 3.22068,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Koperasi Polis 2) - 2328",
+    "address1": "No: 1 & 3 (Ground Floor), Jalan 13/10, Taman Koperasi Polis",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Batu Caves"
+  },
+  {
     "merchantId": "601acf90-489b-45aa-a675-af63a57a0bd0",
     "postalCode": "70100",
     "longitude": 101.955742,
@@ -25569,6 +26609,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Ulu Kinta"
+  },
+  {
+    "merchantId": "60e6eea7-96ed-4e01-8b8a-bbd3bfa1c2bc",
+    "postalCode": "76100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Melaka, Durian Tunggal (2))",
+    "address1": "DT9856, Taman Durian Tunggal, Durian Tunggal,",
+    "address2": "76100 Alor Gajah, Melaka.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Melaka",
+    "city": "Alor Gajah"
   },
   {
     "merchantId": "60ed5003-8f2e-48eb-91b0-4f35c539b89d",
@@ -25922,6 +26975,19 @@
     "city": "Kangar"
   },
   {
+    "merchantId": "620cb308-302a-4589-9911-eb91b2258253",
+    "postalCode": "41000",
+    "longitude": 101.50367,
+    "latitude": 3.0416801,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Sri Mewah) - 2460",
+    "address1": "No : 9 & 11 (Ground Floor)",
+    "address2": "Lorong Penghulu Kassim 1",
+    "address3": "Taman Sri Mewah, Jalan Kota Raja",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
+  },
+  {
     "merchantId": "621aee62-4d5b-4c82-baac-18bc2c5bfb4f",
     "postalCode": "43900",
     "longitude": 101.751083,
@@ -26000,6 +27066,19 @@
     "city": "TAWAU"
   },
   {
+    "merchantId": "62838974-4406-4608-9e41-dca9726280d8",
+    "postalCode": "88200",
+    "longitude": 116.134529,
+    "latitude": 5.99104977,
+    "tradingName": "KK Tetap Jaya Sdn Bhd (Jalan Nountun 1)",
+    "address1": "NO.2 INANAM, LORONG NOUNTUN 1, JALAN NOUNTUN, 88200 KOTA KINABALU, SABAH.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "6286b879-7db9-43f1-b0a0-dc88ad0c2ccb",
     "postalCode": "30020",
     "longitude": 101.063538,
@@ -26039,6 +27118,19 @@
     "city": "Johor Bahru"
   },
   {
+    "merchantId": "62a87d8b-ee39-48a2-a23c-e5944f418f7b",
+    "postalCode": "89600",
+    "longitude": 115.943153,
+    "latitude": 5.74213982,
+    "tradingName": "88 Fresh Mart Papar FM",
+    "address1": "Block A,Lot 4&5 KM 2, Jalan Papar, Kampung Pengalat Kecil, 89600 Papar",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Papar"
+  },
+  {
     "merchantId": "62adf1cf-d16d-406c-994e-49a9fb138f0c",
     "postalCode": "09400",
     "longitude": 100.546341,
@@ -26076,6 +27168,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Kulai"
+  },
+  {
+    "merchantId": "62e8145d-79be-4e2c-8313-5bb77416905e",
+    "postalCode": "89100",
+    "longitude": 117.029388,
+    "latitude": 6.71253014,
+    "tradingName": "CCK Fresh Mart Kota Marudu",
+    "address1": "blok b, no 8, gorund floor, kedai sedco, pekan baru, 89100 kota marudu, sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Marudu"
   },
   {
     "merchantId": "62ebf916-6122-4437-be64-570f80a0cae4",
@@ -26364,6 +27469,19 @@
     "city": "Damak"
   },
   {
+    "merchantId": "63cf5b8b-9513-47f0-8fd9-663c6a72049d",
+    "postalCode": "91100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "Eco Fresh Cold Storage Sdn Bhd (KAKA)",
+    "address1": "LOT 00017, MILE 3, JALAN TENGAH NIPAH, 91100 LAHAD DATU, SABAH.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Lahad Datu"
+  },
+  {
     "merchantId": "63cfefc6-d8e3-4c55-9930-280d052ad64d",
     "postalCode": "68000",
     "longitude": 101.778793,
@@ -26505,6 +27623,19 @@
     "country": "Malaysia",
     "state": "Terengganu",
     "city": "Dungun"
+  },
+  {
+    "merchantId": "6479a016-5654-4a22-ab5f-77fe13146832",
+    "postalCode": "11500",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Pulau Pinang, Ayer Itam (2))",
+    "address1": "No.44A, Lintang Angsana,",
+    "address2": "Mukim 13, 11500 Ayer Itam, Pulau Pinang.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Ayer Itam"
   },
   {
     "merchantId": "6493b6fa-75a9-4a78-8327-65b1726876d0",
@@ -27077,6 +28208,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Seremban"
+  },
+  {
+    "merchantId": "6647986c-a4e2-4ab7-ba24-9a2531ccb141",
+    "postalCode": "68000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Ampang, Taman Cempaka (2))",
+    "address1": "No.2, Jalan Cempaka 14, Taman Cempaka,",
+    "address2": "68000 Ampang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Ampang"
   },
   {
     "merchantId": "666a4dc8-6dca-4296-af8e-185e35e50b00",
@@ -27928,8 +29072,8 @@
     "postalCode": "95000",
     "longitude": 0,
     "latitude": 0,
-    "tradingName": "DOREMART SRI AMAN 2",
-    "address1": "LOT 838, BLOCK 4, SINMANGGANG TOWN DISTRICT, 95000 SRI AMAN, SARAWAK.",
+    "tradingName": "Doremart Sri Aman 2",
+    "address1": "LOT 838, BLOCK 4, SINMANGGANG TOWN DISTRICT",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
@@ -28704,6 +29848,19 @@
     "city": "Masai"
   },
   {
+    "merchantId": "6d2cda10-2398-403b-aa69-7d4ebce44ffc",
+    "postalCode": "14300",
+    "longitude": 100.492928,
+    "latitude": 5.14027023,
+    "tradingName": "Muaz Fresh Mart",
+    "address1": "35, 37, 39 & 41",
+    "address2": "Jalan Pekaka Indah 1",
+    "address3": "Pusat Perniagaan Indah",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Nibong Tebal"
+  },
+  {
     "merchantId": "6d3c5f70-42bc-4e01-9180-1791c8644b61",
     "postalCode": "75000",
     "longitude": 102.40316,
@@ -29419,6 +30576,19 @@
     "city": "Lawas"
   },
   {
+    "merchantId": "6f9949d8-6c47-4bd7-8755-0af0cd50b187",
+    "postalCode": "55100",
+    "longitude": 101.747841,
+    "latitude": 3.15096998,
+    "tradingName": "99 Speedmart Sdn Bhd (Ampang Hilir) - 1070",
+    "address1": "No. B6 & B7, Jalan Excella 1, Jalan Ampang Hilir",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Ampang"
+  },
+  {
     "merchantId": "6fadfcae-bff1-48fb-ac15-7baebd33d6f1",
     "postalCode": "93250",
     "longitude": 110.320259,
@@ -29796,6 +30966,19 @@
     "city": "Johor Bahru"
   },
   {
+    "merchantId": "713ff24d-9816-4aaf-8abf-fea20057605e",
+    "postalCode": "88200",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "99 Speedmart Sdn Bhd (Grand Plaza Putatan) - SBH 25020",
+    "address1": "Lot 1 & 2, Putatan Light Industrial Centre, Jalan Putatan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Putatan"
+  },
+  {
     "merchantId": "714f29d8-995b-4dbb-9d16-829d20d5d322",
     "postalCode": "71450",
     "longitude": 101.99437,
@@ -30121,6 +31304,19 @@
     "city": "Alor Gajah"
   },
   {
+    "merchantId": "729d9fc3-61bf-4141-8e47-8dd37583d4d6",
+    "postalCode": "94500",
+    "longitude": 109.85218,
+    "latitude": 1.66972005,
+    "tradingName": "CCK Fresh Mart - Lundu",
+    "address1": "lot 209, 94500, 1, sematan bazaar, 94500, sarawak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Lundu"
+  },
+  {
     "merchantId": "72a6caca-428b-455e-8678-3a49b951bbe7",
     "postalCode": "41200",
     "longitude": 101.457047,
@@ -30223,6 +31419,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "Bandar Indera Mahkota"
+  },
+  {
+    "merchantId": "730dd8e9-d658-4d47-a625-e4591d1985dd",
+    "postalCode": "43300",
+    "longitude": 101.718887,
+    "latitude": 3.01320004,
+    "tradingName": "KK Super Mart (Sri Serdang (2))",
+    "address1": "Lot 3520, Jalan 18/46, Taman Sri Serdang,",
+    "address2": "43300 Seri Kembangan, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
   },
   {
     "merchantId": "732da0e8-adb1-4c21-9460-bf5b5d4c5459",
@@ -30810,6 +32019,19 @@
     "city": "Subang Jaya"
   },
   {
+    "merchantId": "75636c9b-3596-40e9-8297-681fcb8df663",
+    "postalCode": "68100",
+    "longitude": 101.690918,
+    "latitude": 3.22063994,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Koperasi Polis 1) - 1443",
+    "address1": "No: 5 & 7, Koperasi Business Centre,Jalan 56/10, Taman Koperasi Polis Fasa 2",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Batu Caves"
+  },
+  {
     "merchantId": "757e8b7e-4f79-4993-8574-87ed0f508c10",
     "postalCode": "39200",
     "longitude": 101.380913,
@@ -30938,6 +32160,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Tambunan"
+  },
+  {
+    "merchantId": "75fab2a8-1191-4b24-88ea-afd40f92730b",
+    "postalCode": "42700",
+    "longitude": 101.603554,
+    "latitude": 2.83368993,
+    "tradingName": "Mydin Mart Olak Lempit",
+    "address1": "16, 18 & 20-G, Jalan Camar 22, Taman Cenderawasih, Kampung Olak Lempit",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Banting"
   },
   {
     "merchantId": "75fccfd3-31b3-4d7b-bf2a-463d0bff17da",
@@ -31120,6 +32355,32 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Batu Pahat"
+  },
+  {
+    "merchantId": "767523cc-6c84-4558-bf0c-f01c1268c146",
+    "postalCode": "89100",
+    "longitude": 116.772308,
+    "latitude": 6.49460983,
+    "tradingName": "88 Superstore Kota Marudu",
+    "address1": "Grd Flr, Lot A6/3/SC, Jalan Industrial Centre, Pekan Baru 89100 Kota Marudu",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Marudu"
+  },
+  {
+    "merchantId": "767a2637-dbd1-4a75-bc14-4e05e358268e",
+    "postalCode": "89008",
+    "longitude": 116.15332,
+    "latitude": 5.33975983,
+    "tradingName": "Hiap Lee Supermarket Sdn Bhd",
+    "address1": "NT. 133016841 JALAN OKK SODOMON P.O.BOX 267, 89008 KENINGAU SABAH",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
   },
   {
     "merchantId": "76856692-db71-4e3c-9d72-a39294ce8bdf",
@@ -31588,6 +32849,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Kampar"
+  },
+  {
+    "merchantId": "78537963-1616-42a1-aadb-bd20a756b01b",
+    "postalCode": "43200",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Cheras, You City)",
+    "address1": "VG-02 You Vista, Jalan You City, You City Cheras,",
+    "address2": "43200 Cheras, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Cheras"
   },
   {
     "merchantId": "787cff3b-91f0-4711-8354-1df27c9f72e3",
@@ -32565,6 +33839,19 @@
     "city": "Muar"
   },
   {
+    "merchantId": "7c489455-5782-4303-af13-c9d219ceee08",
+    "postalCode": "43650",
+    "longitude": 101.771637,
+    "latitude": 2.97607994,
+    "tradingName": "KK Super Mart (Bangi Kajang Impian)",
+    "address1": "No.55, Jalan Kajang Impian 1/11, Taman Kajang Impian",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bandar Baru Bangi"
+  },
+  {
     "merchantId": "7c556011-423e-4a64-902a-47de2d307853",
     "postalCode": "16150",
     "longitude": 102.276711,
@@ -32628,6 +33915,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Kluang"
+  },
+  {
+    "merchantId": "7c7656ce-7db9-4110-8e77-b9545dbf3f3a",
+    "postalCode": "41000",
+    "longitude": 101.464371,
+    "latitude": 3.0278101,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Raja Nong) - 1239",
+    "address1": "No: 3212 & 3214 & 3216",
+    "address2": "Jalan Kota Raja",
+    "address3": "Taman Raja Nong",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
   },
   {
     "merchantId": "7c7d2a89-ad5f-4fde-a99b-918b121cf91c",
@@ -33046,6 +34346,19 @@
     "city": "Durian Tunggal"
   },
   {
+    "merchantId": "7e4851ac-2601-471f-9fdf-59c91cea8f54",
+    "postalCode": "43650",
+    "longitude": 101.781578,
+    "latitude": 2.96515012,
+    "tradingName": "KK Super Mart (Bandar Baru Bangi (4))",
+    "address1": "No.44,",
+    "address2": "Jalan 4/11, Seksyen 4, Bandar Baru Bangi,",
+    "address3": "43650 Bandar Baru Bangi, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bandar Baru Bangi"
+  },
+  {
     "merchantId": "7e5818f7-9e38-43db-ae5b-0847d5e30047",
     "postalCode": "36800",
     "longitude": 100.942596,
@@ -33278,6 +34591,19 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Sitiawan"
+  },
+  {
+    "merchantId": "7ec61091-0dd8-4070-b76c-5e2b09c6830c",
+    "postalCode": "88300",
+    "longitude": 116.092117,
+    "latitude": 5.94869995,
+    "tradingName": "Pick n Pay (FAG1)",
+    "address1": "lot 3, no.65, ground floor, far east garden, lorong cina, off jalan pintas, 88300 kota kinabalu, sabah.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
   },
   {
     "merchantId": "7ee9013c-337d-4b9b-93a8-73ff072592b1",
@@ -33616,6 +34942,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Ledang"
+  },
+  {
+    "merchantId": "80633886-2053-46de-b831-85c049da9cf7",
+    "postalCode": "51100",
+    "longitude": 101.682922,
+    "latitude": 3.21076012,
+    "tradingName": "99 Speedmart Sdn Bhd (Sky Awani II) - 2616",
+    "address1": "No: 13 & 13A (Ground Floor), Sky Awani II, Jalan 2/12, Kampung Batu Muda",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Batu Muda"
   },
   {
     "merchantId": "80879dd0-d31a-4c6f-8bf6-11bd6fe5d3eb",
@@ -34021,6 +35360,19 @@
     "city": "Klang"
   },
   {
+    "merchantId": "824c5c78-b046-4495-91a9-e0270c1d8bee",
+    "postalCode": "43300",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Balakong, Taman Harmoni Indah)",
+    "address1": "No.20, Jalan Harmoni Indah 1,",
+    "address2": "Taman Harmoni Indah, 43300 Balakong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Balakong"
+  },
+  {
     "merchantId": "82608e6a-b2c5-4bb7-a20e-6d1cbafb6553",
     "postalCode": "89807",
     "longitude": 115.744377,
@@ -34331,6 +35683,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "Tongod"
+  },
+  {
+    "merchantId": "838e7717-cb8d-45b4-9560-db7044a54622",
+    "postalCode": "47301",
+    "longitude": 101.59079,
+    "latitude": 3.11455011,
+    "tradingName": "KK Super Mart (Pusat Dagangan NZX)",
+    "address1": "A-G-02, Block A, No. 2, Jalan PJU 1A/41B,",
+    "address2": "Pusat Dagangan NZX, Ara Jaya, PJU 1A,",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
   },
   {
     "merchantId": "838f0cd9-532c-465c-ae97-93d2b8b018d7",
@@ -35594,6 +36959,19 @@
     "city": "Menglembu"
   },
   {
+    "merchantId": "8825b78c-f119-4677-aa42-a4561fb81984",
+    "postalCode": "47100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Puchong, Bandar Puchong Jaya)",
+    "address1": "No.41, Jalan Kenari 17C, Bandar Puchong Jaya,",
+    "address2": "47100 Puchong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
+  },
+  {
     "merchantId": "882d4cf6-1924-4aeb-99bc-23f6a12469db",
     "postalCode": "45400",
     "longitude": 101.096672,
@@ -35683,6 +37061,19 @@
     "country": "Malaysia",
     "state": "Melaka",
     "city": "Hang Tuah Jaya"
+  },
+  {
+    "merchantId": "887cf535-326e-4cd9-acb1-ebe029a533bd",
+    "postalCode": "46000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Petaling Jaya, Jalan 5)",
+    "address1": "No.426, Jalan 5/46,",
+    "address2": "46000 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
   },
   {
     "merchantId": "88842651-92e5-4c12-9509-ec7153681298",
@@ -35971,6 +37362,19 @@
     "city": "JOHOR BAHRU"
   },
   {
+    "merchantId": "89a527bf-de39-4e9a-b2ec-a238e9fcd3df",
+    "postalCode": "40000",
+    "longitude": 101.483337,
+    "latitude": 3.06461,
+    "tradingName": "KK Super Mart (Shah Alam, I-City (3))",
+    "address1": "A3-7-G,",
+    "address2": "Block A, Persiaran Multimedia, Seksyen 7, I-City,",
+    "address3": "40000 Shah Alam, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
+  },
+  {
     "merchantId": "89bf05c5-0b25-446f-a45c-2a7651d1a431",
     "postalCode": "89709",
     "longitude": 115.598068,
@@ -36177,6 +37581,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "KOTA KINABALU"
+  },
+  {
+    "merchantId": "8a916880-5ec7-4077-b71e-8cdfe50c6e05",
+    "postalCode": "89320",
+    "longitude": 117.086594,
+    "latitude": 5.62255001,
+    "tradingName": "88 Fresh Mart Telupid Batu 4",
+    "address1": "Lot No 4 & 5 with Garage, Kampung Telupid Mile 4, 89320 Telupid",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Telupid"
   },
   {
     "merchantId": "8a94d14e-af08-42dc-9e05-08146b540bcf",
@@ -37336,6 +38753,19 @@
     "city": "Tawau"
   },
   {
+    "merchantId": "8fbee56e-9add-4fd4-92da-df679eecc326",
+    "postalCode": "88000",
+    "longitude": 116.074127,
+    "latitude": 5.98081017,
+    "tradingName": "Pick n Pay Express (KGA1)",
+    "address1": "no.8, ground floor, jalan tugu, kampung air, 88000 kota kinabalu, sabah.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "8fc34cd1-22cd-4e6e-afd6-20cdab45a04e",
     "postalCode": "96800",
     "longitude": 112.939583,
@@ -37414,6 +38844,19 @@
     "city": "Johor Bahru"
   },
   {
+    "merchantId": "8ff21988-a392-49fb-82d0-bfc2d7bab6a9",
+    "postalCode": "43300",
+    "longitude": 101.709267,
+    "latitude": 3.03045988,
+    "tradingName": "KK Super Mart (Seri Kembangan)",
+    "address1": "No.9-1 & 11-1, Jalan SP 2/1",
+    "address2": "Taman Serdang Perdana",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
+  },
+  {
     "merchantId": "8ff9dc04-9073-4ee9-98e9-179d3aaa2be4",
     "postalCode": "27650",
     "longitude": 101.803452,
@@ -37425,6 +38868,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "Raub"
+  },
+  {
+    "merchantId": "9005486f-0e8f-4c69-beeb-9fc17c7ad3e3",
+    "postalCode": "88450",
+    "longitude": 116.196411,
+    "latitude": 6.08911991,
+    "tradingName": "88 Fresh Mart Telipok",
+    "address1": "Ground Floor, Lot 6, Block B, Pekan telipok, 88450 Telipok, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Telipok"
   },
   {
     "merchantId": "9017f438-5877-400e-9d5f-5daf9be838d5",
@@ -37581,6 +39037,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Alor Setar"
+  },
+  {
+    "merchantId": "9072d30f-77b3-4c7d-801b-d8e090027b4f",
+    "postalCode": "56200",
+    "longitude": 101.744232,
+    "latitude": 3.08985996,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Segar Cheras) - 1262",
+    "address1": "No: 37,Jalan Manis 3,Taman Segar Cheras",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Cheras"
   },
   {
     "merchantId": "9072fb51-6012-4a89-a0b3-b0bc5ff1850b",
@@ -38038,6 +39507,19 @@
     "city": "Shah Alam"
   },
   {
+    "merchantId": "92165da6-7517-423c-b64d-0e6d7b89a9a9",
+    "postalCode": "89208",
+    "longitude": 116.232368,
+    "latitude": 6.17872,
+    "tradingName": "99 Speedmart Sdn Bhd (Tuaran Town) - SBH 23719",
+    "address1": "Lot 2 and 3, Block K), Jalan Soon Choon Fong, Pekan Tuaran",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tuaran"
+  },
+  {
     "merchantId": "9221f215-36b6-4201-96a7-0d36adb71dbd",
     "postalCode": "73000",
     "longitude": 102.232384,
@@ -38400,6 +39882,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Kluang"
+  },
+  {
+    "merchantId": "9311464f-4f8f-4df5-94c2-af77fd0ce7f8",
+    "postalCode": "89050",
+    "longitude": 116.712334,
+    "latitude": 6.89135981,
+    "tradingName": "88 Fresh Mart Sikuati",
+    "address1": "Bgn No. 3683 Ground Floor, Lot 7 Block A,Sikuati Square,89050 Kudat Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kudat"
   },
   {
     "merchantId": "93171247-6a1a-4925-a466-3abee157c545",
@@ -38883,6 +40378,19 @@
     "city": "Gemas"
   },
   {
+    "merchantId": "949c6033-51b8-480d-852d-de2040573a47",
+    "postalCode": "90000",
+    "longitude": 118.058853,
+    "latitude": 5.8884902,
+    "tradingName": "99 Speedmart Sdn Bhd (Bandar Perdana) - SBH 30123",
+    "address1": "Block E, Ground Floor, Lot 40 & 41, Bandar Perdana, Batu 7 Jalan Airport",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sandakan"
+  },
+  {
     "merchantId": "94b20a84-2af0-40b3-8b74-5729ffce3c65",
     "postalCode": "81750",
     "longitude": 103.818481,
@@ -39195,6 +40703,19 @@
     "city": "Kemaman"
   },
   {
+    "merchantId": "95f11f8e-b4e9-4478-aa63-ef7e3473b3de",
+    "postalCode": "79100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Pulau Pinang, Kondominium Prominence)",
+    "address1": "G-07, Kondominium Prominence, Lorong Perda Utama 3,",
+    "address2": "Taman Prominence, 14000 Bukit Mertajam, Pulau Pinang.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Bukit Mertajam"
+  },
+  {
     "merchantId": "9601bbda-4980-4d09-a6b5-3b9c4eba8e52",
     "postalCode": "16300",
     "longitude": 102.383339,
@@ -39219,6 +40740,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Shah Alam"
+  },
+  {
+    "merchantId": "9603ad97-99a7-4cbc-96e0-ad2d25f75be8",
+    "postalCode": "89008",
+    "longitude": 116.154022,
+    "latitude": 5.34014988,
+    "tradingName": "Hiap Lee Shopping Centre Sdn Bhd",
+    "address1": "LOT.NO. 133064990, PEGALAN SHOPPING COMPLEX, P.O.BOX 267 89008 KENINGAU SABAH",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
   },
   {
     "merchantId": "96057c1d-d7bc-4d0d-9434-053dfae9c0e3",
@@ -39323,6 +40857,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Klang"
+  },
+  {
+    "merchantId": "9631e3c5-8456-49b5-8352-430c98124842",
+    "postalCode": "47100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Puchong Utama (2))",
+    "address1": "No.78, Jalan BPU 1, Bandar Puchong Utama,",
+    "address2": "47100 Puchong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
   },
   {
     "merchantId": "9632329d-a6d2-40e0-8623-d74f7c7afe04",
@@ -40872,6 +42419,19 @@
     "city": "Bintulu"
   },
   {
+    "merchantId": "9ba1bc5d-d0c3-47b1-9136-1fcd5ff2a5b0",
+    "postalCode": "28000",
+    "longitude": 102.409607,
+    "latitude": 3.45028996,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bahagia Temerloh) - 2151",
+    "address1": "No: 28 (Ground Floor),",
+    "address2": "Jalan Bahagia 31,",
+    "address3": "Taman Bahagia,",
+    "country": "Malaysia",
+    "state": "Pahang",
+    "city": "Temerloh"
+  },
+  {
     "merchantId": "9baad1d3-a5fd-4948-b622-66853cc67800",
     "postalCode": "70450",
     "longitude": 101.983559,
@@ -41006,8 +42566,8 @@
     "postalCode": "88450",
     "longitude": 0,
     "latitude": 0,
-    "tradingName": "SERVAY EXPRESS SDN BHD - SEUUS",
-    "address1": "LOT SQ5 & SQ6, GROUND & 1ST FLOOR, UNIVERSITY UTAMA SQUARE PHASE 1, JALAN KAYU MADANG TELIPOK, 88450 KOTA KINABALU, SABAH.",
+    "tradingName": "Servay Express Sdn Bhd - SEUUS",
+    "address1": "LOT SQ5 & SQ6, GROUND & 1ST FLOOR, UNIVERSITY UTAMA SQUARE PHASE 1, JALAN KAYU MADANG TELIPOK",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
@@ -41130,6 +42690,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Skudai"
+  },
+  {
+    "merchantId": "9cb85c40-edc2-4f20-b832-97e293590dc5",
+    "postalCode": "43200",
+    "longitude": 101.786972,
+    "latitude": 3.05401993,
+    "tradingName": "KK Super Mart (Bandar Mahkota Cheras (3))",
+    "address1": "No.13, Jalan Temenggung 21/9,",
+    "address2": "Seksyen 9, Bandar Mahkota Cheras,",
+    "address3": "43200 Cheras, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Cheras"
   },
   {
     "merchantId": "9cc0bc52-5763-46d1-b4da-6cf30aa19f47",
@@ -41273,6 +42846,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Ulu Tiram"
+  },
+  {
+    "merchantId": "9d561626-5b26-482b-b0c5-b8806c495102",
+    "postalCode": "31450",
+    "longitude": 101.036049,
+    "latitude": 4.57364988,
+    "tradingName": "KK Super Mart (Menglembu Ipoh)",
+    "address1": "No.4, Laluan Rasi 8, Taman Rasi Jaya, Menglembu",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "9d5c0d32-e2b4-4a83-81a7-71782a43171e",
@@ -41663,6 +43249,32 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Banting"
+  },
+  {
+    "merchantId": "9ed7bfbd-d97d-4190-94fb-a0046b337c80",
+    "postalCode": "43650",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Bandar Baru Bangi (2))",
+    "address1": "No.8, Jalan 5C/11, Seksyen 5, Bandar Baru Bangi,",
+    "address2": "43650 Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bangi"
+  },
+  {
+    "merchantId": "9ee4c23a-f31c-433d-823b-69cc69c7bc4f",
+    "postalCode": "51200",
+    "longitude": 101.674553,
+    "latitude": 3.2109201,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Mastiara 1) - 1207",
+    "address1": "NO: 22-1, Jalan 5/18A, Taman Mastiara, Batu 5 1/2, Off Jalan Ipoh",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Jalan Ipoh"
   },
   {
     "merchantId": "9ee9215e-75f2-453d-a5f2-9c10aa436e4f",
@@ -42501,8 +44113,8 @@
     "postalCode": "96900",
     "longitude": 0,
     "latitude": 0,
-    "tradingName": "DOREMART LUBOK ANTU",
-    "address1": "NO.169-171, LUBOK ANTU BAZAAR, 96900 LUBOK ANTU, SARAWAK",
+    "tradingName": "Doremart Lubok Antu",
+    "address1": "NO.169-171, LUBOK ANTU BAZAAR",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
@@ -42718,6 +44330,19 @@
     "city": "Negeri Sembilan"
   },
   {
+    "merchantId": "a2896302-ea99-47da-93b5-8c9bac5d0d42",
+    "postalCode": "89800",
+    "longitude": 115.74501,
+    "latitude": 5.34949017,
+    "tradingName": "99 Speedmart Sdn Bhd (Beaufort Town) - SBH 17117",
+    "address1": "Lot 6 & 7, Lo Chung Park",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Beaufort,"
+  },
+  {
     "merchantId": "a28ce69d-12b7-4959-b617-13c5f697ef2a",
     "postalCode": "84000",
     "longitude": 102.566498,
@@ -42809,6 +44434,19 @@
     "city": "Krubong"
   },
   {
+    "merchantId": "a2ce92ea-18b5-4b3b-baf9-dabc49be3106",
+    "postalCode": "47300",
+    "longitude": 101.621597,
+    "latitude": 3.08576012,
+    "tradingName": "KK Super Mart (Sungai Way)",
+    "address1": "No.621, Main Street, Sungai Way, Seri Setia ,",
+    "address2": "47300 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "a2d450fd-7fd5-4c70-b12a-8dc5b3f80ae4",
     "postalCode": "40400",
     "longitude": 0,
@@ -42846,6 +44484,19 @@
     "country": "Malaysia",
     "state": "Melaka",
     "city": "Krubong"
+  },
+  {
+    "merchantId": "a2ec83b4-691e-4335-bf3f-6a11e3c9956b",
+    "postalCode": "53200",
+    "longitude": 101.719772,
+    "latitude": 3.18976998,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Ayer Panas) - 3432",
+    "address1": "No: 10 & 11 (Ground Floor), Jalan Ayer Tenang, Taman Ayer Panas",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Kuala Lumpur"
   },
   {
     "merchantId": "a2eef089-c4c8-4a86-a590-ff57e3273e55",
@@ -42911,6 +44562,19 @@
     "country": "Malaysia",
     "state": "Terengganu",
     "city": "Paka"
+  },
+  {
+    "merchantId": "a36e3615-3643-475f-872e-249a8cc6e14e",
+    "postalCode": "43000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Reko, Kajang (2))",
+    "address1": "No.G-3A, Saville@Kajang, Jalan Reko,",
+    "address2": "43000 Kajang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
   },
   {
     "merchantId": "a3855f0a-6dd6-4376-8839-959cdca93d27",
@@ -43132,6 +44796,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Masai"
+  },
+  {
+    "merchantId": "a44851fc-cd91-41bc-ad66-79c567ea40b0",
+    "postalCode": "56100",
+    "longitude": 101.738121,
+    "latitude": 3.12596989,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Shamelin Perkasa) - 3076",
+    "address1": "No: 7 & 9 (Ground Floor), Lorong 6C/91, Taman Shamelin Perkasa",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Cheras"
   },
   {
     "merchantId": "a44c879c-c3f9-47ce-8ecb-4e6ad8e8d8d6",
@@ -43563,6 +45240,19 @@
     "city": "Johor Bahru"
   },
   {
+    "merchantId": "a5cfdb43-5e8f-4ea4-8792-7bba189d5a9f",
+    "postalCode": "43600",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Universiti Kebangsaan Malaysia)",
+    "address1": "Kafeteria Di Aras 4,",
+    "address2": "Bangunan Perpustakaan Tun Seri Lanang (PTSL), Universiti Kebangsaan Malaysia (UKM),",
+    "address3": "43600 Bangi, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bangi"
+  },
+  {
     "merchantId": "a5eaf128-35e7-4c24-87d4-7e6917d7d1cf",
     "postalCode": "09000",
     "longitude": 100.537033,
@@ -43914,6 +45604,32 @@
     "city": "Ipoh"
   },
   {
+    "merchantId": "a6e52b3b-aadd-410b-9242-f8679e8ce5b6",
+    "postalCode": "47300",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Petaling Jaya, Jalan SS20)",
+    "address1": "G-13, Block C, Damansara Intan, No.1,",
+    "address2": "Jalan SS 20/27, 47300 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
+    "merchantId": "a6fa0962-b0c1-4dbc-bef4-3e8852d0f0b1",
+    "postalCode": "81300",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Johor, Taman Kempas Utama)",
+    "address1": "No.20, Jalan Kempas Utama 2/1,",
+    "address2": "Taman Kempas Utama, 81300 Johor Bahru, Johor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Johor Bahru"
+  },
+  {
     "merchantId": "a6fa4e46-1c5a-4346-9199-273384083794",
     "postalCode": "78000",
     "longitude": 102.270363,
@@ -44159,6 +45875,19 @@
     "country": "Malaysia",
     "state": "Penang",
     "city": "Bayan Lepas"
+  },
+  {
+    "merchantId": "a79c653f-2f83-4039-b051-0ca13041453a",
+    "postalCode": "43200",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Dataran C180)",
+    "address1": "A-3A-G, Jalan C180/1, Dataran C180,",
+    "address2": "43200 Cheras, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Cheras"
   },
   {
     "merchantId": "a7af31f5-e7be-4ef0-b382-2f5daabc357c",
@@ -44434,6 +46163,19 @@
     "city": "Jasin"
   },
   {
+    "merchantId": "a8ed133b-2545-4dcb-abf9-02d01b214878",
+    "postalCode": "93350",
+    "longitude": 110.36097,
+    "latitude": 1.50813997,
+    "tradingName": "CCK Fresh Mart - BDC",
+    "address1": "lot 4227, block, 16, jalan stampin, central land district, 93350 kuching, sarawak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Kuching"
+  },
+  {
     "merchantId": "a8f49f67-6f81-48ca-a955-0d3b9fe3d197",
     "postalCode": "98700",
     "longitude": 114.986717,
@@ -44692,6 +46434,19 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Asajaya"
+  },
+  {
+    "merchantId": "aa065cf5-2f0a-4623-9374-45e6b55f9954",
+    "postalCode": "98000",
+    "longitude": 114.007607,
+    "latitude": 4.42471981,
+    "tradingName": "EMart (Riam) Sdn Bhd - Bulatan",
+    "address1": "LOT 2563, BLOCK 4 MCLD",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "MIRI"
   },
   {
     "merchantId": "aa098140-8a18-4543-ac4d-002243ce72f6",
@@ -45669,6 +47424,19 @@
     "city": "Mantin"
   },
   {
+    "merchantId": "ad477a00-503f-4a86-bcf3-f938d3fe39ec",
+    "postalCode": "47500",
+    "longitude": 101.587051,
+    "latitude": 3.0820899,
+    "tradingName": "KK Super Mart (Subang Jaya)",
+    "address1": "A13, Jalan SS 15/8A, 47500 Subang Jaya,",
+    "address2": "Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "ad4b76bc-cd60-46be-9ed1-69d8c33b95d6",
     "postalCode": "78300",
     "longitude": 102.117783,
@@ -45693,6 +47461,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Kluang"
+  },
+  {
+    "merchantId": "ad5726e3-8dcf-4c35-8d5e-8893dd6662f5",
+    "postalCode": "68100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Prima Selayang)",
+    "address1": "No.5, Jalan PS 8, Taman Prima Selayang,",
+    "address2": "68100 Batu Caves, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Batu Caves"
   },
   {
     "merchantId": "ad5c8375-711a-45dc-970f-1acd9b0059fc",
@@ -46098,6 +47879,19 @@
     "city": "Kuching"
   },
   {
+    "merchantId": "af10c32e-d9cd-4070-b19f-b00e93703f38",
+    "postalCode": "88300",
+    "longitude": 116.086029,
+    "latitude": 5.95973015,
+    "tradingName": "Pick n Pay (LYG 1)",
+    "address1": "shoplot no 2, ground floor, luyang phase iii, luyang, 88300 kota kinabalu.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "af10d4fc-d7e9-4c78-82d2-e2e04b262191",
     "postalCode": "84300",
     "longitude": 102.636398,
@@ -46421,6 +48215,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Muar"
+  },
+  {
+    "merchantId": "b037898f-f61c-42a8-8e5f-0eb81e18fbec",
+    "postalCode": "79150",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Johor, Taman Nusa Bestari (2))",
+    "address1": "No.30, Jalan Bestari 3/2, Taman Nusa Bestari,",
+    "address2": "79150 Iskandar Puteri, Johor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Iskandar Puteri"
   },
   {
     "merchantId": "b0455b37-e90f-4fca-a129-3f6365b858a2",
@@ -47021,6 +48828,19 @@
     "city": "Sungai Ayer Tawar"
   },
   {
+    "merchantId": "b2559099-b8b7-4702-9a53-29b32e0940cd",
+    "postalCode": "43000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Kajang, Mutiara Avenue)",
+    "address1": "No.17, Jalan Mutiara 1A, Mutiara Avenue,",
+    "address2": "43000 Kajang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "b2574c5a-6643-407f-9528-43279cc398b5",
     "postalCode": "86000",
     "longitude": 103.2855,
@@ -47266,6 +49086,32 @@
     "country": "Malaysia",
     "state": "Kuala Lumpur",
     "city": "Sri Rampai"
+  },
+  {
+    "merchantId": "b326dc7a-935a-496e-b3cd-3053594b2007",
+    "postalCode": "41200",
+    "longitude": 101.473579,
+    "latitude": 3.01633,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Sejati) - 1612",
+    "address1": "No: 103 & 105",
+    "address2": "Jalan Bendahara 45",
+    "address3": "Taman Sejati, Kota Raja",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
+  },
+  {
+    "merchantId": "b32989fa-e816-4e87-bd39-9d8735bcf3c7",
+    "postalCode": "89000",
+    "longitude": 116.150871,
+    "latitude": 5.33486986,
+    "tradingName": "Gaya Awana Sdn Bhd",
+    "address1": "Lot 11, 1st Floor, Kota Plaza 1, Jalan Masjid, 89000 Keningau, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Keningau"
   },
   {
     "merchantId": "b35c9386-63b3-4351-a2d9-9f2d86f98b87",
@@ -47931,6 +49777,19 @@
     "city": "Ijok"
   },
   {
+    "merchantId": "b637b8be-6a56-42f7-a05d-0bed91ea818d",
+    "postalCode": "47100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Bandar Puteri (2))",
+    "address1": "No.38-1, Jalan Puteri 7/10, Bandar Puteri,",
+    "address2": "47100 Puchong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
+  },
+  {
     "merchantId": "b644af90-adec-496f-a766-4024ffd2d0b7",
     "postalCode": "48000",
     "longitude": 101.582207,
@@ -48126,6 +49985,19 @@
     "city": "SARIKEI"
   },
   {
+    "merchantId": "b6f87357-d7ac-4d5c-98a2-9417573b2f97",
+    "postalCode": "46000",
+    "longitude": 101.606728,
+    "latitude": 3.07891989,
+    "tradingName": "KK Super Mart (Ridzuan Condo)",
+    "address1": "No.868, Pangsapuri Ridzuan, Jalan PJS 10/11,",
+    "address2": "46000 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "b700ac61-32d1-4348-7fb6-08dcee88346f",
     "postalCode": "94500",
     "longitude": 109.853249,
@@ -48295,6 +50167,19 @@
     "city": "Ampang"
   },
   {
+    "merchantId": "b7a07921-3a17-40f6-b60b-6dc738aceb9d",
+    "postalCode": "43000",
+    "longitude": 101.780724,
+    "latitude": 2.88657999,
+    "tradingName": "KK Super Mart (Kajang Bandar Seri Putra 2)",
+    "address1": "No.3,",
+    "address2": "Jalan Seri Putra 3/10, Bandar Seri Putra,",
+    "address3": "43000 Kajang, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "b7a762a8-1aaf-4ce9-aa55-0a95a9224f2d",
     "postalCode": "94900",
     "longitude": 111.169632,
@@ -48308,6 +50193,19 @@
     "city": "Sri Aman"
   },
   {
+    "merchantId": "b7b1cf21-fd85-4e73-b39d-029e4b3a4b3a",
+    "postalCode": "43000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Kajang, Kajang Perdana)",
+    "address1": "No.G-8, Perdana Avenue, Jalan Kajang Perdana 3,",
+    "address2": "Taman Kajang Perdana, 43000 Kajang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "b7b7754b-7333-4e01-b776-23ec0ede02bc",
     "postalCode": "42000",
     "longitude": 101.423798,
@@ -48319,6 +50217,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Port Klang"
+  },
+  {
+    "merchantId": "b7c1f8f3-64a9-42e5-b89f-f82969478063",
+    "postalCode": "27200",
+    "longitude": 102.029266,
+    "latitude": 4.17067003,
+    "tradingName": "Tasklink Plantation and Agrofarm Sdn Bhd",
+    "address1": "Lot 3408, Bangunan Tasklink Batu 3, Jalan Cheneras",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Pahang",
+    "city": "Kuala Lipis"
   },
   {
     "merchantId": "b7c57f1b-a065-4035-a28a-475e01e290d1",
@@ -48607,6 +50518,32 @@
     "city": "Chemor"
   },
   {
+    "merchantId": "b8e23e77-048a-4ee4-b48e-a065f4968ff1",
+    "postalCode": "43500",
+    "longitude": 101.837379,
+    "latitude": 2.96271992,
+    "tradingName": "KK Super Mart (Semenyih, Jalan Kiara)",
+    "address1": "No.10,",
+    "address2": "Jalan Kiara 1, Kawasan Perniagaan Kiara,",
+    "address3": "43500 Semenyih, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Semenyih"
+  },
+  {
+    "merchantId": "b8e240a3-8a92-4471-b0d1-be2bd76a8f7e",
+    "postalCode": "47830",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Damansara Damai)",
+    "address1": "J-009 Vista, Jalan PJU 10/2A, Damansara Damai,",
+    "address2": "47830 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "b8f1d59c-cf31-4a06-bd25-71da4cecf06d",
     "postalCode": "17020",
     "longitude": 102.176971,
@@ -48761,6 +50698,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Batang Kali"
+  },
+  {
+    "merchantId": "b9818fc7-9dba-4b62-a9e6-555199f5008f",
+    "postalCode": "47100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Puchong, Bandar Puchong Jaya (3))",
+    "address1": "No.10, Jalan Tempua 2A, Bandar Puchong Jaya,",
+    "address2": "47100 Puchong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
   },
   {
     "merchantId": "b982fe02-4e04-49d2-9c5e-a939ff3f4fdb",
@@ -49283,6 +51233,19 @@
     "city": "Ipoh"
   },
   {
+    "merchantId": "bb56b2ac-74b7-43a7-a316-f2e91ba39dab",
+    "postalCode": "54200",
+    "longitude": 101.735703,
+    "latitude": 3.17558002,
+    "tradingName": "99 Speedmart Sdn Bhd (Dataran Jelatek) - 1161",
+    "address1": "Unit G-08, Dataran Jelatek, Jalan Jelatek",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Jelatek"
+  },
+  {
     "merchantId": "bb691780-c638-4bbc-bbce-e898f4c5353a",
     "postalCode": "59000",
     "longitude": 101.678993,
@@ -49385,6 +51348,19 @@
     "country": "Malaysia",
     "state": "Penang",
     "city": "Georgetown"
+  },
+  {
+    "merchantId": "bbfc9fe3-6654-4382-a306-d2dc22b9c595",
+    "postalCode": "87000",
+    "longitude": 115.232292,
+    "latitude": 5.34010983,
+    "tradingName": "ZMART LABUAN SDN BHD",
+    "address1": "lot 17-20,ground floor,lusu plaza,jalan pohon batu, 87000 w.p labuan",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Labuan",
+    "city": "W.P Labuan"
   },
   {
     "merchantId": "bc03278a-eaf9-49d2-951e-4bfee71bf8f5",
@@ -49556,6 +51532,19 @@
     "city": "Raub"
   },
   {
+    "merchantId": "bc9d3d63-7566-4048-b853-843557c5e303",
+    "postalCode": "89150",
+    "longitude": 116.217979,
+    "latitude": 6.1876502,
+    "tradingName": "KK Tetap Jaya Sdn Bhd (Tuaran)",
+    "address1": "NT043112723, KAMPUNG DUNGUN, JALAN DUNGUN, 89150 TUARAN, SABAH.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tuaran"
+  },
+  {
     "merchantId": "bcab6bec-d138-4e37-a348-702906846a06",
     "postalCode": "47301",
     "longitude": 101.599693,
@@ -49658,6 +51647,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Jeram"
+  },
+  {
+    "merchantId": "bd53f9ec-6d51-4a1e-ad30-1a0eda5384e3",
+    "postalCode": "50150",
+    "longitude": 101.703979,
+    "latitude": 3.13636994,
+    "tradingName": "99 Speedmart Sdn Bhd (Jln Maharajalela) - 2149",
+    "address1": "No: 167 & 169 (Ground Floor), Jalan Maharajalela",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Maharajalela"
   },
   {
     "merchantId": "bd55c38f-da29-4307-a156-64940644ec78",
@@ -49894,6 +51896,19 @@
     "city": "Kuala Penyu"
   },
   {
+    "merchantId": "be487308-2e37-471a-945f-58be7f1aeb95",
+    "postalCode": "53100",
+    "longitude": 101.713799,
+    "latitude": 3.21740007,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Gombak Jaya) - 1688",
+    "address1": "No: 6 & 7, Jalan GJ 2, Batu 6, Tmn Gombak Jaya",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Gombak"
+  },
+  {
     "merchantId": "be681c02-86b7-476e-9e1a-808efe2d059c",
     "postalCode": "42000",
     "longitude": 101.706322,
@@ -50126,6 +52141,32 @@
     "country": "Malaysia",
     "state": "Perak",
     "city": "Pantai Remis"
+  },
+  {
+    "merchantId": "bf18823b-bcb1-4431-8195-71c8342f5620",
+    "postalCode": "91100",
+    "longitude": 118.291527,
+    "latitude": 5.02914,
+    "tradingName": "Eco Fresh Cold Storage Sdn Bhd (PERDANA)",
+    "address1": "MDLD 8949-8951, LOT 66-68, PHASE 5, BANDAR SRI PERDANA, JALAN SILAM 91100, LAHAD DATU, SABAH.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Lahad Datu"
+  },
+  {
+    "merchantId": "bf1d6931-fa51-4b72-aeba-cd68ff94c018",
+    "postalCode": "41300",
+    "longitude": 101.462692,
+    "latitude": 3.04626989,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bukit Kuda) - 1268",
+    "address1": "No: 15 & 17",
+    "address2": "Lintang Perak / KU 1",
+    "address3": "Taman Bukit Kuda",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
   },
   {
     "merchantId": "bf1ddfe0-6fa2-4025-a78e-6f151dd1cf50",
@@ -50388,6 +52429,19 @@
     "city": "Pasoh"
   },
   {
+    "merchantId": "c066defe-8a57-473e-90bb-0ed839603a94",
+    "postalCode": "43300",
+    "longitude": 101.741173,
+    "latitude": 3.02385998,
+    "tradingName": "KK Super Mart (Cheras Taming Jaya)",
+    "address1": "No.25, Jalan Medan Taming 3,",
+    "address2": "Pusat Perniagaan Taming Jaya 1,",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
+  },
+  {
     "merchantId": "c069ea88-8ba3-4822-b645-cbdb6682f981",
     "postalCode": "96000",
     "longitude": 111.8181,
@@ -50620,6 +52674,32 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Kuching"
+  },
+  {
+    "merchantId": "c1283ea5-a9d9-411b-9754-f0fd5e89b653",
+    "postalCode": "47500",
+    "longitude": 101.589104,
+    "latitude": 3.0771699,
+    "tradingName": "KK Super Mart (Subang Jaya SS15 2)",
+    "address1": "No.82, Jalan SS 15/4B, SS15,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Subang Jaya"
+  },
+  {
+    "merchantId": "c1296df3-9ea4-4c2d-b3c5-e38b6a482bb9",
+    "postalCode": "41050",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Klang, Bandar Bukit Raja (2))",
+    "address1": "No.38, Jalan Makyong 5D/KU5, Bandar Bukit Raja,",
+    "address2": "41050 Klang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
   },
   {
     "merchantId": "c12aca3d-040b-4300-809f-1f2ec24231cb",
@@ -51441,6 +53521,19 @@
     "city": "Segamat"
   },
   {
+    "merchantId": "c3d5cc52-6e88-4d0d-9109-969fe22e3b54",
+    "postalCode": "43300",
+    "longitude": 101.699043,
+    "latitude": 3.02547002,
+    "tradingName": "KK Super Mart (Seri Kembangan Kampung Baru)",
+    "address1": "Plot 9, Jalan Aman SK 13/15A, Kampung Baru,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
+  },
+  {
     "merchantId": "c3df1fc8-0f9b-4431-bfca-639e56840f84",
     "postalCode": "14000",
     "longitude": 100.436737,
@@ -51484,8 +53577,8 @@
     "postalCode": "91308",
     "longitude": 0,
     "latitude": 0,
-    "tradingName": "SERVAY EVERGREEN SDN BHD - SJBGS",
-    "address1": "TL NO. 1230001436, LOT 1,2,3,4 & LOT 5, JALAN KAMPUNG TANJUNG KAPOR, 91308 SEMPORNA, SABAH.",
+    "tradingName": "Servay Evergreen Sdn Bhd - SJBGS",
+    "address1": "TL NO. 1230001436, LOT 1,2,3,4 & LOT 5, JALAN KAMPUNG TANJUNG KAPOR",
     "address2": "",
     "address3": "",
     "country": "Malaysia",
@@ -51610,6 +53703,19 @@
     "city": "Batu Kurau"
   },
   {
+    "merchantId": "c46911e8-686a-4c87-8282-7c0490520900",
+    "postalCode": "41200",
+    "longitude": 101.441658,
+    "latitude": 2.99823999,
+    "tradingName": "KK Super Mart (Bukit Tinggi 3)",
+    "address1": "No.3, Lorong Batu Nilam 21B, Bandar Bukit Tinggi 2",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
+  },
+  {
     "merchantId": "c46b246f-f79a-4d4f-990a-2082d99064d3",
     "postalCode": "17030",
     "longitude": 102.207314,
@@ -51675,6 +53781,19 @@
     "city": "Bintulu"
   },
   {
+    "merchantId": "c4a61fd0-5896-4b5f-9003-98143ab60552",
+    "postalCode": "46000",
+    "longitude": 101.647614,
+    "latitude": 3.07296991,
+    "tradingName": "KK Super Mart (Sri Manja)",
+    "address1": "No.1,",
+    "address2": "Jalan PJS 3/48, Taman Sri Manja,",
+    "address3": "46000 Petaling Jaya, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "c4aa8f5b-10d7-4593-8ba9-b055c8c910d0",
     "postalCode": "81100",
     "longitude": 103.7379,
@@ -51738,6 +53857,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Balakong"
+  },
+  {
+    "merchantId": "c4cdebef-dbf9-4d04-8263-120e755cbf4e",
+    "postalCode": "43650",
+    "longitude": 101.764374,
+    "latitude": 2.94432998,
+    "tradingName": "KK Super Mart (Bandar Baru Bangi)",
+    "address1": "No.16,",
+    "address2": "Jalan 6C/7, Bandar Baru Bangi,",
+    "address3": "43650 Bandar Baru Bangi, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bandar Baru Bangi"
   },
   {
     "merchantId": "c4d8d6cd-32d3-40f4-bfb2-2192abc17836",
@@ -52013,6 +54145,19 @@
     "city": "Temerloh"
   },
   {
+    "merchantId": "c5b8a331-ed7c-4984-9ffa-2960d289929a",
+    "postalCode": "43000",
+    "longitude": 101.810631,
+    "latitude": 2.88870001,
+    "tradingName": "KK Super Mart (Bangi Seksyen 4)",
+    "address1": "No.18,",
+    "address2": "Jalan BM 4/1, Bandar Bukit Mahkota, Seksyen 4,",
+    "address3": "43000 Bangi Lama, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Bangi Lama"
+  },
+  {
     "merchantId": "c5bec1cc-60d3-4bbf-a9c2-2af2551faa58",
     "postalCode": "82000",
     "longitude": 103.399986,
@@ -52167,19 +54312,6 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Kulai"
-  },
-  {
-    "merchantId": "c65569c4-5591-4600-a31f-f41285d2f96f",
-    "postalCode": "94700",
-    "longitude": 110.53035,
-    "latitude": 1.20916998,
-    "tradingName": "Day 2 Day Convenience Store",
-    "address1": "Grd Floor of Sublot 409 of Parent, Lot 362 Block 8",
-    "address2": "Bukar Sadong Land District",
-    "address3": "Jalan Kuching Serian",
-    "country": "Malaysia",
-    "state": "Sarawak",
-    "city": "Serian"
   },
   {
     "merchantId": "c659a9e5-d9fd-4710-b72c-6a7ba80d2a3c",
@@ -52377,6 +54509,19 @@
     "city": "Jitra"
   },
   {
+    "merchantId": "c71025bb-48d1-4596-af05-e054979c7524",
+    "postalCode": "87000",
+    "longitude": 115.240868,
+    "latitude": 5.27983999,
+    "tradingName": "Sun Provision Shop",
+    "address1": "U0044 JALAN BUNGA MAWAR",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "W.P Labuan",
+    "city": "Labuan"
+  },
+  {
     "merchantId": "c7120329-7901-4b27-af67-1b5afcc34ed6",
     "postalCode": "32700",
     "longitude": 100.781433,
@@ -52466,6 +54611,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "KUANTAN"
+  },
+  {
+    "merchantId": "c777051a-f05e-4a15-b64f-64c3ba0a51a2",
+    "postalCode": "47180",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Taman Kinrara (4))",
+    "address1": "No.54, Jalan Kinrara 4/5, Taman Kinrara,",
+    "address2": "Seksyen 2, 47180 Puchong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
   },
   {
     "merchantId": "c784d716-413e-4578-b742-ca9611abdde8",
@@ -53612,6 +55770,19 @@
     "city": "Limbang"
   },
   {
+    "merchantId": "cc3812dc-d952-44da-a4ad-db80282d3a8e",
+    "postalCode": "43000",
+    "longitude": 101.78289,
+    "latitude": 2.98348999,
+    "tradingName": "KK Super Mart (Sepakat Indah)",
+    "address1": "S-GF-10, Plaza Indah, Jalan Sepakat Indah 1,",
+    "address2": "Taman Sepakat Indah",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "cc3c059e-02af-4573-b34a-e7b5cdc6c73a",
     "postalCode": "77000",
     "longitude": 102.420311,
@@ -53649,6 +55820,19 @@
     "country": "Malaysia",
     "state": "W.P Kuala Lumpur",
     "city": "Kampung Baru"
+  },
+  {
+    "merchantId": "cc46bac7-8d34-4bc3-a82e-37a99ca3d865",
+    "postalCode": "51200",
+    "longitude": 101.674057,
+    "latitude": 3.21402001,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Mastiara 2) - 2856",
+    "address1": "No: 2 & 4 (Ground Floor), Blok D4, Jalan 6/18D, Taman Mastiara",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Kuala Lumpur"
   },
   {
     "merchantId": "cc4c37b3-287a-490a-95eb-0f4520b817f8",
@@ -53833,6 +56017,19 @@
     "city": "Gemencheh"
   },
   {
+    "merchantId": "cd253ced-7f7e-4a44-8ea9-ef9eb9216221",
+    "postalCode": "43000",
+    "longitude": 101.789871,
+    "latitude": 2.99298,
+    "tradingName": "KK Super Mart (Kajang)",
+    "address1": "No.35, Jalan Semenyih",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "cd4d65e8-10f5-45c5-8e53-1b3067febf81",
     "postalCode": "08000",
     "longitude": 100.491783,
@@ -53909,6 +56106,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Batu Pahat"
+  },
+  {
+    "merchantId": "cd8cc34f-89e5-42d1-b5d1-6ce2df8abe10",
+    "postalCode": "43000",
+    "longitude": 101.77903,
+    "latitude": 2.98450994,
+    "tradingName": "KK Super Mart (Kajang Indah)",
+    "address1": "No:7, Jalan Kajang Indah, Taman Kajang Indah,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
   },
   {
     "merchantId": "cd97885e-d4b9-4356-9350-eeb086783167",
@@ -55575,6 +57785,19 @@
     "city": "Kota Tinggi"
   },
   {
+    "merchantId": "d413fc67-8446-47e6-99d0-260e5ae33ab2",
+    "postalCode": "28200",
+    "longitude": 102.467979,
+    "latitude": 3.27270007,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Akasia Indah) - 2983",
+    "address1": "No: 4 & 6 (Ground Floor),",
+    "address2": "Jalan Akasia Indah 1,",
+    "address3": "Taman Akasia Indah,",
+    "country": "Malaysia",
+    "state": "Pahang",
+    "city": "Bandar Bera"
+  },
+  {
     "merchantId": "d4303709-4e8f-4f14-8a12-5231bbc63dfb",
     "postalCode": "43300",
     "longitude": 101.708679,
@@ -55807,6 +58030,19 @@
     "country": "Malaysia",
     "state": "Pahang",
     "city": "Karak"
+  },
+  {
+    "merchantId": "d4fcc7dd-b841-483f-b15d-4be25c73872d",
+    "postalCode": "53100",
+    "longitude": 101.741623,
+    "latitude": 3.22214007,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Melawati 3) - 3137",
+    "address1": "No: 24  (Ground Floor), Jalan E1",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Taman Melawati"
   },
   {
     "merchantId": "d50ee337-8b16-4724-a119-3a088db83e3a",
@@ -56251,6 +58487,19 @@
     "city": "Ipoh"
   },
   {
+    "merchantId": "d6933f7f-b8a2-4b1c-936f-4c9d9aa4b77d",
+    "postalCode": "89850",
+    "longitude": 115.549919,
+    "latitude": 5.06730986,
+    "tradingName": "88 Fresh Mart Sipitang 2",
+    "address1": "Lot 1,3 Single Storey NT193060810, Mile 1 Sipitang Jalan Sindumin, 89850 Sipitang, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Sipitang"
+  },
+  {
     "merchantId": "d69df8c8-c339-4574-84d8-e2270d03540b",
     "postalCode": "33300",
     "longitude": 101.12986,
@@ -56550,6 +58799,19 @@
     "city": "Pokok Sena"
   },
   {
+    "merchantId": "d78a7fd2-5e41-46a5-a8b7-938683172ec1",
+    "postalCode": "81300",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Johor, Taman Skudai Indah)",
+    "address1": "No.34, Jalan Keindahan 1,",
+    "address2": "Taman Skudai Indah, 81300 Skudai, Johor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Johor",
+    "city": "Skudai"
+  },
+  {
     "merchantId": "d7d4bb7d-e120-40e7-9545-42ec27b2c1a7",
     "postalCode": "83000",
     "longitude": 102.931938,
@@ -56574,6 +58836,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Saleng"
+  },
+  {
+    "merchantId": "d7e3faa7-bf8e-41e2-92a0-97516a30da85",
+    "postalCode": "41200",
+    "longitude": 101.431831,
+    "latitude": 2.99925995,
+    "tradingName": "KK Super Mart (Bukit Tinggi (2))",
+    "address1": "No.3,",
+    "address2": "Lorong Batu Nilam 34C, Bandar Bukit Tinggi 2,",
+    "address3": "41200 Klang, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
   },
   {
     "merchantId": "d7f0c7dc-6a65-43cf-8f1b-ffb84dbaa401",
@@ -56808,6 +59083,19 @@
     "country": "Malaysia",
     "state": "Kelantan",
     "city": "Kuala Krai"
+  },
+  {
+    "merchantId": "d8ad0def-088f-4a5c-88a6-4583319ed56d",
+    "postalCode": "79100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Pulau Pinang, Juru Sentral)",
+    "address1": "No.5, Jalan Sentral 25, Taman Nusa Sentral,",
+    "address2": "79100 Iskandar Puteri, Johor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Iskandar Puteri"
   },
   {
     "merchantId": "d8b23deb-3b06-4bcc-9664-0089d00e87f6",
@@ -57577,6 +59865,19 @@
     "city": "Kinarut"
   },
   {
+    "merchantId": "db77eca4-178c-4a7a-be51-c403f03deec3",
+    "postalCode": "89200",
+    "longitude": 116.234001,
+    "latitude": 6.17925978,
+    "tradingName": "88 Fresh Mart Tuaran",
+    "address1": "Lot 5 & 6, Jalan Datuk Dusing, 89200 Tuaran, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tuaran"
+  },
+  {
     "merchantId": "db7fa2b4-ad92-4048-a3d0-7f757e5c4aa6",
     "postalCode": "85000",
     "longitude": 102.972328,
@@ -57679,6 +59980,19 @@
     "country": "Malaysia",
     "state": "Melaka",
     "city": "Selandar"
+  },
+  {
+    "merchantId": "dbed9e26-4f64-4b04-a061-d4fb2fbb12a6",
+    "postalCode": "56000",
+    "longitude": 101.71981,
+    "latitude": 3.07983994,
+    "tradingName": "99 Speedmart Sdn Bhd (Desa Tun Razak) - 1661",
+    "address1": "No: 48 & 50, Jalan 10/118 B, Desa Tun Razak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Cheras"
   },
   {
     "merchantId": "dbf140d9-a382-426d-9b76-31850631d61d",
@@ -57902,6 +60216,19 @@
     "city": "Teluk Intan"
   },
   {
+    "merchantId": "dcbbc07c-e3ad-43ad-823f-823ab0d87d58",
+    "postalCode": "43000",
+    "longitude": 101.805283,
+    "latitude": 3.01467991,
+    "tradingName": "KK Super Mart (Kajang Taman Puncak Saujana)",
+    "address1": "No.7, Jalan Puncak Saujana 1/1A, Taman Puncak Saujana, 43000 Kajang, Selangor.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "dcc3e1b1-a23f-43d3-b3b9-67f8d45f24c4",
     "postalCode": "76100",
     "longitude": 102.25312,
@@ -58056,6 +60383,19 @@
     "country": "Malaysia",
     "state": "Kedah",
     "city": "Kuala Kedah"
+  },
+  {
+    "merchantId": "dd573908-63cd-4e50-8547-476d2c07710f",
+    "postalCode": "64000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (KLIA 2, Gateway (3))",
+    "address1": "Unit L2-1, 2, 3, 4, Level 2, Gateway @ KLIA 2, Terminal KLIA 2, KL International Airport,",
+    "address2": "Jalan KLIA 2/1, 64000 KLIA, Sepang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Sepang"
   },
   {
     "merchantId": "dd701815-2d71-48a6-9af9-02460d71d880",
@@ -58381,6 +60721,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Seremban"
+  },
+  {
+    "merchantId": "de57b5a4-a2c0-4365-961b-1b66cf4c9835",
+    "postalCode": "88650",
+    "longitude": 116.094643,
+    "latitude": 5.93039989,
+    "tradingName": "Pick n Pay (PVB1)",
+    "address1": "lot c-21-g, c-22-g, c-23-g, ground floor, block c, kedai pavilion bundusan, jalan bundusan penampang, 88500 sabah.",
+    "address2": "",
+    "address3": ",",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Bundusan"
   },
   {
     "merchantId": "de63f0d7-fe98-4d7d-8957-107b0629efcd",
@@ -58773,6 +61126,19 @@
     "city": "Kuala Terengganu"
   },
   {
+    "merchantId": "e0166a85-cd9f-460d-ad4d-3997a2c0be6b",
+    "postalCode": "47400",
+    "longitude": 101.621048,
+    "latitude": 3.12978005,
+    "tradingName": "KK Super Mart (Damansara Jaya 2)",
+    "address1": "67, Jalan SS 22/11, Damansara Jaya,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "e01e9d64-9db2-4508-a2d2-bb6064274e9f",
     "postalCode": "88300",
     "longitude": 116.102341,
@@ -58955,6 +61321,19 @@
     "city": "Gelang Patah"
   },
   {
+    "merchantId": "e0c1c93a-0045-4606-b20a-516304806c0d",
+    "postalCode": "09100",
+    "longitude": 100.918602,
+    "latitude": 5.67605019,
+    "tradingName": "Baling Mini Market",
+    "address1": "No 18-21, Jalan Liku, 09100 Baling",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kedah",
+    "city": "Baling"
+  },
+  {
     "merchantId": "e0cfe6a9-fe09-4ec5-a1a1-6b03ffab376c",
     "postalCode": "34250",
     "longitude": 100.388878,
@@ -59083,6 +61462,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Petaling Jaya"
+  },
+  {
+    "merchantId": "e1834805-8d6f-4acf-b72f-4407e9155e58",
+    "postalCode": "89308",
+    "longitude": 116.576607,
+    "latitude": 5.98632002,
+    "tradingName": "88 Fresh Mart Kundasang",
+    "address1": "Ground Floor,Lot No. 1, Bangunan Sedco Kundasang, 89308 Ranau, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Ranau"
   },
   {
     "merchantId": "e186a6b8-45d2-4c3b-b2ab-c012be550d43",
@@ -59330,6 +61722,19 @@
     "country": "Malaysia",
     "state": "Sarawak",
     "city": "Kuching"
+  },
+  {
+    "merchantId": "e2604ebb-be38-4f15-b91c-35e38bfa7d40",
+    "postalCode": "64000",
+    "longitude": 101.68615,
+    "latitude": 2.74426007,
+    "tradingName": "KK Super Mart (KLIA 2, Gateway)",
+    "address1": "Unit L1-09 & L1-10, Level 1, Gateway @ KLIA 2, Terminal KLIA 2,",
+    "address2": "KL International Airport, Jalan KLIA 2/1, 64000 KLIA, Sepang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Sepang"
   },
   {
     "merchantId": "e269c0fe-ca43-4a7b-a790-1e469a9684b8",
@@ -59735,6 +62140,19 @@
     "city": "HULU LANGAT"
   },
   {
+    "merchantId": "e3ebdb0a-59bc-4b1f-8374-f7844214b8e2",
+    "postalCode": "89450",
+    "longitude": 116.134422,
+    "latitude": 5.99280024,
+    "tradingName": "CCK Fresh Mart Inanam",
+    "address1": "no 6-0, ground floor, kompleks mutiara, inanam, 89450 kota kinabalu.",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kota Kinabalu"
+  },
+  {
     "merchantId": "e3fb18c1-3d48-408c-8e8b-dc4868fd4470",
     "postalCode": "31100",
     "longitude": 101.08744,
@@ -59982,6 +62400,19 @@
     "city": "Shah Alam"
   },
   {
+    "merchantId": "e4df88c7-865f-4d2c-80c5-e917cf397408",
+    "postalCode": "94000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "Nam Kuang Trading",
+    "address1": "Ground Floor, Lot 704, SL18-19, Jalan Seringgok",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Bau"
+  },
+  {
     "merchantId": "e50041f2-95d1-4b48-9a4f-aebbf5b230de",
     "postalCode": "85000",
     "longitude": 102.821648,
@@ -59993,6 +62424,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Segamat"
+  },
+  {
+    "merchantId": "e500adbb-a338-4b0e-9afd-25821623942a",
+    "postalCode": "47301",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Stesen Kelana Jaya)",
+    "address1": "Lot S2, Stesen LRT Kelana Jaya, Lot PT 8960,",
+    "address2": "Seksyen SS 4, 47301 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
   },
   {
     "merchantId": "e50bef1c-5a7c-47f8-bfe3-3e5f74a543f1",
@@ -60385,6 +62829,19 @@
     "city": "JOHOR BAHRU"
   },
   {
+    "merchantId": "e6c716b9-7e8f-43df-9107-ee7043506a70",
+    "postalCode": "89050",
+    "longitude": 116.719673,
+    "latitude": 6.75168991,
+    "tradingName": "88 Fresh Mart Matunggong",
+    "address1": "NT05327606, Pekan Matunggong,89050, Kudat Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Kudat"
+  },
+  {
     "merchantId": "e6c8181f-0cec-49ce-a0bd-08d30898af19",
     "postalCode": "47400",
     "longitude": 101.614441,
@@ -60606,6 +63063,19 @@
     "city": "Kuala Kubu Baru"
   },
   {
+    "merchantId": "e76607fa-e79c-44f2-a0de-534108667bb5",
+    "postalCode": "43000",
+    "longitude": 101.789574,
+    "latitude": 2.9677999,
+    "tradingName": "KK Super Mart (Reko Kajang)",
+    "address1": "No.4-G, Jalan Reko Sentral 6, Reko Sentral",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "e7667425-7e70-4235-a5b4-5de5a583d581",
     "postalCode": "08300",
     "longitude": 100.478012,
@@ -60695,6 +63165,19 @@
     "country": "Malaysia",
     "state": "Sabah",
     "city": "KOTA MARUDU"
+  },
+  {
+    "merchantId": "e7a7a534-f72f-4c9c-ba3e-defdebcce178",
+    "postalCode": "40000",
+    "longitude": 101.497223,
+    "latitude": 3.07615995,
+    "tradingName": "99 Speedmart Sdn Bhd (Shah Alam Sek 7 (2)) - 1455",
+    "address1": "No : 10 & 12",
+    "address2": "Jln E 7/E",
+    "address3": "Seksyen 7",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
   },
   {
     "merchantId": "e7a83c7a-77e8-4700-9260-6e07c0719590",
@@ -60799,6 +63282,19 @@
     "country": "Malaysia",
     "state": "Kuala Lumpur",
     "city": "Kuala Lumpur"
+  },
+  {
+    "merchantId": "e7fa308a-456f-486e-ba33-b78763ba5989",
+    "postalCode": "31650",
+    "longitude": 101.06916,
+    "latitude": 4.54851007,
+    "tradingName": "KK Super Mart (Jalan Pengkalan Barat)",
+    "address1": "No.91, Jalan Pengkalan Barat 36, Stesen 18,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
   },
   {
     "merchantId": "e804092a-bd64-48da-93aa-af8a0fc50fd2",
@@ -61087,6 +63583,19 @@
     "city": "Keningau"
   },
   {
+    "merchantId": "e912386e-a248-458b-b538-925628d595f3",
+    "postalCode": "43000",
+    "longitude": 101.778458,
+    "latitude": 2.89903998,
+    "tradingName": "KK Super Mart (Kajang Taman Awani Bangi)",
+    "address1": "No.23,",
+    "address2": "Jalan Awani Bangi 1/1, Taman Awani Bangi,",
+    "address3": "43000 Kajang, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
     "merchantId": "e91f63d3-b1eb-430d-b5e2-6e60c61ae079",
     "postalCode": "71000",
     "longitude": 101.795662,
@@ -61098,6 +63607,45 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Port Dickson"
+  },
+  {
+    "merchantId": "e9263671-1d9b-4537-ba8e-754924f644fa",
+    "postalCode": "47120",
+    "longitude": 101.618874,
+    "latitude": 2.9467001,
+    "tradingName": "KK Super Mart (Puchong, Taman Putra Perdana (2))",
+    "address1": "No.28,",
+    "address2": "Jalan Putra Perdana 2/3, Taman Putra Perdana,",
+    "address3": "47120 Puchong, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
+  },
+  {
+    "merchantId": "e9284a4d-4e30-4fa9-afd4-18babb74a173",
+    "postalCode": "47100",
+    "longitude": 101.615929,
+    "latitude": 3.0262599,
+    "tradingName": "KK Super Mart (Bandar Puteri (3))",
+    "address1": "No.16,",
+    "address2": "Jalan Puteri 1/2, Bandar Puteri,",
+    "address3": "47100 Puchong, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
+  },
+  {
+    "merchantId": "e94a3b88-ec9e-43fc-b590-64f25bf75cc9",
+    "postalCode": "56100",
+    "longitude": 101.754387,
+    "latitude": 3.11791992,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bunga Cempaka) - 1477",
+    "address1": "No : 43 & 45, Jalan Bunga Cempaka 6A",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Taman Muda"
   },
   {
     "merchantId": "e9507747-3144-4ec3-a945-65b61329432e",
@@ -61464,6 +64012,19 @@
     "city": "Gua Musang"
   },
   {
+    "merchantId": "eae19caf-6c14-415a-815f-fc69f893c63f",
+    "postalCode": "31450",
+    "longitude": 101.045151,
+    "latitude": 4.55771017,
+    "tradingName": "KK Super Mart (Taman Bukit Merah)",
+    "address1": "No.28, Laluan Bukit Merah 1, Taman Bukit Merah,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Perak",
+    "city": "Ipoh"
+  },
+  {
     "merchantId": "eaf35101-4b67-459e-b911-e7d1ede3e14e",
     "postalCode": "39010",
     "longitude": 101.414879,
@@ -61683,6 +64244,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Muar"
+  },
+  {
+    "merchantId": "ebc52a9c-aad1-434a-a93e-796194726053",
+    "postalCode": "43300",
+    "longitude": 101.707481,
+    "latitude": 3.04124999,
+    "tradingName": "KK Super Mart (Seri Kembangan Taman Serdang Perdana)",
+    "address1": "C-G-04, Jalan SP 5/4, Taman Serdang Perdana",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Seri Kembangan"
   },
   {
     "merchantId": "ebca2a65-67b0-46fc-b973-0b25e7a00207",
@@ -62621,6 +65195,32 @@
     "city": "Melaka"
   },
   {
+    "merchantId": "ef477b17-9bc7-4412-93ea-7a92d03369bb",
+    "postalCode": "43000",
+    "longitude": 101.78772,
+    "latitude": 2.99703002,
+    "tradingName": "KK Super Mart (Kajang, Plaza Citra)",
+    "address1": "12, Plaza Citra, Jalan Citra,",
+    "address2": "43000 Kajang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
+  },
+  {
+    "merchantId": "ef4a1e57-875e-43e7-a0db-55fa40436774",
+    "postalCode": "40000",
+    "longitude": 101.504578,
+    "latitude": 3.08697009,
+    "tradingName": "99 Speedmart Sdn Bhd (Shah Alam Sek 2) - 3270",
+    "address1": "No: 13 & 15 (Ground Floor)",
+    "address2": "Jalan Bunga Melor 2/18",
+    "address3": "Seksyen 2",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
+  },
+  {
     "merchantId": "ef7251a1-043c-48fa-857d-b9754f2386d3",
     "postalCode": "79100",
     "longitude": 103.624542,
@@ -62710,6 +65310,19 @@
     "country": "Malaysia",
     "state": "Kelantan",
     "city": "Kota Bharu"
+  },
+  {
+    "merchantId": "efcdc1b5-69ef-4d12-bb40-a8cef2a570bf",
+    "postalCode": "91100",
+    "longitude": 118.332024,
+    "latitude": 5.02308989,
+    "tradingName": "Ramai Ramai Sdn Bhd (HQ)",
+    "address1": "Wisma Ramai Ramai, Jalan Bunga Raya, 91100 Lahad Datu",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Lahad Datu"
   },
   {
     "merchantId": "efd3a9d5-4ba3-4ff8-8bb3-c69b3bad6737",
@@ -62855,6 +65468,19 @@
     "city": "Saleng"
   },
   {
+    "merchantId": "f048abea-3511-4bfc-b351-46956ece4bad",
+    "postalCode": "46100",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Petaling Jaya, Seksyen 13)",
+    "address1": "G-003A Podium, PJ Centrestage, No.1, Jalan 13/1,",
+    "address2": "Seksyen 13, 46100 Petaling Jaya, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Selangor"
+  },
+  {
     "merchantId": "f04bd3a0-e6c3-4e6a-a3a9-18d6f6525ccc",
     "postalCode": "30200",
     "longitude": 101.082642,
@@ -62879,6 +65505,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Parit Raja"
+  },
+  {
+    "merchantId": "f0646561-ea23-47e4-9b55-e139b2d3bbaf",
+    "postalCode": "40000",
+    "longitude": 101.492981,
+    "latitude": 3.0682199,
+    "tradingName": "99 Speedmart Sdn Bhd (Shah Alam Sek 7 (1)) - 1080",
+    "address1": "No: QG 43 & QG 45",
+    "address2": "Jalan Plumbum U7/U",
+    "address3": "Seksyen 7",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Shah Alam"
   },
   {
     "merchantId": "f08d3eb4-20b1-4340-8ece-04bc1d37760a",
@@ -63141,6 +65780,32 @@
     "city": "Lahad Datu"
   },
   {
+    "merchantId": "f1be736d-4aa6-4d9a-a285-493deb1e7fe4",
+    "postalCode": "09600",
+    "longitude": 100.550034,
+    "latitude": 5.41696978,
+    "tradingName": "Pasaraya Shaan Sdn. Bhd.",
+    "address1": "No. 403-408, Taman Bayam Indah, Jalan Sungai Seluang,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kedah",
+    "city": "Lunas"
+  },
+  {
+    "merchantId": "f1c255ca-3258-4766-a264-c4b862e6e2fb",
+    "postalCode": "68000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Taman Ampang Mewah)",
+    "address1": "No.G-3, Jalan Mewah 3 (Block B), Taman Ampang Mewah,",
+    "address2": "68000 Ampang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Ampang"
+  },
+  {
     "merchantId": "f1c2735c-bf68-42d6-a4a4-df63f708f978",
     "postalCode": "81800",
     "longitude": 103.799431,
@@ -63245,6 +65910,19 @@
     "city": "Kampar"
   },
   {
+    "merchantId": "f2332599-d0a7-475d-b4eb-d0241bde8143",
+    "postalCode": "14000",
+    "longitude": 100.494873,
+    "latitude": 5.33884001,
+    "tradingName": "Muqaddam Mart - Taman Sri Janggus",
+    "address1": "A3-G-08 TAMAN SRI JANGGUS, 14000 Bukit Mertajam, Pulau Pinang",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Penang",
+    "city": "Bukit Mertajam"
+  },
+  {
     "merchantId": "f23ce365-543d-4b17-b87d-885557fd5544",
     "postalCode": "71600",
     "longitude": 102.070389,
@@ -63297,6 +65975,19 @@
     "city": "Miri"
   },
   {
+    "merchantId": "f2994bb2-2b73-45f4-898a-69249550ad24",
+    "postalCode": "53000",
+    "longitude": 101.731819,
+    "latitude": 3.20273995,
+    "tradingName": "99 Speedmart Sdn Bhd (Wangsa Maju 1) - 1074",
+    "address1": "No.25 & 26, Jalan Metro Wangsa, Wangsa Maju Sek 2, Wangsa Maju",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Setapak"
+  },
+  {
     "merchantId": "f29f3552-f32b-4f5b-9905-cc22b5995928",
     "postalCode": "51000",
     "longitude": 101.690514,
@@ -63308,6 +65999,19 @@
     "country": "Malaysia",
     "state": "W.P Kuala Lumpur",
     "city": "Kuala Lumpur"
+  },
+  {
+    "merchantId": "f2a23fc6-95bf-4d8f-af87-4a9b868ef217",
+    "postalCode": "94850",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "BM Fresh Mart",
+    "address1": "Lot 93, Sebuyau Town District",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sarawak",
+    "city": "Sebuyau"
   },
   {
     "merchantId": "f2a699ca-84f8-4b1b-bfb2-0e0015070ce0",
@@ -63388,6 +66092,19 @@
     "city": "Telok Panglima Garang"
   },
   {
+    "merchantId": "f2f19d0b-88e2-4777-844e-97c0bd7e44cb",
+    "postalCode": "53000",
+    "longitude": 101.70388,
+    "latitude": 3.20465994,
+    "tradingName": "99 Speedmart Sdn Bhd (Kl Traders Square) - 2181",
+    "address1": "No: 18 & 19 (Ground Floor), Plaza KLTS, Kuala Lumpur Traders Square, Block A, Jalan Gombak",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Setapak"
+  },
+  {
     "merchantId": "f2f5b3c8-82e6-455b-945b-0dd34a1c7064",
     "postalCode": "33400",
     "longitude": 100.968498,
@@ -63466,6 +66183,19 @@
     "city": "Sri Gombak"
   },
   {
+    "merchantId": "f30b3aee-5c8b-48af-9cd0-f679ef1540d7",
+    "postalCode": "46150",
+    "longitude": 101.602341,
+    "latitude": 3.06972003,
+    "tradingName": "KK Super Mart (Bandar Sunway 2)",
+    "address1": "No.45, Jalan PJS 11/7, Bandar Sunway,",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Petaling Jaya"
+  },
+  {
     "merchantId": "f3185dee-04ec-470e-8a8b-d081a123c2e8",
     "postalCode": "71300",
     "longitude": 102.093063,
@@ -63503,6 +66233,19 @@
     "country": "Malaysia",
     "state": "Johor",
     "city": "Batu Pahat"
+  },
+  {
+    "merchantId": "f32b0c14-a73e-4b91-a878-e327fdad5f21",
+    "postalCode": "43000",
+    "longitude": 101.73822,
+    "latitude": 2.97987008,
+    "tradingName": "KK Super Mart (Kajang Centrum Mall)",
+    "address1": "A-LG-9,",
+    "address2": "Centrum Mall, Jalan Ikram-Uniten, Taman Unipark Suria,",
+    "address3": "43000 Kajang, Selangor.",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Kajang"
   },
   {
     "merchantId": "f367272e-ed71-49cf-8f38-dbdec53e6607",
@@ -63778,6 +66521,19 @@
     "city": "Alor Setar"
   },
   {
+    "merchantId": "f411e243-0284-4180-b2b7-0eb85eaff308",
+    "postalCode": "41000",
+    "longitude": 101.464371,
+    "latitude": 3.03613997,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Bukit Jati) - 3394",
+    "address1": "No: 14 & 16 (Ground Floor)",
+    "address2": "Jalan Bukit Jati 5",
+    "address3": "Taman Bukit Jati",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Klang"
+  },
+  {
     "merchantId": "f412c61b-02be-416b-8038-83701ed23b5b",
     "postalCode": "85010",
     "longitude": 102.792549,
@@ -63906,6 +66662,19 @@
     "country": "Malaysia",
     "state": "Negeri Sembilan",
     "city": "Port Dickson"
+  },
+  {
+    "merchantId": "f470b784-0758-4333-8a92-e3b1bfcacf1b",
+    "postalCode": "28200",
+    "longitude": 102.457169,
+    "latitude": 3.28486991,
+    "tradingName": "99 Speedmart Sdn Bhd (Tmn Chengal Indah) - 2988",
+    "address1": "No: 7 & 9 (Ground Floor),",
+    "address2": "Jalan Chengal Indah 1,",
+    "address3": "Taman Chengal Indah,",
+    "country": "Malaysia",
+    "state": "Pahang",
+    "city": "Bandar Bera"
   },
   {
     "merchantId": "f478957b-a4fd-4c6f-bd7b-670928014cb9",
@@ -64155,6 +66924,19 @@
     "city": "Jelutong"
   },
   {
+    "merchantId": "f511f118-11b5-46f7-b845-2f8b44b35349",
+    "postalCode": "89900",
+    "longitude": 115.944061,
+    "latitude": 5.12272978,
+    "tradingName": "88 Fresh Mart Tenom",
+    "address1": "Ground Floor,Lot 32, Block G, Jln Datuk Yassin, 89900 Tenom, Sabah",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Sabah",
+    "city": "Tenom"
+  },
+  {
     "merchantId": "f51ddd69-a02f-4c4c-b265-527c0132856d",
     "postalCode": "96200",
     "longitude": 111.430901,
@@ -64400,6 +67182,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Klang"
+  },
+  {
+    "merchantId": "f5e5f407-4a1a-482e-aeec-6912dad65d66",
+    "postalCode": "53000",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Setapak, Plaza KLTS)",
+    "address1": "No.9, Block A, Plaza KLTS, Jalan Gombak,",
+    "address2": "Setapak, 53000 Kuala Lumpur.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Setapak"
   },
   {
     "merchantId": "f5ecf75a-bc9f-414a-8c26-e6811ddf9ea2",
@@ -66001,6 +68796,19 @@
     "city": "Sebuyau"
   },
   {
+    "merchantId": "fc65a413-5467-4e04-a0db-608f747d4bb7",
+    "postalCode": "47100",
+    "longitude": 101.615898,
+    "latitude": 3.00924993,
+    "tradingName": "KK Super Mart (Jalan Pusat Komersial KOI)",
+    "address1": "No.11, Jalan Pusat Komersial KOI,",
+    "address2": "Jalan Puchong Batu 13, 47100 Puchong, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Puchong"
+  },
+  {
     "merchantId": "fc6971dd-b081-4908-a693-3ce7f6ed14ce",
     "postalCode": "11700",
     "longitude": 100.293503,
@@ -66690,6 +69498,19 @@
     "city": "Bau"
   },
   {
+    "merchantId": "feedfd77-5ca2-4f5f-86b4-00cd351cc3d4",
+    "postalCode": "48050",
+    "longitude": 0,
+    "latitude": 0,
+    "tradingName": "KK Super Mart (Rawang, Gaia Boulevard)",
+    "address1": "GB-GF-08, Gaia Boulevard, Bandar Gamuda Gardens,",
+    "address2": "48050 Rawang, Selangor.",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Selangor",
+    "city": "Rawang"
+  },
+  {
     "merchantId": "fef5968e-9ece-486a-be68-3e653f98f536",
     "postalCode": "41200",
     "longitude": 101.518997,
@@ -66766,6 +69587,19 @@
     "country": "Malaysia",
     "state": "Selangor",
     "city": "Cheras"
+  },
+  {
+    "merchantId": "ff5ddc9a-2415-4acb-8235-8aa30a2d3775",
+    "postalCode": "56000",
+    "longitude": 101.71257,
+    "latitude": 3.09940004,
+    "tradingName": "99 Speedmart Sdn Bhd (Bdr Sri Permaisuri 1) - 1192",
+    "address1": "No.12 & 12A, Jalan Dwitasik, Dataran Dwitasik, Bandar Sri Permaisuri",
+    "address2": "",
+    "address3": "",
+    "country": "Malaysia",
+    "state": "Kuala Lumpur",
+    "city": "Bandar Sri Permaisuri"
   },
   {
     "merchantId": "ff773e7e-c26d-462a-a3a0-3f1f39512c5f",
