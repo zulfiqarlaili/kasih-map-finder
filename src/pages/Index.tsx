@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Map from '@/components/Map';
 import MerchantList from '@/components/MerchantList';
 import LocationStatus from '@/components/LocationStatus';
+import StateSelector from '@/components/StateSelector';
 import { Merchant, MerchantWithDistance } from '@/types/merchant';
 import { getLocationWithFallback, detectInAppBrowser } from '@/utils/geoUtils';
 import { toast } from '@/hooks/use-toast';
@@ -22,6 +23,7 @@ const Index = () => {
   const [hasMoreStores, setHasMoreStores] = useState(true);
   const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
   const [isInAppBrowser] = useState(detectInAppBrowser());
+  const [selectedState, setSelectedState] = useState<string>('');
 
   // Load stores within current radius
   const loadStoresInRadius = useCallback((lat: number, lng: number, radius: number) => {
@@ -167,6 +169,26 @@ const Index = () => {
     }
   };
 
+  const handleStateSelect = (state: string, center: { lat: number; lng: number }, stateMerchants: Merchant[]) => {
+    setSelectedState(state);
+    setUserLocation({
+      lat: center.lat,
+      lng: center.lng,
+      accuracy: 1000,
+      method: 'gps'
+    });
+    
+    // Load merchants for the selected state
+    const nearbyStores = sortMerchantsByDistance(stateMerchants, center.lat, center.lng, 50); // Larger radius for state view
+    setMerchants(nearbyStores);
+    setCurrentRadius(50);
+    
+    // On mobile, close the stores list to show the map
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      setIsMobileSheetOpen(false);
+    }
+  };
+
   // Handle responsive sidebar
   useEffect(() => {
     const handleResize = () => {
@@ -211,6 +233,14 @@ const Index = () => {
             border-r border-border/50 shadow-elegant
           `}
         >
+          {/* State Selector */}
+          <div className="p-4 border-b border-border/50">
+            <StateSelector
+              onStateSelect={handleStateSelect}
+              currentState={selectedState}
+            />
+          </div>
+          
           {/* Location Status */}
           <LocationStatus
             location={userLocation}
@@ -276,6 +306,14 @@ const Index = () => {
               <SheetTitle>Stores</SheetTitle>
             </SheetHeader>
             <div className="h-[calc(100dvh-61px)] overflow-hidden">
+              {/* State Selector for Mobile */}
+              <div className="p-4 border-b border-border/50">
+                <StateSelector
+                  onStateSelect={handleStateSelect}
+                  currentState={selectedState}
+                />
+              </div>
+              
               {/* Location Status for Mobile */}
               <LocationStatus
                 location={userLocation}
